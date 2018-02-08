@@ -1,2 +1,3 @@
 # TEMANN
-School Project LOL
+This a repo for our project.
+__GO TEAM!__
