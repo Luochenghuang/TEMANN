@@ -13,3 +13,5 @@ Visualization
 
 Input temperature, output material pairing
 
+# Meeting Time
+* Monday mornings and wednesday mornings. morning = '09:30'
