@@ -1,3 +1,7 @@
+Markdown format, describes what package does, team name, any cool logos (optional)
+
+
+
 # TEMANN
 * This a repo for our project.
 
