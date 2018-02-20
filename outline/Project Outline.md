@@ -1,3 +1,15 @@
+# Progress
+## Nate & Luke
+- [ ] get_api_data()
+
+## Ellen
+- [ ] interpret_atom()
+
+## Huang
+- [ ] DataSet
+
+
+
 # Urgent
 Connect to `materialsproject.org`
 Gain better understanding of theory and governing equations
@@ -12,6 +24,3 @@ Statistical analysis on predictive error
 Visualization
 
 Input temperature, output material pairing
-
-# Meeting Time
-* Monday mornings and wednesday mornings. morning = '09:30'
