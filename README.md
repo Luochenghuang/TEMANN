@@ -22,5 +22,8 @@ Markdown format, describes what package does, team name, any cool logos (optiona
 
 # Workflow
 
-https://docs.google.com/viewer?url=${https://github.com/Luochenghuang/TEMANN/blob/master/doc/TEMANN.pdf}
+\begin{center} <br>
+\includegraphics[width=8in]{https://github.com/Luochenghuang/TEMANN/blob/master/doc/TEMANN.pdf} <br>
+\end{center}
+
 
