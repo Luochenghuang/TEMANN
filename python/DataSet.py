@@ -16,13 +16,13 @@ class DataSet:
         pass
 
     # read_csv
-    def getData(self, address):
+    def getData(self, path):
         '''
-        reads data from address
-        :param address: address (or url)
+        reads data from path
+        :param path: path (or url)
         :return:
         '''
-        self.data = pd.read_csv(address)
+        self.data = pd.read_csv(path)
 
     def getInfo(self):
         '''
@@ -84,6 +84,8 @@ class DataSet:
 
         return pd.concat([old_df,new_df], ignore_index = True)
 
+    def export_to(self, name):
+        self.df.to_csv(name + '.csv', index = False)
 
     @property
     def df(self):
@@ -105,3 +107,5 @@ new_ds = DataSet()
 new_ds.data = ds.extrapolate_400K(['preparative route'])
 print(new_ds.df)
 new_ds.getInfo()
+# test write to csv, you can find the new_ds.csv under data directory.
+new_ds.export_to('../data/new_ds')

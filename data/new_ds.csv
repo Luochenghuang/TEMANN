@@ -1,0 +1,1451 @@
+Formula,Resist,Seebeck,T (K),preparative route
+CaMnO3,50.0,-462.97,300.0,Solid state reaction
+CaMnO3,50.0,-462.97,400.0,Solid state reaction
+CaMnO3,50.0,-462.97,700.0,Solid state reaction
+CaMnO3,50.0,-462.97,1000.0,Solid state reaction
+Ca0.98La0.02MnO3,0.046114999999999996,-201.71,300.0,Solid state reaction
+Ca0.98La0.02MnO3,0.046114999999999996,-201.71,400.0,Solid state reaction
+Ca0.98La0.02MnO3,0.046114999999999996,-201.71,700.0,Solid state reaction
+Ca0.98La0.02MnO3,0.046114999999999996,-201.71,1000.0,Solid state reaction
+Ca0.96La0.04MnO3,0.015256,-123.59,300.0,Solid state reaction
+Ca0.96La0.04MnO3,0.015256,-123.59,400.0,Solid state reaction
+Ca0.96La0.04MnO3,0.015256,-123.59,700.0,Solid state reaction
+Ca0.96La0.04MnO3,0.015256,-123.59,1000.0,Solid state reaction
+Ca0.94La0.06MnO3,0.012167,-103.74,300.0,Solid state reaction
+Ca0.94La0.06MnO3,0.012167,-103.74,400.0,Solid state reaction
+Ca0.94La0.06MnO3,0.012167,-103.74,700.0,Solid state reaction
+Ca0.94La0.06MnO3,0.012167,-103.74,1000.0,Solid state reaction
+Ca0.92La0.08MnO3,0.009966,-83.24,300.0,Solid state reaction
+Ca0.92La0.08MnO3,0.009966,-83.24,400.0,Solid state reaction
+Ca0.92La0.08MnO3,0.009966,-83.24,700.0,Solid state reaction
+Ca0.92La0.08MnO3,0.009966,-83.24,1000.0,Solid state reaction
+NiO,,,700.0,Solid state reaction
+NiO,,,1000.0,Solid state reaction
+Li0.0024Ni0.9976O,28.867694,294.97,400.0,Solid state reaction
+Li0.0024Ni0.9976O,28.867694,294.97,700.0,Solid state reaction
+Li0.0024Ni0.9976O,28.867694,294.97,1000.0,Solid state reaction
+Li0.0066Ni0.9944O,5.086469999999999,249.37,400.0,Solid state reaction
+Li0.0066Ni0.9944O,5.086469999999999,249.37,700.0,Solid state reaction
+Li0.0066Ni0.9944O,5.086469999999999,249.37,1000.0,Solid state reaction
+Li0.0184Ni0.9816O,0.064272,116.91,400.0,Solid state reaction
+Li0.0184Ni0.9816O,0.064272,116.91,700.0,Solid state reaction
+Li0.0184Ni0.9816O,0.064272,116.91,1000.0,Solid state reaction
+Li0.0242Ni0.9758O,0.012343000000000002,102.59,400.0,Solid state reaction
+Li0.0242Ni0.9758O,0.012343000000000002,102.59,700.0,Solid state reaction
+Li0.0242Ni0.9758O,0.012343000000000002,102.59,1000.0,Solid state reaction
+CaMnO3,2.925075,-549.12,300.0,Solid state reaction
+CaMnO3,2.925075,-549.12,400.0,Solid state reaction
+CaMnO3,2.925075,-549.12,700.0,Solid state reaction
+CaMnO3,2.925075,-549.12,1000.0,Solid state reaction
+Ca0.98Bi0.02Mn0.98Nb0.02O3,0.021537,-119.21,300.0,Solid state reaction
+Ca0.98Bi0.02Mn0.98Nb0.02O3,0.021537,-119.21,400.0,Solid state reaction
+Ca0.98Bi0.02Mn0.98Nb0.02O3,0.021537,-119.21,700.0,Solid state reaction
+Ca0.98Bi0.02Mn0.98Nb0.02O3,0.021537,-119.21,1000.0,Solid state reaction
+Ca0.96Bi0.04Mn0.96Nb0.04O3,0.009824,-114.15,300.0,Solid state reaction
+Ca0.96Bi0.04Mn0.96Nb0.04O3,0.009824,-114.15,400.0,Solid state reaction
+Ca0.96Bi0.04Mn0.96Nb0.04O3,0.009824,-114.15,700.0,Solid state reaction
+Ca0.9Bi0.1Mn0.9Nb0.1O3,0.009824,-114.15,1000.0,Solid state reaction
+Ca0.9Bi0.1Mn0.9Nb0.1O3,0.007258,-72.44,300.0,Solid state reaction
+Ca0.9Bi0.1Mn0.9Nb0.1O3,0.007258,-72.44,400.0,Solid state reaction
+Ca0.9Bi0.1Mn0.9Nb0.1O3,0.007258,-72.44,700.0,Solid state reaction
+Ca0.9Bi0.1Mn0.9Nb0.1O3,0.007258,-72.44,1000.0,Solid state reaction
+CaMn0.98Nb0.02O3,0.0215409,-203.88,300.0,Ultrasonic Spray Pyrolysis
+CaMn0.98Nb0.02O3,0.021541,-203.88,400.0,Ultrasonic Spray Pyrolysis
+CaMn0.98Nb0.02O3,0.021541,-203.88,700.0,Ultrasonic Spray Pyrolysis
+CaMn0.98Nb0.02O3,0.021541,-203.88,1000.0,Ultrasonic Spray Pyrolysis
+CaMn0.98Ru0.02O3,0.018369999999999997,-153.66,400.0,Solid state reaction
+CaMn0.98Ru0.02O3,0.018366,-153.66,700.0,Solid state reaction
+CaMn0.98Ru0.02O3,0.018366,-153.66,1000.0,Solid state reaction
+CaMn0.96Ru0.04O3,0.007520999999999999,-119.99,400.0,Solid state reaction
+CaMn0.96Ru0.04O3,0.007520999999999999,-119.99,700.0,Solid state reaction
+CaMn0.96Ru0.04O3,0.007520999999999999,-119.99,1000.0,Solid state reaction
+CaMn0.94Ru0.06O3,0.006601999999999999,-101.6,400.0,Solid state reaction
+CaMn0.94Ru0.06O3,0.006601999999999999,-101.6,700.0,Solid state reaction
+CaMn0.94Ru0.06O3,0.006601999999999999,-101.6,1000.0,Solid state reaction
+CaMn0.9Ru0.1O3,0.003956,-60.57,400.0,Solid state reaction
+CaMn0.9Ru0.1O3,0.003956,-60.57,700.0,Solid state reaction
+CaMn0.9Ru0.1O3,0.003956,-60.57,1000.0,Solid state reaction
+CaMn0.82Ru0.18O3,0.003105,-35.67,400.0,Solid state reaction
+CaMn0.82Ru0.18O3,0.003105,-35.67,700.0,Solid state reaction
+CaMn0.82Ru0.18O3,0.003105,-35.67,1000.0,Solid state reaction
+CaGd0.98Mn0.02O3,0.027541000000000003,-215.39,300.0,Co-precipitation
+CaGd0.98Mn0.02O3,0.027541000000000003,-215.39,400.0,Co-precipitation
+CaGd0.98Mn0.02O3,0.027541000000000003,-215.39,700.0,Co-precipitation
+CaGd0.98Mn0.02O3,0.027541000000000003,-215.39,1000.0,Co-precipitation
+CaGd0.96Mn0.04O3,0.012874000000000002,-163.53,300.0,Co-precipitation
+CaGd0.96Mn0.04O3,0.012874000000000002,-163.53,400.0,Co-precipitation
+CaGd0.96Mn0.04O3,0.012874000000000002,-163.53,700.0,Co-precipitation
+CaGd0.96Mn0.04O3,0.012874000000000002,-163.53,1000.0,Co-precipitation
+CaGd0.94Mn0.06O3,0.011351356000000002,-118.52,300.0,Co-precipitation
+CaGd0.94Mn0.06O3,0.011351356000000002,-118.52,400.0,Co-precipitation
+CaGd0.94Mn0.06O3,0.011351356000000002,-118.52,700.0,Co-precipitation
+CaGd0.94Mn0.06O3,0.011351356000000002,-118.52,1000.0,Co-precipitation
+Nd1.4Bi0.6Ru2O7,0.0011769999999999999,23.09,400.0,Solid state reaction
+Nd1.4Bi0.6Ru2O7,0.0011769999999999999,23.09,700.0,Solid state reaction
+Nd1.4Bi0.6Ru2O7,0.0011769999999999999,23.09,1000.0,Solid state reaction
+NdBiRu2O7,0.001759,21.17,400.0,Solid state reaction
+NdBiRu2O7,0.001759,21.17,700.0,Solid state reaction
+NdBiRu2O7,0.001759,21.17,1000.0,Solid state reaction
+Yb1.4Bi0.6Ru2O7,0.003218,17.72,400.0,Solid state reaction
+Yb1.4Bi0.6Ru2O7,0.003218,17.72,700.0,Solid state reaction
+Yb1.4Bi0.6Ru2O7,0.003218,17.72,1000.0,Solid state reaction
+YbBiRu2O7,0.001693,19.3,400.0,Solid state reaction
+YbBiRu2O7,0.001693,19.3,700.0,Solid state reaction
+YbBiRu2O7,0.001693,19.3,1000.0,Solid state reaction
+Bi2Ru2O7,0.00049075,-1.64,400.0,Solid state reaction
+Bi2Ru2O7,0.00049075,-1.64,700.0,Solid state reaction
+Bi2Ru2O7,0.00049075,-1.64,1000.0,Solid state reaction
+Y0.5Bi1.5Ru2O7,0.00101116,21.46,400.0,Solid state reaction
+Y0.5Bi1.5Ru2O7,0.00101116,21.46,700.0,Solid state reaction
+Y0.5Bi1.5Ru2O7,0.00101116,21.46,1000.0,Solid state reaction
+YBiRu2O7,0.0019954,15.44,400.0,Solid state reaction
+YBiRu2O7,0.0019954,15.44,700.0,Solid state reaction
+YBiRu2O7,0.0019954,15.44,1000.0,Solid state reaction
+Y2Ru2O7,5.732274775,270.0,400.0,Solid state reaction
+Y2Ru2O7,5.732274775,270.0,700.0,Solid state reaction
+Y2Ru2O7,5.732274775,270.0,1000.0,Solid state reaction
+Nd2Ru2O7,2.0,40.0,300.0,solid state reaction
+Nd2Ru2O7,2.0,40.0,400.0,solid state reaction
+Nd2Ru2O7,2.0,40.0,700.0,solid state reaction
+Nd2Ru2O7,2.0,40.0,1000.0,solid state reaction
+Nd2Ru2O7,0.38,59.3,300.0,Ultrasonic spray pyrolysis
+Nd2Ru2O7,0.38,59.3,400.0,Ultrasonic spray pyrolysis
+Nd2Ru2O7,0.38,59.3,700.0,Ultrasonic spray pyrolysis
+Ca0.9Nd0.1MnO3,0.119152,-90.28,400.0,Solid state reaction
+Ca0.9Nd0.1MnO3,0.119152,-90.28,700.0,Solid state reaction
+Ca0.9Nd0.1MnO3,0.119152,-90.28,1000.0,Solid state reaction
+Ca0.9Tb0.1MnO3,0.107849,-90.28,400.0,Solid state reaction
+Ca0.9Tb0.1MnO3,0.107849,-90.28,700.0,Solid state reaction
+Ca0.9Tb0.1MnO3,0.107849,-90.28,1000.0,Solid state reaction
+Ca0.9Ho0.1MnO3,0.07064400000000001,-90.28,400.0,Solid state reaction
+Ca0.9Ho0.1MnO3,0.07064400000000001,-90.28,700.0,Solid state reaction
+Ca0.9Ho0.1MnO3,0.07064400000000001,-90.28,1000.0,Solid state reaction
+Ca0.9Yb0.1MnO3,0.040973,-90.28,400.0,Solid state reaction
+Ca0.9Yb0.1MnO3,0.040973,-90.28,700.0,Solid state reaction
+Ca0.9Yb0.1MnO3,0.040973,-90.28,1000.0,Solid state reaction
+CaMnO3,0.460937,-600.16,400.0,Solid state reaction
+CaMnO3,0.460937,-600.16,700.0,Solid state reaction
+CaMnO3,0.460937,-600.16,1000.0,Solid state reaction
+Ca0.9Tb0.1MnO3,0.00638941,-93.82,300.0,Solid state reaction
+Ca0.9Tb0.1MnO3,0.00638941,-93.82,400.0,Solid state reaction
+Ca0.9Tb0.1MnO3,0.00638941,-93.82,700.0,Solid state reaction
+Ca0.9Tb0.1MnO3,0.00638941,-93.82,1000.0,Solid state reaction
+Ca0.7Tb0.3MnO3,0.00549942,-44.36,300.0,Solid state reaction
+Ca0.7Tb0.3MnO3,0.00549942,-44.36,400.0,Solid state reaction
+Ca0.7Tb0.3MnO3,0.00549942,-44.36,700.0,Solid state reaction
+Ca0.7Tb0.3MnO3,0.00549942,-44.36,1000.0,Solid state reaction
+Ca0.9Ho0.1MnO3,0.00739839,-81.79,300.0,Solid state reaction
+Ca0.9Ho0.1MnO3,0.00739839,-81.79,400.0,Solid state reaction
+Ca0.9Ho0.1MnO3,0.00739839,-81.79,700.0,Solid state reaction
+Ca0.9Ho0.1MnO3,0.00739839,-81.79,1000.0,Solid state reaction
+Ca0.7Ho0.3MnO3,0.0043952,-45.05,300.0,Solid state reaction
+Ca0.7Ho0.3MnO3,0.0043952,-45.05,400.0,Solid state reaction
+Ca0.7Ho0.3MnO3,0.0043952,-45.05,700.0,Solid state reaction
+Ca0.7Ho0.3MnO3,0.0043952,-45.05,1000.0,Solid state reaction
+Ca0.9Y0.1MnO3,0.00477637,-81.71,300.0,Solid state reaction
+Ca0.9Y0.1MnO3,0.00477637,-81.71,400.0,Solid state reaction
+Ca0.9Y0.1MnO3,0.00477637,-81.71,700.0,Solid state reaction
+Ca0.9Y0.1MnO3,0.00477637,-81.71,1000.0,Solid state reaction
+Ca0.7Y0.3MnO3,0.00649209,-41.63,300.0,Solid state reaction
+Ca0.7Y0.3MnO3,0.00649209,-41.63,400.0,Solid state reaction
+Ca0.7Y0.3MnO3,0.00649209,-41.63,700.0,Solid state reaction
+Ca0.7Y0.3MnO3,0.00649209,-41.63,1000.0,Solid state reaction
+BaPbO3,0.0005094090000000001,-31.98,300.0,Solid state reaction (under oxygen)
+BaPbO3,0.0005094090000000001,-31.98,400.0,Solid state reaction (under oxygen)
+BaPbO3,0.0005094090000000001,-31.98,700.0,Solid state reaction (under oxygen)
+BaPbO3,0.0005094090000000001,-31.98,1000.0,Solid state reaction (under oxygen)
+Ba0.8Sr0.2PbO3,0.000476044,-30.29,300.0,Solid state reaction (under oxygen)
+Ba0.8Sr0.2PbO3,0.000476044,-30.29,400.0,Solid state reaction (under oxygen)
+Ba0.8Sr0.2PbO3,0.000476044,-30.29,700.0,Solid state reaction (under oxygen)
+Ba0.8Sr0.2PbO3,0.000476044,-30.29,1000.0,Solid state reaction (under oxygen)
+Ba0.6Sr0.4PbO3,0.00127204,-51.37,300.0,Solid state reaction (under oxygen)
+Ba0.6Sr0.4PbO3,0.00127204,-51.37,400.0,Solid state reaction (under oxygen)
+Ba0.6Sr0.4PbO3,0.00127204,-51.37,700.0,Solid state reaction (under oxygen)
+Ba0.6Sr0.4PbO3,0.00127204,-51.37,1000.0,Solid state reaction (under oxygen)
+Ba0.4Sr0.6PbO3,0.00395079,-96.44,300.0,Solid state reaction (under oxygen)
+Ba0.4Sr0.6PbO3,0.00395079,-96.44,400.0,Solid state reaction (under oxygen)
+Ba0.4Sr0.6PbO3,0.00395079,-96.44,700.0,Solid state reaction (under oxygen)
+Ba0.4Sr0.6PbO3,0.00395079,-96.44,1000.0,Solid state reaction (under oxygen)
+LaNiO3,0.002843,-19.88,400.0,"Evaporate nitrates (1173 K, air)"
+LaNiO3,0.002843,-19.88,700.0,"Evaporate nitrates (1173 K, air)"
+LaNiO3,0.002843,-19.88,1000.0,"Evaporate nitrates (1173 K, air)"
+La0.9Bi0.1NiO3,0.002673,-20.95,400.0,"Evaporate nitrates (1173 K, air)"
+La0.9Bi0.1NiO3,0.002673,-20.95,700.0,"Evaporate nitrates (1173 K, air)"
+La0.9Bi0.1NiO3,0.002673,-20.95,1000.0,"Evaporate nitrates (1173 K, air)"
+Ca0.96Sm0.04MnO3,0.006037,-139.46,400.0,Co-precipitation
+Ca0.96Sm0.04MnO3,0.006037,-139.46,700.0,Co-precipitation
+Ca0.96Sm0.04MnO3,0.006037,-139.46,1000.0,Co-precipitation
+Bi2Te3,0.00055,162.0,300.0,melted
+Bi2Te3,0.00045,-174.0,300.0,melted
+Sb2Te3,0.00018999999999999998,38.0,300.0,melted
+Sb2Te3,0.00011999999999999999,63.0,300.0,melted
+Ag0.15Sb0.15Te1.15Ge0.85,0.00085,122.16,300.0,melted
+Ag0.15Sb0.15Te1.15Ge0.85,0.00085,122.16,400.0,melted
+Ag0.15Sb0.15Te1.15Ge0.85,0.00085,122.16,700.0,melted
+Ag0.15Sb0.15Te1.15Ge0.85,0.00085,122.16,1000.0,melted
+In0.05Co4Sb12,0.00677423,-295.57,300.0,Solid state reaction
+In0.05Co4Sb12,0.00677423,-295.57,400.0,Solid state reaction
+In0.05Co4Sb12,0.00677423,-295.57,700.0,Solid state reaction
+In0.1Co4Sb12,0.00340249,-276.16,300.0,Solid state reaction
+In0.1Co4Sb12,0.00340249,-276.16,400.0,Solid state reaction
+In0.1Co4Sb12,0.00340249,-276.16,700.0,Solid state reaction
+In0.15Co4Sb12,0.00212784,-266.33,300.0,Solid state reaction
+In0.15Co4Sb12,0.00212784,-266.33,400.0,Solid state reaction
+In0.15Co4Sb12,0.00212784,-266.33,700.0,Solid state reaction
+In0.2Co4Sb12,0.00174818,-248.19,300.0,Solid state reaction
+In0.2Co4Sb12,0.00174818,-248.19,400.0,Solid state reaction
+In0.2Co4Sb12,0.00174818,-248.19,700.0,Solid state reaction
+In0.25Co4Sb12,0.00134137,-247.94,300.0,Solid state reaction
+In0.25Co4Sb12,0.00134137,-247.94,400.0,Solid state reaction
+In0.25Co4Sb12,0.00134137,-247.94,700.0,Solid state reaction
+In0.3Co4Sb12,-247.31,-0.00635,300.0,Solid state reaction
+In0.3Co4Sb12,-247.31,-0.00742,400.0,Solid state reaction
+In0.3Co4Sb12,-247.31,-0.00835,700.0,Solid state reaction
+In0.2Co4Sb12,0.0011300000000000001,-192.21,300.0,Solid state reaction
+In0.2Co4Sb12,0.0011300000000000001,-192.21,400.0,Solid state reaction
+In0.2Co4Sb12,0.0011300000000000001,-192.21,700.0,Solid state reaction
+Na0.02PbTe,0.00057,105.0,300.0,melted
+Na0.02PbTe,0.00057,105.0,400.0,melted
+Na0.02PbTe,0.00057,105.0,700.0,melted
+Na0.02PbTe0.85Se0.15,0.00062,98.33,300.0,melted
+Na0.02PbTe0.85Se0.15,0.00062,98.33,400.0,melted
+Na0.02PbTe0.85Se0.15,0.00062,98.33,700.0,melted
+Na0.02PbTe0.85Se0.15,0.00062,98.33,1000.0,melted
+Na0.02PbTe0.75Se0.25,0.0006900000000000001,89.76,300.0,melted
+Na0.02PbTe0.75Se0.25,0.0006900000000000001,89.76,400.0,melted
+Na0.02PbTe0.75Se0.25,0.0006900000000000001,89.76,700.0,melted
+Na0.02PbTe0.75Se0.25,0.0006900000000000001,89.76,1000.0,melted
+Tl0.01Pb0.99Te,0.00355,197.87,300.0,melted
+Tl0.01Pb0.99Te,0.00355,197.87,400.0,melted
+Tl0.01Pb0.99Te,0.00355,197.87,700.0,melted
+Tl0.02Pb0.98Te,0.0029100000000000003,195.21,300.0,melted
+Tl0.02Pb0.98Te,0.0029100000000000003,195.21,400.0,melted
+Tl0.02Pb0.98Te,0.0029100000000000003,195.21,700.0,melted
+Si0.9Ge0.1,0.0020800000000000003,192.0,300.0,
+Si0.9Ge0.1,0.0020800000000000003,192.0,400.0,
+Si0.9Ge0.1,0.0020800000000000003,192.0,700.0,
+Si0.9Ge0.1,0.0020800000000000003,192.0,1000.0,
+Si0.8Ge0.2,0.0017100000000000001,161.0,300.0,
+Si0.8Ge0.2,0.0017100000000000001,161.0,400.0,
+Si0.8Ge0.2,0.0017100000000000001,161.0,700.0,
+Si0.8Ge0.2,0.0017100000000000001,161.0,1000.0,
+Si0.79936Ge0.19984B0.0008,0.0015184,151.36,300.0,Vacuum hot pressed
+Si0.79936Ge0.19984B0.0008,0.0015184,151.36,400.0,Vacuum hot pressed
+Si0.79936Ge0.19984B0.0008,0.0015184,151.36,700.0,Vacuum hot pressed
+Si0.79936Ge0.19984B0.0008,0.0015184,151.36,1000.0,Vacuum hot pressed
+Si0.7956Ge0.1989P0.0055,0.00133537,150.045,300.0,Vacuum hot pressed
+Si0.7956Ge0.1989P0.0055,0.00133537,150.045,400.0,Vacuum hot pressed
+Si0.7956Ge0.1989P0.0055,0.00133537,150.045,700.0,Vacuum hot pressed
+Si0.7956Ge0.1989P0.0055,0.00133537,150.045,1000.0,Vacuum hot pressed
+TiNiSn,0.0051,-245.0,300.0,Magnetic levitation induction furnace
+TiNiSn,0.0051,-245.0,400.0,Magnetic levitation induction furnace
+TiNiSn,0.0051,-245.0,700.0,Magnetic levitation induction furnace
+TiNiSn,0.0051,-245.0,1000.0,Magnetic levitation induction furnace
+Bi2Sr2Co2O8,0.00238,119.75,300.0,Solid state reaction + extra
+Bi2Sr2Co2O8,0.00238,119.75,400.0,Solid state reaction + extra
+Bi2Sr2Co2O8,0.00238,119.75,700.0,Solid state reaction + extra
+Bi2Sr2Co2O8,0.00238,119.75,1000.0,Solid state reaction + extra
+K2Bi8Se13,0.03246,-196.16,300.0,Solid state reaction + extra
+K2Bi8Se13,0.004159,-219.62,300.0,Flux (Bi self-flux)
+Ca2Co2O5,0.001467,142.36,300.0,melted
+Ca2Co2O5,0.001467,142.36,400.0,melted
+Ca2Co2O5,0.001467,142.36,700.0,melted
+Ca2Co2O5,0.001467,142.36,1000.0,melted
+ZnO,181.543206,-500.55,,Solid state reaction
+ZnO,181.543206,-500.55,,Solid state reaction
+Al0.02Zn0.98O,105.6963524,-289.98,,Solid state reaction
+Al0.02Zn0.98O,105.6963524,-289.98,,Solid state reaction
+Al0.02Zn0.98O,105.6963524,-289.98,,Solid state reaction
+Ni0.02Zn0.98O,145.04741719999998,-206.81,,Solid state reaction
+Ni0.02Zn0.98O,145.04741719999998,-206.81,,Solid state reaction
+Ni0.02Zn0.98O,145.04741719999998,-206.81,,Solid state reaction
+Zn0.9604Al0.0196Ni0.02O,40.25408877,-362.53,,Solid state reaction
+Zn0.9604Al0.0196Ni0.02O,40.25408877,-362.53,,Solid state reaction
+Zn0.9604Al0.0196Ni0.02O,40.25408877,-362.53,,Solid state reaction
+WO2.9,0.00119,-31.41,300.0,Spark Plasma Sintering
+WO2.9,0.00119,-31.41,400.0,Spark Plasma Sintering
+WO2.9,0.00119,-31.41,700.0,Spark Plasma Sintering
+WO2.9,0.00119,-31.41,1000.0,Spark Plasma Sintering
+WO2.722,0.0001,-25.21,300.0,Spark Plasma Sintering
+WO2.722,0.0001,-25.21,400.0,Spark Plasma Sintering
+WO2.722,0.0001,-25.21,700.0,Spark Plasma Sintering
+WO2.722,0.0001,-25.21,1000.0,Spark Plasma Sintering
+La2CuO4,,,300.0,Solid state reaction
+La1.61Sr0.39Cu0.94Ti0.06O4,,,300.0,Solid state reaction
+La1.85Sr0.15Cu0.94Ti0.06O4,,,300.0,Solid state reaction
+La1.73Sr0.27Cu0.94Ti0.06O4,,,300.0,Solid state reaction
+La1.69Sr0.31Cu0.94Ti0.06O4,,,300.0,Solid state reaction
+La1.67Sr0.34Cu0.94Ti0.06O4,,,300.0,Solid state reaction
+La1.95Sr0.05CuO4,,,300.0,Solid state reaction (O2 atmosphere)
+La1.95Sr0.05CuO4,,,400.0,Solid state reaction (O2 atmosphere)
+La1.95Sr0.05CuO4,,,700.0,Solid state reaction (O2 atmosphere)
+La1.95Sr0.05CuO4,,,1000.0,Solid state reaction (O2 atmosphere)
+La1.9Sr0.1CuO4,,,300.0,Solid state reaction (O2 atmosphere)
+La1.9Sr0.1CuO4,,,400.0,Solid state reaction (O2 atmosphere)
+La1.9Sr0.1CuO4,,,700.0,Solid state reaction (O2 atmosphere)
+La1.9Sr0.1CuO4,,,1000.0,Solid state reaction (O2 atmosphere)
+La1.85Sr0.15CuO4,,,300.0,Solid state reaction (O2 atmosphere)
+La1.85Sr0.15CuO4,,,400.0,Solid state reaction (O2 atmosphere)
+La1.85Sr0.15CuO4,,,700.0,Solid state reaction (O2 atmosphere)
+La1.85Sr0.15CuO4,,,1000.0,Solid state reaction (O2 atmosphere)
+La1.725Sr0.28CuO4,,,300.0,Solid state reaction (O2 atmosphere)
+La1.725Sr0.28CuO4,,,400.0,Solid state reaction (O2 atmosphere)
+La1.725Sr0.28CuO4,,,700.0,Solid state reaction (O2 atmosphere)
+La1.725Sr0.28CuO4,,,1000.0,Solid state reaction (O2 atmosphere)
+TlCr5Se8,0.016,240.0,300.0,Solid state reaction
+TlCr5Se8,0.016,240.0,400.0,Solid state reaction
+TlCr5Se8,0.016,240.0,700.0,Solid state reaction
+LiMn2O4,85.3104,-147.0,300.0,Solid state reaction (oxalates)
+LiMn2O4,85.3104,-147.0,400.0,Solid state reaction (oxalates)
+LiMn2O4,85.3104,-147.0,700.0,Solid state reaction (oxalates)
+LiMn2O4,85.3104,-147.0,1000.0,Solid state reaction (oxalates)
+CuFe0.9Cr0.1O2,0.0699656,299.003,300.0,Solid state reaction
+CuFe0.9Cr0.1O2,0.0699656,299.003,400.0,Solid state reaction
+CuFe0.9Cr0.1O2,0.0699656,299.003,700.0,Solid state reaction
+CuFe0.9Cr0.1O2,0.0699656,299.003,1000.0,Solid state reaction
+CuRh0.9Mg0.1O2,0.0019370000000000001,115.116,300.0,Solid state reaction
+CuRh0.9Mg0.1O2,0.0019370000000000001,115.116,400.0,Solid state reaction
+CuRh0.9Mg0.1O2,0.0019370000000000001,115.116,700.0,Solid state reaction
+CuRh0.9Mg0.1O2,0.0019370000000000001,115.116,1000.0,Solid state reaction
+CuCr0.98Mg0.02O2,0.119099,321.42900000000003,300.0,Solid state reaction
+CuCr0.98Mg0.02O2,0.119099,321.42900000000003,400.0,Solid state reaction
+CuCr0.98Mg0.02O2,0.119099,321.42900000000003,700.0,Solid state reaction
+CuCr0.98Mg0.02O2,0.119099,321.42900000000003,1000.0,Solid state reaction
+WO3,809.8083993,107.57799999999999,300.0,Solid state reaction
+WO3,809.8083993,107.57799999999999,400.0,Solid state reaction
+WO3,809.8083993,107.57799999999999,700.0,Solid state reaction
+WO3,809.8083993,107.57799999999999,1000.0,Solid state reaction
+W0.99O2.97Co0.02O0.03,707.6990581,97.0383,300.0,Solid state reaction
+W0.99O2.97Co0.02O0.03,707.6990581,97.0383,400.0,Solid state reaction
+W0.99O2.97Co0.02O0.03,707.6990581,97.0383,700.0,Solid state reaction
+W0.99O2.97Co0.02O0.03,707.6990581,97.0383,1000.0,Solid state reaction
+W0.95O2.95Co0.1O0.15,99.41840235,106.01,300.0,Solid state reaction
+W0.95O2.95Co0.1O0.15,99.41840235,106.01,400.0,Solid state reaction
+W0.95O2.95Co0.1O0.15,99.41840235,106.01,700.0,Solid state reaction
+W0.95O2.95Co0.1O0.15,99.41840235,106.01,1000.0,Solid state reaction
+W0.9O2.7Co0.2O0.3,175.70801540000002,105.575,300.0,Solid state reaction
+W0.9O2.7Co0.2O0.3,175.70801540000002,105.575,400.0,Solid state reaction
+W0.9O2.7Co0.2O0.3,175.70801540000002,105.575,700.0,Solid state reaction
+W0.9O2.7Co0.2O0.3,175.70801540000002,105.575,1000.0,Solid state reaction
+CaMnO3,0.24169000000000002,-587.185,300.0,Solid state reaction
+CaMnO3,0.24169000000000002,-587.185,400.0,Solid state reaction
+CaMnO3,0.24169000000000002,-587.185,700.0,Solid state reaction
+CaMnO3,0.24169000000000002,-587.185,1000.0,Solid state reaction
+CaYb0.05Mn0.95O3,0.0106095,-124.72,300.0,Solid state reaction
+CaYb0.05Mn0.95O3,0.0106095,-124.72,400.0,Solid state reaction
+CaYb0.05Mn0.95O3,0.0106095,-124.72,700.0,Solid state reaction
+CaYb0.05Mn0.95O3,0.0106095,-124.72,1000.0,Solid state reaction
+CaYb0.1Mn0.9O3,0.0043831,-60.083999999999996,300.0,Solid state reaction
+CaYb0.1Mn0.9O3,0.0043831,-60.083999999999996,400.0,Solid state reaction
+CaYb0.1Mn0.9O3,0.0043831,-60.083999999999996,700.0,Solid state reaction
+CaYb0.1Mn0.9O3,0.0043831,-60.083999999999996,1000.0,Solid state reaction
+CaYb0.15Mn0.85O3,0.00359065,-49.1597,300.0,Solid state reaction
+CaYb0.15Mn0.85O3,0.00359065,-49.1597,400.0,Solid state reaction
+CaYb0.15Mn0.85O3,0.00359065,-49.1597,700.0,Solid state reaction
+CaYb0.15Mn0.85O3,0.00359065,-49.1597,1000.0,Solid state reaction
+CaYb0.4Mn0.6O3,0.012081200000000002,-20.028,300.0,Solid state reaction
+CaYb0.4Mn0.6O3,0.012081200000000002,-20.028,400.0,Solid state reaction
+CaYb0.4Mn0.6O3,0.012081200000000002,-20.028,700.0,Solid state reaction
+CaYb0.4Mn0.6O3,0.012081200000000002,-20.028,1000.0,Solid state reaction
+In2O3,0.014948699999999999,-172.722,300.0,solid state reaction
+In2O3,0.014948699999999999,-172.722,400.0,solid state reaction
+In2O3,0.014948699999999999,-172.722,700.0,solid state reaction
+In2O3,0.014948699999999999,-172.722,1000.0,solid state reaction
+In1.998Ge0.002O3,0.0023498,-105.83200000000001,300.0,solid state reaction
+In1.998Ge0.002O3,0.0023498,-105.83200000000001,400.0,solid state reaction
+In1.998Ge0.002O3,0.0023498,-105.83200000000001,700.0,solid state reaction
+In1.998Ge0.002O3,0.0023498,-105.83200000000001,1000.0,solid state reaction
+In1.994Ge0.006O3,0.000942337,-62.4767,300.0,solid state reaction
+In1.994Ge0.006O3,0.000942337,-62.4767,400.0,solid state reaction
+In1.994Ge0.006O3,0.000942337,-62.4767,700.0,solid state reaction
+In1.994Ge0.006O3,0.000942337,-62.4767,1000.0,solid state reaction
+In1.985Ge0.015O3,0.0008178969999999999,-56.5928,300.0,solid state reaction
+In1.985Ge0.015O3,0.0008178969999999999,-56.5928,400.0,solid state reaction
+In1.985Ge0.015O3,0.0008178969999999999,-56.5928,700.0,solid state reaction
+In1.985Ge0.015O3,0.0008178969999999999,-56.5928,1000.0,solid state reaction
+In1.94Ge0.06O3,0.000995442,-60.6186,300.0,solid state reaction
+In1.94Ge0.06O3,0.000995442,-60.6186,400.0,solid state reaction
+In1.94Ge0.06O3,0.000995442,-60.6186,700.0,solid state reaction
+In1.94Ge0.06O3,0.000995442,-60.6186,1000.0,solid state reaction
+In1.9Ge0.1O3,0.00143465,-65.5729,300.0,solid state reaction
+In1.9Ge0.1O3,0.00143465,-65.5729,400.0,solid state reaction
+In1.9Ge0.1O3,0.00143465,-65.5729,700.0,solid state reaction
+In1.9Ge0.1O3,0.00143465,-65.5729,1000.0,solid state reaction
+In1.8Ge0.2O3,0.0027953,-64.0245,300.0,solid state reaction
+In1.8Ge0.2O3,0.0027953,-64.0245,400.0,solid state reaction
+In1.8Ge0.2O3,0.0027953,-64.0245,700.0,solid state reaction
+In1.8Ge0.2O3,0.0027953,-64.0245,1000.0,solid state reaction
+LaCoO3,,,300.0,solid state reaction
+LaCoO3,,,400.0,solid state reaction
+LaCoO3,,,700.0,solid state reaction
+LaCoO3,,,1000.0,solid state reaction
+La0.99Sr0.01CoO3,,,300.0,solid state reaction
+La0.99Sr0.01CoO3,,,400.0,solid state reaction
+La0.99Sr0.01CoO3,,,700.0,solid state reaction
+La0.99Sr0.01CoO3,,,1000.0,solid state reaction
+La0.98Sr0.02CoO3,,,300.0,solid state reaction
+La0.98Sr0.02CoO3,,,400.0,solid state reaction
+La0.98Sr0.02CoO3,,,700.0,solid state reaction
+La0.98Sr0.02CoO3,,,1000.0,solid state reaction
+La0.95Sr0.05CoO3,,,300.0,solid state reaction
+La0.95Sr0.05CoO3,,,400.0,solid state reaction
+La0.95Sr0.05CoO3,,,700.0,solid state reaction
+La0.95Sr0.05CoO3,,,1000.0,solid state reaction
+La0.8Sr0.2CoO3,,,300.0,solid state reaction
+La0.8Sr0.2CoO3,,,400.0,solid state reaction
+La0.8Sr0.2CoO3,,,700.0,solid state reaction
+La0.8Sr0.2CoO3,,,1000.0,solid state reaction
+Yb14MnSb11,,,300.0,"flux (Sn), Ar"
+Yb14MnSb11,,,400.0,"flux (Sn), Ar"
+Yb14MnSb11,,,700.0,"flux (Sn), Ar"
+Yb14MnSb11,,,1000.0,"flux (Sn), Ar"
+Zn4Sb3,,,300.0,"melted, inert"
+Zn4Sb3,,,400.0,"melted, inert"
+Zn4Sb3,,,700.0,"melted, inert"
+CeFe2Co2Sb12,,,300.0,combination of melting and powder metallurgy techniques
+CeFe2Co2Sb12,,,400.0,combination of melting and powder metallurgy techniques
+CeFe2Co2Sb12,,,700.0,combination of melting and powder metallurgy techniques
+CeFe3CoSb12,,,300.0,combination of melting and powder metallurgy techniques
+CeFe3CoSb12,,,400.0,combination of melting and powder metallurgy techniques
+CeFe3CoSb12,,,700.0,combination of melting and powder metallurgy techniques
+CeFe3.5Co0.5Sb12,,,300.0,combination of melting and powder metallurgy techniques
+CeFe3.5Co0.5Sb13,,,400.0,combination of melting and powder metallurgy techniques
+CeFe3.5Co0.5Sb14,,,700.0,combination of melting and powder metallurgy techniques
+CeFe4Sb12,,,300.0,combination of melting and powder metallurgy techniques
+CeFe4Sb12,,,400.0,combination of melting and powder metallurgy techniques
+CeFe4Sb12,,,700.0,combination of melting and powder metallurgy techniques
+AgCrSe2,,,300.0,"solid state reaction, sealed"
+AgCrSe2,,,400.0,"solid state reaction, sealed"
+AgCrSe2,,,700.0,"solid state reaction, sealed"
+Zn0.9975Al0.0025O,,,300.0,"solid state reaction, vacuum"
+Zn0.9975Al0.0025O,,,400.0,"solid state reaction, vacuum"
+Zn0.9975Al0.0025O,,,700.0,"solid state reaction, vacuum"
+Zn0.9975Al0.0025O,,,1000.0,"solid state reaction, vacuum"
+Zn0.995Al0.005O,,,300.0,"solid state reaction, vacuum"
+Zn0.995Al0.005O,,,400.0,"solid state reaction, vacuum"
+Zn0.995Al0.005O,,,700.0,"solid state reaction, vacuum"
+Zn0.995Al0.005O,,,1000.0,"solid state reaction, vacuum"
+Zn0.9925Al0.0075O,,,300.0,"solid state reaction, vacuum"
+Zn0.9925Al0.0075O,,,400.0,"solid state reaction, vacuum"
+Zn0.9925Al0.0075O,,,700.0,"solid state reaction, vacuum"
+Zn0.9925Al0.0075O,,,1000.0,"solid state reaction, vacuum"
+Zn0.99Al0.01O,,,300.0,"solid state reaction, vacuum"
+Zn0.99Al0.01O,,,400.0,"solid state reaction, vacuum"
+Zn0.99Al0.01O,,,700.0,"solid state reaction, vacuum"
+Zn0.99Al0.01O,,,1000.0,"solid state reaction, vacuum"
+Zn0.97Al0.03O,,,300.0,"solid state reaction, vacuum"
+Zn0.97Al0.03O,,,400.0,"solid state reaction, vacuum"
+Zn0.97Al0.03O,,,700.0,"solid state reaction, vacuum"
+Zn0.97Al0.03O,,,1000.0,"solid state reaction, vacuum"
+SrMn0.98Mo0.02O3,,,300.0,"solid state reaction, air"
+SrMn0.98Mo0.02O3,,,400.0,"solid state reaction, air"
+SrMn0.98Mo0.02O3,,,700.0,"solid state reaction, air"
+SrMn0.98Mo0.02O3,,,1000.0,"solid state reaction, air"
+SrMn0.96Mo0.04O3,,,300.0,"solid state reaction, air"
+SrMn0.96Mo0.04O3,,,400.0,"solid state reaction, air"
+SrMn0.96Mo0.04O3,,,700.0,"solid state reaction, air"
+SrMn0.96Mo0.04O3,,,1000.0,"solid state reaction, air"
+Sm1.7Ca0.3MnO3,,,300.0,"solid state reaction, air"
+Sm0.5Ca0.5MnO3,,,300.0,"solid state reaction, air"
+CaMnO3,,,300.0,"solid state reaction, air"
+ZrNi1.98Cu0.02Sn,,,300.0,"arc melted, Ar"
+ZrNi1.98Cu0.02Sn,,,400.0,"arc melted, Ar"
+ZrNi0.76Co0.004Cu0.2Sn,,,300.0,"arc melted, Ar"
+ZrNi0.76Co0.004Cu0.2Sn,,,400.0,"arc melted, Ar"
+ZrNiSn0.98Sb0.02,,,300.0,"arc melted, Ar"
+ZrNiSn0.98Sb0.02,,,400.0,"arc melted, Ar"
+Zr0.94Y0.06NiSn0.96Sb0.04,,,300.0,"arc melted, Ar"
+Zr0.94Y0.06NiSn0.96Sb0.04,,,400.0,"arc melted, Ar"
+NbCoSn,,,300.0,Floating zone melting
+NbCoSn,,,400.0,Floating zone melting
+NbCoSn,,,700.0,Floating zone melting
+NbCoSn,,,1000.0,Floating zone melting
+NbCo1.05Sn,,,300.0,Floating zone melting
+NbCo1.05Sn,,,400.0,Floating zone melting
+NbCo1.05Sn,,,700.0,Floating zone melting
+NbCo1.05Sn,,,1000.0,Floating zone melting
+NbCo1.10Sn,,,300.0,Floating zone melting
+NbCo1.10Sn,,,400.0,Floating zone melting
+NbCo1.10Sn,,,700.0,Floating zone melting
+NbCo1.10Sn,,,1000.0,Floating zone melting
+NbCo2Sn,,,300.0,
+Bi92Sb8,,,300.0,"melted, vacuum"
+Bi92Sb8,,,400.0,"melted, vacuum"
+Bi90Sb10,,,300.0,"melted, vacuum"
+Bi90Sb10,,,400.0,"melted, vacuum"
+Bi88Sb12,,,300.0,"melted, vacuum"
+Bi88Sb12,,,400.0,"melted, vacuum"
+Bi86Sb14,,,300.0,"melted, vacuum"
+Bi86Sb14,,,400.0,"melted, vacuum"
+Bi83Sb17,,,300.0,"melted, vacuum"
+Bi83Sb17,,,400.0,"melted, vacuum"
+CaMn7O12,,,700.0,"solid state reaction, air"
+CaMn7O12,,,1000.0,"solid state reaction, air"
+CaMn6.5Cu0.5O12,,,300.0,"solid state reaction, air"
+CaMn6.5Cu0.5O12,,,400.0,"solid state reaction, air"
+CaMn6.5Cu0.5O12,,,700.0,"solid state reaction, air"
+CaMn6.5Cu0.5O12,,,1000.0,"solid state reaction, air"
+CaMn6CuO12,,,300.0,"solid state reaction, air"
+CaMn6CuO12,,,400.0,"solid state reaction, air"
+CaMn6CuO12,,,700.0,"solid state reaction, air"
+CaMn6CuO12,,,1000.0,"solid state reaction, air"
+LiMn2O4,,,300.0,"solid state reaction, air"
+LiMn2O4,,,400.0,"solid state reaction, air"
+LiMn2O4,,,700.0,"solid state reaction, air"
+LiMn2O4,,,1000.0,"solid state reaction, air"
+Pr0.5Ca0.5MnO3,,,300.0,"solid state reaction, air"
+Pr0.5Ca0.5MnO3,,,400.0,"solid state reaction, air"
+Pr0.5Ca0.5MnO3,,,700.0,"solid state reaction, air"
+Pr0.5Ca0.5MnO3,,,1000.0,"solid state reaction, air"
+Mo3Te4,,,300.0,"solid state reaction, vacuum"
+Mo3Te4,,,400.0,"solid state reaction, vacuum"
+Mo3Te4,,,700.0,"solid state reaction, vacuum"
+Mo3Te4,,,1000.0,"solid state reaction, vacuum"
+Mo6Te7S,,,300.0,"solid state reaction, vacuum"
+Mo6Te7S,,,400.0,"solid state reaction, vacuum"
+Mo6Te7S,,,700.0,"solid state reaction, vacuum"
+Mo6Te7S,,,1000.0,"solid state reaction, vacuum"
+Mo6Te6S2,,,300.0,"solid state reaction, vacuum"
+Mo6Te6S2,,,400.0,"solid state reaction, vacuum"
+Mo6Te6S2,,,700.0,"solid state reaction, vacuum"
+Mo6Te6S2,,,1000.0,"solid state reaction, vacuum"
+CuRh0.9Mg0.1O2,,,300.0,"solid state reaction, air"
+CuRh0.9Mg0.1O2,,,400.0,"solid state reaction, air"
+CuRh0.9Mg0.1O2,,,700.0,"solid state reaction, air"
+CuRh0.9Mg0.1O2,,,1000.0,"solid state reaction, air"
+Sr2Ti0.8Nb0.2O4,,,300.0,"solid state reaction, Ar"
+Sr2Ti0.8Nb0.2O4,,,400.0,"solid state reaction, Ar"
+Sr2Ti0.8Nb0.2O4,,,700.0,"solid state reaction, Ar"
+Sr2Ti0.8Nb0.2O4,,,1000.0,"solid state reaction, Ar"
+Sr3Ti1.6Nb0.4O7,,,300.0,"solid state reaction, Ar"
+Sr3Ti1.6Nb0.4O7,,,400.0,"solid state reaction, Ar"
+Sr3Ti1.6Nb0.4O7,,,700.0,"solid state reaction, Ar"
+Sr3Ti1.6Nb0.4O7,,,1000.0,"solid state reaction, Ar"
+SrTi0.8Nb0.2O3,,,300.0,"solid state reaction, Ar"
+SrTi0.8Nb0.2O3,,,400.0,"solid state reaction, Ar"
+SrTi0.8Nb0.2O3,,,700.0,"solid state reaction, Ar"
+SrTi0.8Nb0.2O3,,,1000.0,"solid state reaction, Ar"
+Sr0.95La0.05TiO3,,,300.0,"solid state reaction, Ar"
+Sr0.95La0.05TiO3,,,400.0,"solid state reaction, Ar"
+Sr0.95La0.05TiO3,,,700.0,"solid state reaction, Ar"
+Sr0.95La0.05TiO3,,,1000.0,"solid state reaction, Ar"
+Sr0.9La0.1TiO3,,,300.0,"solid state reaction, Ar"
+Sr0.9La0.1TiO3,,,400.0,"solid state reaction, Ar"
+Sr0.9La0.1TiO3,,,700.0,"solid state reaction, Ar"
+Sr0.9La0.1TiO3,,,1000.0,"solid state reaction, Ar"
+Sr0.8La0.2TiO3,,,300.0,"solid state reaction, Ar"
+Sr0.8La0.2TiO3,,,400.0,"solid state reaction, Ar"
+Sr0.8La0.2TiO3,,,700.0,"solid state reaction, Ar"
+Sr0.8La0.2TiO3,,,1000.0,"solid state reaction, Ar"
+TiNiSn,,,300.0,"arc-melted, vacuum"
+TiNiSn,,,400.0,"arc-melted, vacuum"
+TiNiSn,,,700.0,"arc-melted, vacuum"
+TiNiSn,,,1000.0,"arc-melted, vacuum"
+Ti0.99Nb0.01NiSn,,,300.0,"arc-melted, vacuum"
+Ti0.99Nb0.01NiSn,,,400.0,"arc-melted, vacuum"
+Ti0.99Nb0.01NiSn,,,700.0,"arc-melted, vacuum"
+Ti0.99Nb0.01NiSn,,,1000.0,"arc-melted, vacuum"
+Ti0.98Nb0.02NiSn,,,300.0,"arc-melted, vacuum"
+Ti0.98Nb0.02NiSn,,,400.0,"arc-melted, vacuum"
+Ti0.98Nb0.02NiSn,,,700.0,"arc-melted, vacuum"
+Ti0.98Nb0.02NiSn,,,1000.0,"arc-melted, vacuum"
+Ti0.95Nb0.05NiSn,,,300.0,"arc-melted, vacuum"
+Ti0.95Nb0.05NiSn,,,400.0,"arc-melted, vacuum"
+Ti0.95Nb0.05NiSn,,,700.0,"arc-melted, vacuum"
+Ti0.95Nb0.05NiSn,,,1000.0,"arc-melted, vacuum"
+ZrNiSn,,,300.0,"arc-melted, vacuum"
+ZrNiSn,,,400.0,"arc-melted, vacuum"
+ZrNiSn,,,700.0,"arc-melted, vacuum"
+ZrNiSn,,,1000.0,"arc-melted, vacuum"
+Zr0.99Nb0.01NiSn,,,300.0,"arc-melted, vacuum"
+Zr0.99Nb0.01NiSn,,,400.0,"arc-melted, vacuum"
+Zr0.99Nb0.01NiSn,,,700.0,"arc-melted, vacuum"
+Zr0.99Nb0.01NiSn,,,1000.0,"arc-melted, vacuum"
+Zr0.98Nb0.02NiSn,,,300.0,"arc-melted, vacuum"
+Zr0.98Nb0.02NiSn,,,400.0,"arc-melted, vacuum"
+Zr0.98Nb0.02NiSn,,,700.0,"arc-melted, vacuum"
+Zr0.98Nb0.02NiSn,,,1000.0,"arc-melted, vacuum"
+Zr0.95Nb0.05NiSn,,,300.0,"arc-melted, vacuum"
+Zr0.95Nb0.05NiSn,,,400.0,"arc-melted, vacuum"
+Zr0.95Nb0.05NiSn,,,700.0,"arc-melted, vacuum"
+Zr0.95Nb0.05NiSn,,,1000.0,"arc-melted, vacuum"
+Ca3Co4O9,,,300.0,"sol-gel, air"
+Ca3Co4O9,,,400.0,"sol-gel, air"
+Ca3Co4O9,,,700.0,"sol-gel, air"
+Ca3Co4O9,,,1000.0,"sol-gel, air"
+La0.05Ca2.85Co3.8O8.55,,,300.0,"sol-gel, air"
+La0.05Ca2.85Co3.8O8.55,,,400.0,"sol-gel, air"
+La0.05Ca2.85Co3.8O8.55,,,700.0,"sol-gel, air"
+La0.05Ca2.85Co3.8O8.55,,,1000.0,"sol-gel, air"
+La0.3Ca2.7Co4O9,,,300.0,"sol-gel, air"
+La0.3Ca2.7Co4O9,,,400.0,"sol-gel, air"
+La0.3Ca2.7Co4O9,,,700.0,"sol-gel, air"
+La0.3Ca2.7Co4O9,,,1000.0,"sol-gel, air"
+La0.45Ca2.55Co4O9,,,300.0,"sol-gel, air"
+La0.45Ca2.55Co4O9,,,400.0,"sol-gel, air"
+La0.45Ca2.55Co4O9,,,700.0,"sol-gel, air"
+La0.45Ca2.55Co4O9,,,1000.0,"sol-gel, air"
+Cr1.3Mo6S8,,,300.0,"solid state reaction, vacuum"
+Cr1.3Mo6S8,,,400.0,"solid state reaction, vacuum"
+Cr1.3Mo6S8,,,700.0,"solid state reaction, vacuum"
+Cr1.3Mo6S8,,,1000.0,"solid state reaction, vacuum"
+Mn1.3Mo6S8,,,300.0,"solid state reaction, vacuum"
+Mn1.3Mo6S8,,,400.0,"solid state reaction, vacuum"
+Mn1.3Mo6S8,,,700.0,"solid state reaction, vacuum"
+Mn1.3Mo6S8,,,1000.0,"solid state reaction, vacuum"
+Fe1.3Mo6S8,,,300.0,"solid state reaction, vacuum"
+Fe1.3Mo6S8,,,400.0,"solid state reaction, vacuum"
+Fe1.3Mo6S8,,,700.0,"solid state reaction, vacuum"
+Fe1.3Mo6S8,,,1000.0,"solid state reaction, vacuum"
+Ni2.0Mo6S8,,,300.0,"solid state reaction, vacuum"
+Ni2.0Mo6S8,,,400.0,"solid state reaction, vacuum"
+Ni2.0Mo6S8,,,700.0,"solid state reaction, vacuum"
+Ni2.0Mo6S8,,,1000.0,"solid state reaction, vacuum"
+Cu4.0Mo6S8,,,300.0,"solid state reaction, vacuum"
+Cu4.0Mo6S8,,,400.0,"solid state reaction, vacuum"
+Cu4.0Mo6S8,,,700.0,"solid state reaction, vacuum"
+Cu4.0Mo6S8,,,1000.0,"solid state reaction, vacuum"
+Ca0.9Bi0.1MnO3,,,300.0,"solid state reaction, air"
+Ca0.9Bi0.1MnO3,,,400.0,"solid state reaction, air"
+Ca0.9Bi0.1MnO3,,,700.0,"solid state reaction, air"
+Ca0.9Bi0.1MnO3,,,1000.0,"solid state reaction, air"
+Ca0.9Ce0.1MnO3,,,300.0,"solid state reaction, air"
+Ca0.9Ce0.1MnO3,,,400.0,"solid state reaction, air"
+Ca0.9Ce0.1MnO3,,,700.0,"solid state reaction, air"
+Ca0.9Ce0.1MnO3,,,1000.0,"solid state reaction, air"
+Ca0.9Y0.1MnO3,,,300.0,"solid state reaction, air"
+Ca0.9Y0.1MnO3,,,400.0,"solid state reaction, air"
+Ca0.9Y0.1MnO3,,,700.0,"solid state reaction, air"
+Ca0.9Y0.1MnO3,,,1000.0,"solid state reaction, air"
+Ca0.9Sm0.1MnO3,,,300.0,"solid state reaction, air"
+Ca0.9Sm0.1MnO3,,,400.0,"solid state reaction, air"
+Ca0.9Sm0.1MnO3,,,700.0,"solid state reaction, air"
+Ca0.9Sm0.1MnO3,,,1000.0,"solid state reaction, air"
+Ca0.9Sb0.1MnO3,,,300.0,"solid state reaction, air"
+Ca0.9Sb0.1MnO3,,,400.0,"solid state reaction, air"
+Ca0.9Sb0.1MnO3,,,700.0,"solid state reaction, air"
+Ca0.9Sb0.1MnO3,,,1000.0,"solid state reaction, air"
+Ca0.9La0.1MnO3,,,300.0,"solid state reaction, air"
+Ca0.9La0.1MnO3,,,400.0,"solid state reaction, air"
+Ca0.9La0.1MnO3,,,700.0,"solid state reaction, air"
+Ca0.9La0.1MnO3,,,1000.0,"solid state reaction, air"
+Ca0.9Pb0.1MnO3,,,300.0,"solid state reaction, air"
+Ca0.9Pb0.1MnO3,,,400.0,"solid state reaction, air"
+Ca0.9Pb0.1MnO3,,,700.0,"solid state reaction, air"
+Ca0.9Pb0.1MnO3,,,1000.0,"solid state reaction, air"
+Ca0.9In0.1MnO3,,,300.0,"solid state reaction, air"
+Ca0.9In0.1MnO3,,,400.0,"solid state reaction, air"
+Ca0.9In0.1MnO3,,,700.0,"solid state reaction, air"
+Ca0.9In0.1MnO3,,,1000.0,"solid state reaction, air"
+Ca0.9Sn0.1MnO3,,,300.0,"solid state reaction, air"
+Ca0.9Sn0.1MnO3,,,400.0,"solid state reaction, air"
+Ca0.9Sn0.1MnO3,,,700.0,"solid state reaction, air"
+Ca0.9Sn0.1MnO3,,,1000.0,"solid state reaction, air"
+CaMnO3,,,300.0,"solid state reaction, air"
+CaMnO3,,,400.0,"solid state reaction, air"
+CaMnO3,,,700.0,"solid state reaction, air"
+CaMnO3,,,1000.0,"solid state reaction, air"
+CuCrO2,,,300.0,"solid state reaction, air"
+CuCrO2,,,400.0,"solid state reaction, air"
+CuCrO2,,,700.0,"solid state reaction, air"
+CuCrO2,,,1000.0,"solid state reaction, air"
+CuCr0.99Mg0.01O2,,,300.0,"solid state reaction, air"
+CuCr0.99Mg0.01O2,,,400.0,"solid state reaction, air"
+CuCr0.99Mg0.01O2,,,700.0,"solid state reaction, air"
+CuCr0.99Mg0.01O2,,,1000.0,"solid state reaction, air"
+CuCr0.98Mg0.02O2,,,300.0,"solid state reaction, air"
+CuCr0.98Mg0.02O2,,,400.0,"solid state reaction, air"
+CuCr0.98Mg0.02O2,,,700.0,"solid state reaction, air"
+CuCr0.98Mg0.02O2,,,1000.0,"solid state reaction, air"
+CuCr0.97Mg0.03O2,,,300.0,"solid state reaction, air"
+CuCr0.97Mg0.03O2,,,400.0,"solid state reaction, air"
+CuCr0.97Mg0.03O2,,,700.0,"solid state reaction, air"
+CuCr0.97Mg0.03O2,,,1000.0,"solid state reaction, air"
+CuCr0.96Mg0.04O2,,,300.0,"solid state reaction, air"
+CuCr0.96Mg0.04O2,,,400.0,"solid state reaction, air"
+CuCr0.96Mg0.04O2,,,700.0,"solid state reaction, air"
+CuCr0.96Mg0.04O2,,,1000.0,"solid state reaction, air"
+CuCr0.95Mg0.05O2,,,300.0,"solid state reaction, air"
+CuCr0.95Mg0.05O2,,,400.0,"solid state reaction, air"
+CuCr0.95Mg0.05O2,,,700.0,"solid state reaction, air"
+CuCr0.95Mg0.05O2,,,1000.0,"solid state reaction, air"
+NaCo2O4,,,300.0,"flux (NaCl), air"
+NaCo2O4,,,400.0,"flux (NaCl), air"
+NaCo2O4,,,700.0,"flux (NaCl), air"
+NaCo2O4,,,1000.0,"flux (NaCl), air"
+NaCo2O4,,,300.0,"solid state reaction, air"
+NaCo2O4,,,400.0,"solid state reaction, air"
+NaCo2O4,,,700.0,"solid state reaction, air"
+NaCo2O4,,,1000.0,"solid state reaction, air"
+ZnO,,,700.0,"solid state reaction, air"
+ZnO,,,1000.0,"solid state reaction, air"
+Zn0.98Al0.02O,,,700.0,"solid state reaction, air"
+Zn0.98Al0.02O,,,1000.0,"solid state reaction, air"
+Zn0.97Al0.03O,,,700.0,"solid state reaction, air"
+Zn0.97Al0.03O,,,1000.0,"solid state reaction, air"
+Zn0.95Al0.05O,,,700.0,"solid state reaction, air"
+Zn0.95Al0.05O,,,1000.0,"solid state reaction, air"
+Zn0.97Al0.025Ti0.005O,,,700.0,"solid state reaction, air"
+Zn0.97Al0.025Ti0.005O,,,1000.0,"solid state reaction, air"
+Zn0.97Al0.02Ti0.01O,,,700.0,"solid state reaction, air"
+Zn0.97Al0.02Ti0.01O,,,1000.0,"solid state reaction, air"
+Zn0.97Al0.015Ti0.015O,,,700.0,"solid state reaction, air"
+Zn0.97Al0.015Ti0.015O,,,1000.0,"solid state reaction, air"
+Zn0.97Al0.01Ti0.02O,,,700.0,"solid state reaction, air"
+Zn0.97Al0.01Ti0.02O,,,1000.0,"solid state reaction, air"
+Zr0.5Hf0.5NiSn,,,300.0,"arc-melted, Ar"
+Zr0.5Hf0.5NiSn,,,400.0,"arc-melted, Ar"
+Zr0.5Hf0.5NiSn,,,700.0,"arc-melted, Ar"
+Zr0.4Hf0.4Ti0.2NiSn,,,300.0,"arc-melted, Ar"
+Zr0.4Hf0.4Ti0.2NiSn,,,400.0,"arc-melted, Ar"
+Zr0.4Hf0.4Ti0.2NiSn,,,700.0,"arc-melted, Ar"
+Zr0.35Hf0.35Ti0.3NiSn,,,300.0,"arc-melted, Ar"
+Zr0.35Hf0.35Ti0.3NiSn,,,400.0,"arc-melted, Ar"
+Zr0.35Hf0.35Ti0.3NiSn,,,700.0,"arc-melted, Ar"
+Zr0.25Hf0.25Ti0.5NiSn,,,300.0,"arc-melted, Ar"
+Zr0.25Hf0.25Ti0.5NiSn,,,400.0,"arc-melted, Ar"
+Zr0.25Hf0.25Ti0.5NiSn,,,700.0,"arc-melted, Ar"
+Zr0.15Hf0.15Ti0.7NiSn,,,300.0,"arc-melted, Ar"
+Zr0.15Hf0.15Ti0.7NiSn,,,400.0,"arc-melted, Ar"
+Zr0.15Hf0.15Ti0.7NiSn,,,700.0,"arc-melted, Ar"
+CeFe4Sb12,,,300.0,"melted, vacuum"
+CeFe4Sb12,,,400.0,"melted, vacuum"
+CeFe4Sb12,,,700.0,"melted, vacuum"
+CeFe4Sb12,,,1000.0,"melted, vacuum"
+CeFe3CoSb12,,,300.0,"melted, vacuum"
+CeFe3CoSb12,,,400.0,"melted, vacuum"
+CeFe3CoSb12,,,700.0,"melted, vacuum"
+CeFe3CoSb12,,,1000.0,"melted, vacuum"
+CeFe2.5Co1.5Sb12,,,300.0,"melted, vacuum"
+CeFe2.5Co1.5Sb12,,,400.0,"melted, vacuum"
+CeFe2.5Co1.5Sb12,,,700.0,"melted, vacuum"
+CeFe2.5Co1.5Sb12,,,1000.0,"melted, vacuum"
+CeFe2Co2Sb12,,,300.0,"melted, vacuum"
+CeFe2Co2Sb12,,,400.0,"melted, vacuum"
+CeFe2Co2Sb12,,,700.0,"melted, vacuum"
+CeFe2Co2Sb12,,,1000.0,"melted, vacuum"
+CeFeCo3Sb12,,,300.0,"melted, vacuum"
+CeFeCo3Sb12,,,400.0,"melted, vacuum"
+CeFeCo3Sb12,,,700.0,"melted, vacuum"
+CeFeCo3Sb12,,,1000.0,"melted, vacuum"
+CeFe1.5Co2.5Sb12,,,300.0,"melted, vacuum"
+CeFe1.5Co2.5Sb12,,,400.0,"melted, vacuum"
+CeFe1.5Co2.5Sb12,,,700.0,"melted, vacuum"
+CeFe1.5Co2.5Sb12,,,1000.0,"melted, vacuum"
+LaFe3CoSb12,,,300.0,"melted, vacuum"
+LaFe3CoSb12,,,400.0,"melted, vacuum"
+LaFe3CoSb12,,,700.0,"melted, vacuum"
+Zr0.5Hf0.5NiSn,,,300.0,"arc-melted, Ar"
+Zr0.5Hf0.5NiSn,,,700.0,"arc-melted, Ar"
+Zr0.5Hf0.5NiSn1.998Sb0.002,,,300.0,"arc-melted, Ar"
+Zr0.5Hf0.5NiSn1.998Sb0.002,,,400.0,"arc-melted, Ar"
+Zr0.5Hf0.5NiSn1.998Sb0.002,,,700.0,"arc-melted, Ar"
+Zr0.5Hf0.5NiSn1.994Sb0.006,,,300.0,"arc-melted, Ar"
+Zr0.5Hf0.5NiSn1.994Sb0.006,,,400.0,"arc-melted, Ar"
+Zr0.5Hf0.5NiSn1.994Sb0.006,,,700.0,"arc-melted, Ar"
+Zr0.4Hf0.4Ti0.2NiSn,,,300.0,"arc-melted, Ar"
+Zr0.4Hf0.4Ti0.2NiSn,,,700.0,"arc-melted, Ar"
+Zr0.35Hf0.35Ti0.3NiSn,,,300.0,"arc-melted, Ar"
+Zr0.35Hf0.35Ti0.3NiSn,,,700.0,"arc-melted, Ar"
+Zr0.3Hf0.3Ti0.4NiSn,,,300.0,"arc-melted, Ar"
+Zr0.3Hf0.3Ti0.4NiSn,,,700.0,"arc-melted, Ar"
+Zr0.25Hf0.25Ti0.5NiSn,,,300.0,"arc-melted, Ar"
+Zr0.25Hf0.25Ti0.5NiSn,,,700.0,"arc-melted, Ar"
+Zr0.15Hf0.15Ti0.7NiSn,,,300.0,"arc-melted, Ar"
+Zr0.15Hf0.15Ti0.7NiSn,,,700.0,"arc-melted, Ar"
+SrTi0.8Nb0.2O3,,,300.0,"solid state reaction, air"
+SrTi0.8Nb0.2O3,,,400.0,"solid state reaction, air"
+SrTi0.8Nb0.2O3,,,700.0,"solid state reaction, air"
+SrTi0.8Nb0.2O3,,,1000.0,"solid state reaction, air"
+SrDy0.08Ti0.92O3,,,300.0,"solid state reaction, air"
+SrDy0.08Ti0.92O3,,,400.0,"solid state reaction, air"
+SrDy0.08Ti0.92O3,,,700.0,"solid state reaction, air"
+SrDy0.08Ti0.92O3,,,1000.0,"solid state reaction, air"
+SrNd0.17Ti0.83O3,,,300.0,"solid state reaction, air"
+SrNd0.17Ti0.83O3,,,400.0,"solid state reaction, air"
+SrNd0.17Ti0.83O3,,,700.0,"solid state reaction, air"
+SrNd0.17Ti0.83O3,,,1000.0,"solid state reaction, air"
+SrNd0.2Ti0.8O3,,,300.0,"solid state reaction, air"
+SrNd0.2Ti0.8O3,,,400.0,"solid state reaction, air"
+SrNd0.2Ti0.8O3,,,700.0,"solid state reaction, air"
+SrNd0.2Ti0.8O3,,,1000.0,"solid state reaction, air"
+SrNd0.24Ti0.76O3,,,300.0,"solid state reaction, air"
+SrNd0.24Ti0.76O3,,,400.0,"solid state reaction, air"
+SrNd0.24Ti0.76O3,,,700.0,"solid state reaction, air"
+SrNd0.24Ti0.76O3,,,1000.0,"solid state reaction, air"
+Zn4Sb3,,,300.0,"solid state reaction, Ar"
+Zn4Sb3,,,400.0,"solid state reaction, Ar"
+Zn4Sb3,,,700.0,"solid state reaction, Ar"
+Zn4Sb3,,,300.0,"solid state reaction, Ar"
+Zn4Sb3,,,400.0,"solid state reaction, Ar"
+Zn4Sb3,,,700.0,"solid state reaction, Ar"
+Zn4Sb3,,,300.0,"solid state reaction, Ar"
+Zn4Sb3,,,400.0,"solid state reaction, Ar"
+Zn4Sb3,,,700.0,"solid state reaction, Ar"
+ZnO,,,300.0,"solid state reaction, air"
+ZnO,,,400.0,"solid state reaction, air"
+ZnO,,,700.0,"solid state reaction, air"
+ZnO,,,1000.0,"solid state reaction, air"
+Zn0.995Al0.005O,,,300.0,"solid state reaction, air"
+Zn0.995Al0.005O,,,400.0,"solid state reaction, air"
+Zn0.995Al0.005O,,,700.0,"solid state reaction, air"
+Zn0.995Al0.005O,,,1000.0,"solid state reaction, air"
+Zn0.99Al0.01O,,,300.0,"solid state reaction, air"
+Zn0.99Al0.01O,,,400.0,"solid state reaction, air"
+Zn0.99Al0.01O,,,700.0,"solid state reaction, air"
+Zn0.99Al0.01O,,,1000.0,"solid state reaction, air"
+Zn0.98Al0.02O,,,300.0,"solid state reaction, air"
+Zn0.98Al0.02O,,,400.0,"solid state reaction, air"
+Zn0.98Al0.02O,,,700.0,"solid state reaction, air"
+Zn0.98Al0.02O,,,1000.0,"solid state reaction, air"
+Zn0.95Al0.05O,,,300.0,"solid state reaction, air"
+Zn0.95Al0.05O,,,400.0,"solid state reaction, air"
+Zn0.95Al0.05O,,,700.0,"solid state reaction, air"
+Zn0.95Al0.05O,,,1000.0,"solid state reaction, air"
+SrNb0.15Ti0.85O3,,,300.0,"solid state reaction, Ar"
+SrNb0.15Ti0.85O3,,,400.0,"solid state reaction, Ar"
+SrNb0.15Ti0.85O3,,,700.0,"solid state reaction, Ar"
+SrNb0.15Ti0.85O3,,,1000.0,"solid state reaction, Ar"
+Ba8Ga16Ge30,,,300.0,"Czochralski method, He"
+Ba8Ga16Ge30,,,300.0,"solid state reaction, Ar"
+Ba8Ga16Ge30,,,400.0,"Czochralski method, He"
+Ba8Ga16Ge30,,,400.0,"solid state reaction, Ar"
+Ba8Ga16Ge30,,,700.0,"Czochralski method, He"
+Ba8Ga16Ge30,,,700.0,"solid state reaction, Ar"
+Ba8Ga16Ge30,,,1000.0,"Czochralski method, He"
+Ba8Ga16Ge30,,,1000.0,"solid state reaction, Ar"
+CsBi4Te6,,,300.0,"melted, air"
+Sb0.005I0.015Cs0.995Bi3.98Te5.97,,,300.0,"melted, air"
+Ba8Ga16Ge30,,,300.0,"Czochralski method, argon"
+Ba8Ga16Ge30,,,400.0,"Czochralski method, argon"
+Ba8Ga16Ge30,,,700.0,"Czochralski method, argon"
+Ba8Ga16Ge30,,,1000.0,"Czochralski method, argon"
+Tl9BiTe6,,,300.0,"melted, zone refined"
+Tl9BiTe6,,,400.0,"melted, zone refined"
+Bi1.2S1.2Ti2S4,,,300.0,"solid-liquid-vapor reaction, vacuum"
+Bi1.2S1.2Ti2S4,,,400.0,"solid-liquid-vapor reaction, vacuum"
+Bi1.2S1.2Ti2S4,,,700.0,"solid-liquid-vapor reaction, vacuum"
+Pb1.8S1.8Ti2S4,,,300.0,"solid-liquid-vapor reaction, vacuum"
+Pb1.8S1.8Ti2S4,,,400.0,"solid-liquid-vapor reaction, vacuum"
+Pb1.8S1.8Ti2S4,,,700.0,"solid-liquid-vapor reaction, vacuum"
+Sn1.2S1.2Ti2S4,,,300.0,"solid-liquid-vapor reaction, vacuum"
+Sn1.2S1.2Ti2S4,,,400.0,"solid-liquid-vapor reaction, vacuum"
+Sn1.2S1.2Ti2S4,,,700.0,"solid-liquid-vapor reaction, vacuum"
+Ba8Au5.14Si39.51,,,300.0,"melted, inert"
+Ba8Au5.14Si39.51,,,400.0,"melted, inert"
+Ba8Au5.14Si39.51,,,700.0,"melted, inert"
+Ba8Au5.59Si39.01,,,300.0,"melted, inert"
+Ba8Au5.59Si39.01,,,400.0,"melted, inert"
+Ba8Au5.59Si39.01,,,700.0,"melted, inert"
+Ba8Au6.10Si38.97,,,300.0,"melted, inert"
+Ba8Au6.10Si38.97,,,400.0,"melted, inert"
+Ba8Au6.10Si38.97,,,700.0,"melted, inert"
+KBi6.33S10,,,300.0,"solid state reaction, vacuum"
+Tl11.5Sb11.5Cu8Se27,,,300.0,"solid state reaction, vacuum"
+TlTiPS5,,,300.0,"solid state reaction, vacuum"
+Tl2Cu2SnTe4,,,300.0,"solid state reaction, vacuum"
+Mg2Si0.999Bi0.001,,,300.0,"mechanochemical, Ar"
+Mg2Si0.999Bi0.001,,,400.0,"mechanochemical, Ar"
+Mg2Si0.999Bi0.001,,,700.0,"mechanochemical, Ar"
+Mg2Si0.9985Bi0.0015,,,300.0,"mechanochemical, Ar"
+Mg2Si0.9985Bi0.0015,,,400.0,"mechanochemical, Ar"
+Mg2Si0.9985Bi0.0015,,,700.0,"mechanochemical, Ar"
+Mg2Si0.997Bi0.003,,,300.0,"mechanochemical, Ar"
+Mg2Si0.997Bi0.003,,,400.0,"mechanochemical, Ar"
+Mg2Si0.997Bi0.003,,,700.0,"mechanochemical, Ar"
+Mg2Si0.995Bi0.005,,,300.0,"mechanochemical, Ar"
+Mg2Si0.995Bi0.005,,,400.0,"mechanochemical, Ar"
+Mg2Si0.995Bi0.005,,,700.0,"mechanochemical, Ar"
+Mg2Si0.994Bi0.006,,,300.0,"mechanochemical, Ar"
+Mg2Si0.993Bi0.007,,,400.0,"mechanochemical, Ar"
+Mg2Si0.993Bi0.007,,,700.0,"mechanochemical, Ar"
+Mg2Si0.98Bi0.02,,,300.0,"solid state reaction, He/H2"
+Mg2Si0.98Bi0.02,,,400.0,"solid state reaction, He/H2"
+Mg2Si0.98Bi0.02,,,700.0,"solid state reaction, He/H2"
+Mg2Si0.98Bi0.02,,,1000.0,"solid state reaction, He/H2"
+Mg2Si0.6Ge0.4Bi0.02,,,300.0,"solid state reaction, He/H2"
+Mg2Si0.6Ge0.4Bi0.02,,,400.0,"solid state reaction, He/H2"
+Mg2Si0.6Ge0.4Bi0.02,,,700.0,"solid state reaction, He/H2"
+Mg2Si0.6Ge0.4Bi0.02,,,1000.0,"solid state reaction, He/H2"
+Mg2Si0.98Ag0.02,,,300.0,"solid state reaction, He/H2"
+Mg2Si0.98Ag0.02,,,400.0,"solid state reaction, He/H2"
+Mg2Si0.98Ag0.02,,,700.0,"solid state reaction, He/H2"
+Mg2Si0.98Ag0.02,,,1000.0,"solid state reaction, He/H2"
+Mg2Si0.6Ge0.4Ag0.02,,,300.0,"solid state reaction, He/H2"
+Mg2Si0.6Ge0.4Ag0.02,,,400.0,"solid state reaction, He/H2"
+Mg2Si0.6Ge0.4Ag0.02,,,700.0,"solid state reaction, He/H2"
+Mg2Si0.6Ge0.4Ag0.02,,,1000.0,"solid state reaction, He/H2"
+Ag9TlTe5,,,300.0,melted
+Ag9TlTe5,,,400.0,melted
+Ag9TlTe5,,,700.0,melted
+Tl2SnTe5,,,300.0,melted
+Tl2GeTe5,,,300.0,melted
+Tl2SnTe5,,,300.0,"melted, hotpressed"
+Tl2SnTe5,,,300.0,flux (TlTe2)
+Sr0.145Ga0.302Ge0.553,,,300.0,solid state reaction
+Sr0.147Ga0.298Ge0.555,,,300.0,solid state reaction
+Sr0.146Ga0.285Ge0.569,,,300.0,solid state reaction
+Ba8Ga16Ge30,,,300.0,arc melting
+Ba8Ga16Ge30,,,400.0,arc melting
+Ba8Ga16Ge30,,,700.0,arc melting
+Ba8Ga16Ge30,,,1000.0,arc melting
+Ba8Ga18Ge28,,,300.0,arc melting
+Ba8Ga18Ge28,,,400.0,arc melting
+Ba8Ga18Ge28,,,700.0,arc melting
+Ba8Ga18Ge28,,,1000.0,arc melting
+Ba8Ga16Sn30,,,300.0,"melted, Ar"
+Ba8Ga16Sn30,,,400.0,"melted, Ar"
+Ba8Ga16Sn30,,,700.0,"melted, Ar"
+Sr8Ga16Ge30,,,300.0,"melted, Ar"
+Sr8Ga16Ge30,,,400.0,"melted, Ar"
+Sr8Ga16Ge30,,,700.0,"melted, Ar"
+Ba8Ga16Ge30,,,300.0,"melted, Ar"
+Ba8Ga16Ge30,,,400.0,"melted, Ar"
+Ba8Ga16Ge30,,,700.0,"melted, Ar"
+Ba8Ga16Si30,,,300.0,"melted, Ar"
+Ba8Ga16Si30,,,400.0,"melted, Ar"
+Ba8Ga16Si30,,,700.0,"melted, Ar"
+Mg2Si,,,300.0,"melted, Ar"
+Mg2Si,,,400.0,"melted, Ar"
+Mg2Si,,,700.0,"melted, Ar"
+Mg1.95Ca0.05Si,,,300.0,"melted, Ar"
+Mg1.95Ca0.05Si,,,400.0,"melted, Ar"
+Mg1.95Ca0.05Si,,,700.0,"melted, Ar"
+Mg1.9Ca0.1Si,,,300.0,"melted, Ar"
+Mg1.9Ca0.1Si,,,400.0,"melted, Ar"
+Mg1.9Ca0.1Si,,,700.0,"melted, Ar"
+Mg2Si,,,300.0,"Bridgman method, Ar-H gas"
+Mg2Si,,,400.0,"Bridgman method, Ar-H gas"
+Mg2Si,,,700.0,"Bridgman method, Ar-H gas"
+Cu2Se,,,300.0,"melted, vacuum"
+Cu2Se,,,400.0,"melted, vacuum"
+Cu2Se,,,700.0,"melted, vacuum"
+Cu2Se,,,1000.0,"melted, vacuum"
+Cu1.98Se,,,300.0,"melted, vacuum"
+Cu1.98Se,,,400.0,"melted, vacuum"
+Cu1.98Se,,,700.0,"melted, vacuum"
+Cu1.98Se,,,1000.0,"melted, vacuum"
+Ca3Co4O9,,,300.0,"flux (SrCl2), air"
+Ca3Co4O9,,,400.0,"flux (SrCl2), air"
+Ca3Co4O9,,,700.0,"flux (SrCl2), air"
+Ca3Co4O9,,,1000.0,"flux (SrCl2), air"
+Ca3Co4O9,,,300.0,"solid state reaction, air"
+Ca3Co4O9,,,400.0,"solid state reaction, air"
+Ca3Co4O9,,,700.0,"solid state reaction, air"
+Ca3Co4O9,,,1000.0,"solid state reaction, air"
+Ca2.7Na0.3Co4O9,,,300.0,"solid state reaction, air"
+Ca2.7Na0.3Co4O9,,,400.0,"solid state reaction, air"
+Ca2.7Na0.3Co4O9,,,700.0,"solid state reaction, air"
+Ca2.7Na0.3Co4O9,,,1000.0,"solid state reaction, air"
+Ca2.7Bi0.3Co4O9,,,300.0,"solid state reaction, air"
+Ca2.7Bi0.3Co4O9,,,400.0,"solid state reaction, air"
+Ca2.7Bi0.3Co4O9,,,700.0,"solid state reaction, air"
+Ca2.7Bi0.3Co4O9,,,1000.0,"solid state reaction, air"
+Ca2.4Na0.3Bi0.3Co4O9,,,300.0,"solid state reaction, air"
+Ca2.4Na0.3Bi0.3Co4O9,,,400.0,"solid state reaction, air"
+Ca2.4Na0.3Bi0.3Co4O9,,,700.0,"solid state reaction, air"
+Ca2.4Na0.3Bi0.3Co4O9,,,1000.0,"solid state reaction, air"
+Sr0.9Y0.1TiO3,,,300.0,"solid state reaction, air"
+Sr0.9Y0.1TiO3,,,400.0,"solid state reaction, air"
+Sr0.9Y0.1TiO3,,,700.0,"solid state reaction, air"
+Sr0.9Y0.1TiO3,,,1000.0,"solid state reaction, air"
+Ba0.3Sr0.6La0.1TiO3,,,300.0,"solid state reaction , Ar"
+Ba0.3Sr0.6La0.1TiO3,,,400.0,"solid state reaction , Ar"
+Ba0.3Sr0.6La0.1TiO3,,,700.0,"solid state reaction , Ar"
+CuRhO2,,,300.0,"solid state reaction , air"
+CuRhO2,,,400.0,"solid state reaction , air"
+CuRhO2,,,700.0,"solid state reaction , air"
+CuRhO2,,,1000.0,"solid state reaction , air"
+CuRh0.99Mg0.01O2,,,300.0,"solid state reaction , air"
+CuRh0.99Mg0.01O2,,,400.0,"solid state reaction , air"
+CuRh0.99Mg0.01O2,,,700.0,"solid state reaction , air"
+CuRh0.99Mg0.01O2,,,1000.0,"solid state reaction , air"
+CuRh0.96Mg0.04O2,,,300.0,"solid state reaction , air"
+CuRh0.96Mg0.04O2,,,400.0,"solid state reaction , air"
+CuRh0.96Mg0.04O2,,,700.0,"solid state reaction , air"
+CuRh0.96Mg0.04O2,,,1000.0,"solid state reaction , air"
+CuRh0.9Mg0.1O2,,,300.0,"solid state reaction , air"
+CuRh0.9Mg0.1O2,,,400.0,"solid state reaction , air"
+CuRh0.9Mg0.1O2,,,700.0,"solid state reaction , air"
+CuRh0.6Mg0.4O2,,,1000.0,"solid state reaction , air"
+Ca3AlSb3,,,300.0,"solid state reaction, Ar"
+Ca3AlSb3,,,400.0,"solid state reaction, Ar"
+Ca3AlSb3,,,700.0,"solid state reaction, Ar"
+Ca3AlSb3,,,1000.0,"solid state reaction, Ar"
+Ca2.97Na0.03AlSb3,,,300.0,"solid state reaction, Ar"
+Ca2.97Na0.03AlSb3,,,400.0,"solid state reaction, Ar"
+Ca2.97Na0.03AlSb3,,,700.0,"solid state reaction, Ar"
+Ca2.97Na0.03AlSb3,,,1000.0,"solid state reaction, Ar"
+Ca2.94Na0.06AlSb3,,,300.0,"solid state reaction, Ar"
+Ca2.94Na0.06AlSb3,,,400.0,"solid state reaction, Ar"
+Ca2.94Na0.06AlSb3,,,700.0,"solid state reaction, Ar"
+Ca2.94Na0.06AlSb3,,,1000.0,"solid state reaction, Ar"
+Ca2.85Na0.15AlSb3,,,300.0,"solid state reaction, Ar"
+Ca2.85Na0.15AlSb3,,,400.0,"solid state reaction, Ar"
+Ca2.85Na0.15AlSb3,,,700.0,"solid state reaction, Ar"
+Ca2.85Na0.15AlSb3,,,1000.0,"solid state reaction, Ar"
+Fe0.998Co0.002Si2,,,300.0,"arc-melted, Ar"
+Fe0.998Co0.002Si2,,,400.0,"arc-melted, Ar"
+Fe0.998Co0.002Si2,,,700.0,"arc-melted, Ar"
+Fe0.998Co0.002Si2,,,1000.0,"arc-melted, Ar"
+Fe0.978Co0.00196Si1.96Y0.04O0.06,,,300.0,"arc-melted, Ar"
+Fe0.978Co0.00196Si1.96Y0.04O0.06,,,400.0,"arc-melted, Ar"
+Fe0.978Co0.00196Si1.96Y0.04O0.06,,,700.0,"arc-melted, Ar"
+Fe0.978Co0.00196Si1.96Y0.04O0.06,,,1000.0,"arc-melted, Ar"
+Fe0.978Co0.00196Si1.96Y0.12O0.18,,,300.0,"arc-melted, Ar"
+Fe0.978Co0.00196Si1.96Y0.12O0.18,,,400.0,"arc-melted, Ar"
+Fe0.978Co0.00196Si1.96Y0.12O0.18,,,700.0,"arc-melted, Ar"
+Fe0.978Co0.00196Si1.96Y0.12O0.18,,,1000.0,"arc-melted, Ar"
+Ca5Al2Sb6,,,300.0,"solid state reaction, Ar"
+Ca5Al2Sb6,,,400.0,"solid state reaction, Ar"
+Ca5Al2Sb6,,,700.0,"solid state reaction, Ar"
+Ca4.95Na0.05Al2Sb6,,,300.0,"solid state reaction, Ar"
+Ca4.95Na0.05Al2Sb6,,,400.0,"solid state reaction, Ar"
+Ca4.95Na0.05Al2Sb6,,,700.0,"solid state reaction, Ar"
+Ca4.75Na0.25Al2Sb6,,,300.0,"solid state reaction, Ar"
+Ca4.75Na0.25Al2Sb6,,,400.0,"solid state reaction, Ar"
+Ca4.75Na0.25Al2Sb6,,,700.0,"solid state reaction, Ar"
+Ca4.75Na0.25Al2Sb6,,,1000.0,"solid state reaction, Ar"
+Fe1.98Ti0.02O3,,,300.0,"solid state reaction, air"
+Fe1.98Ti0.02O3,,,400.0,"solid state reaction, air"
+Fe1.98Ti0.02O3,,,700.0,"solid state reaction, air"
+Fe1.98Ti0.02O3,,,1000.0,"solid state reaction, air"
+Fe1.96Ti0.04O3,,,300.0,"solid state reaction, air"
+Fe1.96Ti0.04O3,,,400.0,"solid state reaction, air"
+Fe1.96Ti0.04O3,,,700.0,"solid state reaction, air"
+Fe1.96Ti0.04O3,,,1000.0,"solid state reaction, air"
+Fe1.94Ti0.06O3,,,300.0,"solid state reaction, air"
+Fe1.94Ti0.06O3,,,400.0,"solid state reaction, air"
+Fe1.94Ti0.06O3,,,700.0,"solid state reaction, air"
+Fe1.94Ti0.06O3,,,1000.0,"solid state reaction, air"
+Fe1.98Sn0.02O3,,,300.0,"solid state reaction, air"
+Fe1.98Sn0.02O3,,,400.0,"solid state reaction, air"
+Fe1.98Sn0.02O3,,,700.0,"solid state reaction, air"
+Fe1.98Sn0.02O3,,,1000.0,"solid state reaction, air"
+Fe1.96Sn0.04O3,,,300.0,"solid state reaction, air"
+Fe1.96Sn0.04O3,,,400.0,"solid state reaction, air"
+Fe1.96Sn0.04O3,,,700.0,"solid state reaction, air"
+Fe1.96Sn0.04O3,,,1000.0,"solid state reaction, air"
+Ba7SrAl16Si30,,,300.0,"flux (Al), dynamic vacuum"
+Ba7SrAl16Si30,,,400.0,"flux (Al), dynamic vacuum"
+Ba7SrAl16Si30,,,700.0,"flux (Al), dynamic vacuum"
+Ba7SrAl16Si30,,,1000.0,"flux (Al), dynamic vacuum"
+Nd2CuO4,,,300.0,"solid state reaction, air"
+Nd2CuO4,,,400.0,"solid state reaction, air"
+Nd2CuO4,,,700.0,"solid state reaction, air"
+Nd2CuO4,,,1000.0,"solid state reaction, air"
+Nd2Cu0.98Ni0.02O4,,,300.0,"solid state reaction, air"
+Nd2Cu0.98Ni0.02O4,,,400.0,"solid state reaction, air"
+Nd2Cu0.98Ni0.02O4,,,700.0,"solid state reaction, air"
+Nd2Cu0.98Ni0.02O4,,,1000.0,"solid state reaction, air"
+Nd2Cu0.98Zn0.02O4,,,300.0,"solid state reaction, air"
+Nd2Cu0.98Zn0.02O4,,,400.0,"solid state reaction, air"
+Nd2Cu0.98Zn0.02O4,,,700.0,"solid state reaction, air"
+Nd2Cu0.98Zn0.02O4,,,1000.0,"solid state reaction, air"
+La3Te3.8Sb0.2,,,300.0,"solid state reaction, Ar"
+La3Te3.8Sb0.2,,,400.0,"solid state reaction, Ar"
+La3Te3.8Sb0.2,,,700.0,"solid state reaction, Ar"
+La3Te3.8Sb0.2,,,1000.0,"solid state reaction, Ar"
+La3Te3.65Sb0.35,,,300.0,"solid state reaction, Ar"
+La3Te3.65Sb0.35,,,400.0,"solid state reaction, Ar"
+La3Te3.65Sb0.35,,,700.0,"solid state reaction, Ar"
+La3Te3.65Sb0.35,,,1000.0,"solid state reaction, Ar"
+La3Te3.35Sb0.65,,,300.0,"solid state reaction, Ar"
+La3Te3.35Sb0.65,,,400.0,"solid state reaction, Ar"
+La3Te3.35Sb0.65,,,700.0,"solid state reaction, Ar"
+La3Te3.35Sb0.65,,,1000.0,"solid state reaction, Ar"
+La3Te3.35Bi0.65,,,300.0,"solid state reaction, Ar"
+La3Te3.35Bi0.65,,,400.0,"solid state reaction, Ar"
+La3Te3.35Bi0.65,,,700.0,"solid state reaction, Ar"
+La3Te3.35Bi0.65,,,1000.0,"solid state reaction, Ar"
+La2.99Te4,,,300.0,"solid state reaction, Ar"
+La2.99Te4,,,400.0,"solid state reaction, Ar"
+La2.99Te4,,,700.0,"solid state reaction, Ar"
+La2.99Te4,,,1000.0,"solid state reaction, Ar"
+La2.74Te4,,,300.0,"solid state reaction, Ar"
+La2.74Te4,,,400.0,"solid state reaction, Ar"
+La2.74Te4,,,700.0,"solid state reaction, Ar"
+La2.74Te4,,,1000.0,"solid state reaction, Ar"
+Zn0.9975Al0.0025O,,,300.0,"microwave solvothermal, air"
+Zn0.9975Al0.0025O,,,400.0,"microwave solvothermal, air"
+Zn0.9975Al0.0025O,,,700.0,"microwave solvothermal, air"
+Zn0.9975Al0.0025O,,,1000.0,"microwave solvothermal, air"
+Sr0.61Ba0.39Nb2O6,,,300.0,"Czochralski method, anneal PO<sub>2</sub> 10<sup>-14</sup>"
+Sr0.61Ba0.39Nb2O6,,,300.0,"Czochralski method, anneal PO<sub>2</sub> 10<sup>-14</sup>"
+Sr0.61Ba0.39Nb2O6,,,400.0,"Czochralski method, anneal PO<sub>2</sub> 10<sup>-14</sup>"
+Sr0.61Ba0.39Nb2O6,,,700.0,"Czochralski method, anneal PO<sub>2</sub> 10<sup>-14</sup>"
+Sr0.61Ba0.39Nb2O6,,,300.0,"templated grain growth, air, anneal PO<sub>2</sub> 10<sup>-14</sup>"
+Sr0.61Ba0.39Nb2O6,,,400.0,"templated grain growth, air, anneal PO<sub>2</sub> 10<sup>-14</sup>"
+Sr0.61Ba0.39Nb2O6,,,700.0,"templated grain growth, air, anneal PO<sub>2</sub> 10<sup>-14</sup>"
+Sr4.5Nb4.5O15.5,,,300.0,"floating zone method, Ar"
+Sr1.6La0.4Nb2O7,,,300.0,"floating zone method, Ar"
+Si0.8Ge0.2,,,300.0,"ball milling, hot-pressed nanopowders"
+Si0.8Ge0.2,,,400.0,"ball milling, hot-pressed nanopowders"
+Si0.8Ge0.2,,,700.0,"ball milling, hot-pressed nanopowders"
+Si0.8Ge0.2,,,1000.0,"ball milling, hot-pressed nanopowders"
+Pb0.96Sr0.4TeNa0.2,,,300.0,sparks plasma sintering
+Pb0.96Sr0.4TeNa0.2,,,400.0,sparks plasma sintering
+Pb0.96Sr0.4TeNa0.2,,,700.0,sparks plasma sintering
+Pb0.96Sr0.4TeNa0.2,,,1000.0,sparks plasma sintering
+Pb0.98Sr0.2TeNa0.1,,,300.0,melting
+Pb0.98Sr0.2TeNa0.1,,,400.0,melting
+Pb0.98Sr0.2TeNa0.1,,,700.0,melting
+Pb0.98TeNa0.2,,,300.0,melting
+Pb0.98TeNa0.2,,,400.0,melting
+Pb0.98TeNa0.2,,,700.0,melting
+W08,,,300.0,SPS
+W08,,,400.0,SPS
+W08,,,700.0,SPS
+W08,,,1000.0,SPS
+CaMnO3,50.0,-462.97,400.0,Solid state reaction
+CaMnO3,50.0,-462.97,400.0,Solid state reaction
+CaMnO3,50.0,-462.97,400.0,Solid state reaction
+CaMnO3,50.0,-462.97,400.0,Solid state reaction
+Ca0.98La0.02MnO3,0.046114999999999996,-201.71,400.0,Solid state reaction
+Ca0.98La0.02MnO3,0.046114999999999996,-201.71,400.0,Solid state reaction
+Ca0.98La0.02MnO3,0.046114999999999996,-201.71,400.0,Solid state reaction
+Ca0.98La0.02MnO3,0.046114999999999996,-201.71,400.0,Solid state reaction
+Ca0.96La0.04MnO3,0.015256,-123.59,400.0,Solid state reaction
+Ca0.96La0.04MnO3,0.015256,-123.59,400.0,Solid state reaction
+Ca0.96La0.04MnO3,0.015256,-123.59,400.0,Solid state reaction
+Ca0.96La0.04MnO3,0.015256,-123.59,400.0,Solid state reaction
+Ca0.94La0.06MnO3,0.012167,-103.74,400.0,Solid state reaction
+Ca0.94La0.06MnO3,0.012167,-103.74,400.0,Solid state reaction
+Ca0.94La0.06MnO3,0.012167,-103.74,400.0,Solid state reaction
+Ca0.94La0.06MnO3,0.012167,-103.74,400.0,Solid state reaction
+Ca0.92La0.08MnO3,0.009966,-83.24,400.0,Solid state reaction
+Ca0.92La0.08MnO3,0.009966,-83.24,400.0,Solid state reaction
+Ca0.92La0.08MnO3,0.009966,-83.24,400.0,Solid state reaction
+Ca0.92La0.08MnO3,0.009966,-83.24,400.0,Solid state reaction
+Li0.0024Ni0.9976O,28.867694,294.97,400.0,Solid state reaction
+Li0.0024Ni0.9976O,28.867694,294.97,400.0,Solid state reaction
+Li0.0024Ni0.9976O,28.867694,294.97,400.0,Solid state reaction
+Li0.0066Ni0.9944O,5.086469999999999,249.37,400.0,Solid state reaction
+Li0.0066Ni0.9944O,5.086469999999999,249.37,400.0,Solid state reaction
+Li0.0066Ni0.9944O,5.086469999999999,249.37,400.0,Solid state reaction
+Li0.0184Ni0.9816O,0.064272,116.91,400.0,Solid state reaction
+Li0.0184Ni0.9816O,0.064272,116.91,400.0,Solid state reaction
+Li0.0184Ni0.9816O,0.064272,116.91,400.0,Solid state reaction
+Li0.0242Ni0.9758O,0.012343000000000002,102.59,400.0,Solid state reaction
+Li0.0242Ni0.9758O,0.012343000000000002,102.59,400.0,Solid state reaction
+Li0.0242Ni0.9758O,0.012343000000000002,102.59,400.0,Solid state reaction
+CaMnO3,2.925075,-549.12,400.0,Solid state reaction
+CaMnO3,2.925075,-549.12,400.0,Solid state reaction
+CaMnO3,2.925075,-549.12,400.0,Solid state reaction
+CaMnO3,2.925075,-549.12,400.0,Solid state reaction
+Ca0.98Bi0.02Mn0.98Nb0.02O3,0.021537,-119.21,400.0,Solid state reaction
+Ca0.98Bi0.02Mn0.98Nb0.02O3,0.021537,-119.21,400.0,Solid state reaction
+Ca0.98Bi0.02Mn0.98Nb0.02O3,0.021537,-119.21,400.0,Solid state reaction
+Ca0.98Bi0.02Mn0.98Nb0.02O3,0.021537,-119.21,400.0,Solid state reaction
+Ca0.96Bi0.04Mn0.96Nb0.04O3,0.009824,-114.15,400.0,Solid state reaction
+Ca0.96Bi0.04Mn0.96Nb0.04O3,0.009824,-114.15,400.0,Solid state reaction
+Ca0.96Bi0.04Mn0.96Nb0.04O3,0.009824,-114.15,400.0,Solid state reaction
+Ca0.9Bi0.1Mn0.9Nb0.1O3,0.009824,-114.15,400.0,Solid state reaction
+Ca0.9Bi0.1Mn0.9Nb0.1O3,0.007258,-72.44,400.0,Solid state reaction
+Ca0.9Bi0.1Mn0.9Nb0.1O3,0.007258,-72.44,400.0,Solid state reaction
+Ca0.9Bi0.1Mn0.9Nb0.1O3,0.007258,-72.44,400.0,Solid state reaction
+Ca0.9Bi0.1Mn0.9Nb0.1O3,0.007258,-72.44,400.0,Solid state reaction
+CaMn0.98Nb0.02O3,0.0215409,-203.88,400.0,Ultrasonic Spray Pyrolysis
+CaMn0.98Nb0.02O3,0.021541,-203.88,400.0,Ultrasonic Spray Pyrolysis
+CaMn0.98Nb0.02O3,0.021541,-203.88,400.0,Ultrasonic Spray Pyrolysis
+CaMn0.98Nb0.02O3,0.021541,-203.88,400.0,Ultrasonic Spray Pyrolysis
+CaMn0.98Ru0.02O3,0.018369999999999997,-153.66,400.0,Solid state reaction
+CaMn0.98Ru0.02O3,0.018366,-153.66,400.0,Solid state reaction
+CaMn0.98Ru0.02O3,0.018366,-153.66,400.0,Solid state reaction
+CaMn0.96Ru0.04O3,0.007520999999999999,-119.99,400.0,Solid state reaction
+CaMn0.96Ru0.04O3,0.007520999999999999,-119.99,400.0,Solid state reaction
+CaMn0.96Ru0.04O3,0.007520999999999999,-119.99,400.0,Solid state reaction
+CaMn0.94Ru0.06O3,0.006601999999999999,-101.6,400.0,Solid state reaction
+CaMn0.94Ru0.06O3,0.006601999999999999,-101.6,400.0,Solid state reaction
+CaMn0.94Ru0.06O3,0.006601999999999999,-101.6,400.0,Solid state reaction
+CaMn0.9Ru0.1O3,0.003956,-60.57,400.0,Solid state reaction
+CaMn0.9Ru0.1O3,0.003956,-60.57,400.0,Solid state reaction
+CaMn0.9Ru0.1O3,0.003956,-60.57,400.0,Solid state reaction
+CaMn0.82Ru0.18O3,0.003105,-35.67,400.0,Solid state reaction
+CaMn0.82Ru0.18O3,0.003105,-35.67,400.0,Solid state reaction
+CaMn0.82Ru0.18O3,0.003105,-35.67,400.0,Solid state reaction
+CaGd0.98Mn0.02O3,0.027541000000000003,-215.39,400.0,Co-precipitation
+CaGd0.98Mn0.02O3,0.027541000000000003,-215.39,400.0,Co-precipitation
+CaGd0.98Mn0.02O3,0.027541000000000003,-215.39,400.0,Co-precipitation
+CaGd0.98Mn0.02O3,0.027541000000000003,-215.39,400.0,Co-precipitation
+CaGd0.96Mn0.04O3,0.012874000000000002,-163.53,400.0,Co-precipitation
+CaGd0.96Mn0.04O3,0.012874000000000002,-163.53,400.0,Co-precipitation
+CaGd0.96Mn0.04O3,0.012874000000000002,-163.53,400.0,Co-precipitation
+CaGd0.96Mn0.04O3,0.012874000000000002,-163.53,400.0,Co-precipitation
+CaGd0.94Mn0.06O3,0.011351356000000002,-118.52,400.0,Co-precipitation
+CaGd0.94Mn0.06O3,0.011351356000000002,-118.52,400.0,Co-precipitation
+CaGd0.94Mn0.06O3,0.011351356000000002,-118.52,400.0,Co-precipitation
+CaGd0.94Mn0.06O3,0.011351356000000002,-118.52,400.0,Co-precipitation
+Nd1.4Bi0.6Ru2O7,0.0011769999999999999,23.09,400.0,Solid state reaction
+Nd1.4Bi0.6Ru2O7,0.0011769999999999999,23.09,400.0,Solid state reaction
+Nd1.4Bi0.6Ru2O7,0.0011769999999999999,23.09,400.0,Solid state reaction
+NdBiRu2O7,0.001759,21.17,400.0,Solid state reaction
+NdBiRu2O7,0.001759,21.17,400.0,Solid state reaction
+NdBiRu2O7,0.001759,21.17,400.0,Solid state reaction
+Yb1.4Bi0.6Ru2O7,0.003218,17.72,400.0,Solid state reaction
+Yb1.4Bi0.6Ru2O7,0.003218,17.72,400.0,Solid state reaction
+Yb1.4Bi0.6Ru2O7,0.003218,17.72,400.0,Solid state reaction
+YbBiRu2O7,0.001693,19.3,400.0,Solid state reaction
+YbBiRu2O7,0.001693,19.3,400.0,Solid state reaction
+YbBiRu2O7,0.001693,19.3,400.0,Solid state reaction
+Bi2Ru2O7,0.00049075,-1.64,400.0,Solid state reaction
+Bi2Ru2O7,0.00049075,-1.64,400.0,Solid state reaction
+Bi2Ru2O7,0.00049075,-1.64,400.0,Solid state reaction
+Y0.5Bi1.5Ru2O7,0.00101116,21.46,400.0,Solid state reaction
+Y0.5Bi1.5Ru2O7,0.00101116,21.46,400.0,Solid state reaction
+Y0.5Bi1.5Ru2O7,0.00101116,21.46,400.0,Solid state reaction
+YBiRu2O7,0.0019954,15.44,400.0,Solid state reaction
+YBiRu2O7,0.0019954,15.44,400.0,Solid state reaction
+YBiRu2O7,0.0019954,15.44,400.0,Solid state reaction
+Y2Ru2O7,5.732274775,270.0,400.0,Solid state reaction
+Y2Ru2O7,5.732274775,270.0,400.0,Solid state reaction
+Y2Ru2O7,5.732274775,270.0,400.0,Solid state reaction
+Nd2Ru2O7,2.0,40.0,400.0,solid state reaction
+Nd2Ru2O7,2.0,40.0,400.0,solid state reaction
+Nd2Ru2O7,2.0,40.0,400.0,solid state reaction
+Nd2Ru2O7,2.0,40.0,400.0,solid state reaction
+Nd2Ru2O7,0.38,59.3,400.0,Ultrasonic spray pyrolysis
+Nd2Ru2O7,0.38,59.3,400.0,Ultrasonic spray pyrolysis
+Nd2Ru2O7,0.38,59.3,400.0,Ultrasonic spray pyrolysis
+Ca0.9Nd0.1MnO3,0.119152,-90.28,400.0,Solid state reaction
+Ca0.9Nd0.1MnO3,0.119152,-90.28,400.0,Solid state reaction
+Ca0.9Nd0.1MnO3,0.119152,-90.28,400.0,Solid state reaction
+Ca0.9Tb0.1MnO3,0.107849,-90.28,400.0,Solid state reaction
+Ca0.9Tb0.1MnO3,0.107849,-90.28,400.0,Solid state reaction
+Ca0.9Tb0.1MnO3,0.107849,-90.28,400.0,Solid state reaction
+Ca0.9Ho0.1MnO3,0.07064400000000001,-90.28,400.0,Solid state reaction
+Ca0.9Ho0.1MnO3,0.07064400000000001,-90.28,400.0,Solid state reaction
+Ca0.9Ho0.1MnO3,0.07064400000000001,-90.28,400.0,Solid state reaction
+Ca0.9Yb0.1MnO3,0.040973,-90.28,400.0,Solid state reaction
+Ca0.9Yb0.1MnO3,0.040973,-90.28,400.0,Solid state reaction
+Ca0.9Yb0.1MnO3,0.040973,-90.28,400.0,Solid state reaction
+CaMnO3,0.460937,-600.16,400.0,Solid state reaction
+CaMnO3,0.460937,-600.16,400.0,Solid state reaction
+CaMnO3,0.460937,-600.16,400.0,Solid state reaction
+Ca0.9Tb0.1MnO3,0.00638941,-93.82,400.0,Solid state reaction
+Ca0.9Tb0.1MnO3,0.00638941,-93.82,400.0,Solid state reaction
+Ca0.9Tb0.1MnO3,0.00638941,-93.82,400.0,Solid state reaction
+Ca0.9Tb0.1MnO3,0.00638941,-93.82,400.0,Solid state reaction
+Ca0.7Tb0.3MnO3,0.00549942,-44.36,400.0,Solid state reaction
+Ca0.7Tb0.3MnO3,0.00549942,-44.36,400.0,Solid state reaction
+Ca0.7Tb0.3MnO3,0.00549942,-44.36,400.0,Solid state reaction
+Ca0.7Tb0.3MnO3,0.00549942,-44.36,400.0,Solid state reaction
+Ca0.9Ho0.1MnO3,0.00739839,-81.79,400.0,Solid state reaction
+Ca0.9Ho0.1MnO3,0.00739839,-81.79,400.0,Solid state reaction
+Ca0.9Ho0.1MnO3,0.00739839,-81.79,400.0,Solid state reaction
+Ca0.9Ho0.1MnO3,0.00739839,-81.79,400.0,Solid state reaction
+Ca0.7Ho0.3MnO3,0.0043952,-45.05,400.0,Solid state reaction
+Ca0.7Ho0.3MnO3,0.0043952,-45.05,400.0,Solid state reaction
+Ca0.7Ho0.3MnO3,0.0043952,-45.05,400.0,Solid state reaction
+Ca0.7Ho0.3MnO3,0.0043952,-45.05,400.0,Solid state reaction
+Ca0.9Y0.1MnO3,0.00477637,-81.71,400.0,Solid state reaction
+Ca0.9Y0.1MnO3,0.00477637,-81.71,400.0,Solid state reaction
+Ca0.9Y0.1MnO3,0.00477637,-81.71,400.0,Solid state reaction
+Ca0.9Y0.1MnO3,0.00477637,-81.71,400.0,Solid state reaction
+Ca0.7Y0.3MnO3,0.00649209,-41.63,400.0,Solid state reaction
+Ca0.7Y0.3MnO3,0.00649209,-41.63,400.0,Solid state reaction
+Ca0.7Y0.3MnO3,0.00649209,-41.63,400.0,Solid state reaction
+Ca0.7Y0.3MnO3,0.00649209,-41.63,400.0,Solid state reaction
+BaPbO3,0.0005094090000000001,-31.98,400.0,Solid state reaction (under oxygen)
+BaPbO3,0.0005094090000000001,-31.98,400.0,Solid state reaction (under oxygen)
+BaPbO3,0.0005094090000000001,-31.98,400.0,Solid state reaction (under oxygen)
+BaPbO3,0.0005094090000000001,-31.98,400.0,Solid state reaction (under oxygen)
+Ba0.8Sr0.2PbO3,0.000476044,-30.29,400.0,Solid state reaction (under oxygen)
+Ba0.8Sr0.2PbO3,0.000476044,-30.29,400.0,Solid state reaction (under oxygen)
+Ba0.8Sr0.2PbO3,0.000476044,-30.29,400.0,Solid state reaction (under oxygen)
+Ba0.8Sr0.2PbO3,0.000476044,-30.29,400.0,Solid state reaction (under oxygen)
+Ba0.6Sr0.4PbO3,0.00127204,-51.37,400.0,Solid state reaction (under oxygen)
+Ba0.6Sr0.4PbO3,0.00127204,-51.37,400.0,Solid state reaction (under oxygen)
+Ba0.6Sr0.4PbO3,0.00127204,-51.37,400.0,Solid state reaction (under oxygen)
+Ba0.6Sr0.4PbO3,0.00127204,-51.37,400.0,Solid state reaction (under oxygen)
+Ba0.4Sr0.6PbO3,0.00395079,-96.44,400.0,Solid state reaction (under oxygen)
+Ba0.4Sr0.6PbO3,0.00395079,-96.44,400.0,Solid state reaction (under oxygen)
+Ba0.4Sr0.6PbO3,0.00395079,-96.44,400.0,Solid state reaction (under oxygen)
+Ba0.4Sr0.6PbO3,0.00395079,-96.44,400.0,Solid state reaction (under oxygen)
+LaNiO3,0.002843,-19.88,400.0,"Evaporate nitrates (1173 K, air)"
+LaNiO3,0.002843,-19.88,400.0,"Evaporate nitrates (1173 K, air)"
+LaNiO3,0.002843,-19.88,400.0,"Evaporate nitrates (1173 K, air)"
+La0.9Bi0.1NiO3,0.002673,-20.95,400.0,"Evaporate nitrates (1173 K, air)"
+La0.9Bi0.1NiO3,0.002673,-20.95,400.0,"Evaporate nitrates (1173 K, air)"
+La0.9Bi0.1NiO3,0.002673,-20.95,400.0,"Evaporate nitrates (1173 K, air)"
+Ca0.96Sm0.04MnO3,0.006037,-139.46,400.0,Co-precipitation
+Ca0.96Sm0.04MnO3,0.006037,-139.46,400.0,Co-precipitation
+Ca0.96Sm0.04MnO3,0.006037,-139.46,400.0,Co-precipitation
+Bi2Te3,0.00055,162.0,400.0,melted
+Bi2Te3,0.00045,-174.0,400.0,melted
+Sb2Te3,0.00018999999999999998,38.0,400.0,melted
+Sb2Te3,0.00011999999999999999,63.0,400.0,melted
+Ag0.15Sb0.15Te1.15Ge0.85,0.00085,122.16,400.0,melted
+Ag0.15Sb0.15Te1.15Ge0.85,0.00085,122.16,400.0,melted
+Ag0.15Sb0.15Te1.15Ge0.85,0.00085,122.16,400.0,melted
+Ag0.15Sb0.15Te1.15Ge0.85,0.00085,122.16,400.0,melted
+In0.05Co4Sb12,0.00677423,-295.57,400.0,Solid state reaction
+In0.05Co4Sb12,0.00677423,-295.57,400.0,Solid state reaction
+In0.05Co4Sb12,0.00677423,-295.57,400.0,Solid state reaction
+In0.1Co4Sb12,0.00340249,-276.16,400.0,Solid state reaction
+In0.1Co4Sb12,0.00340249,-276.16,400.0,Solid state reaction
+In0.1Co4Sb12,0.00340249,-276.16,400.0,Solid state reaction
+In0.15Co4Sb12,0.00212784,-266.33,400.0,Solid state reaction
+In0.15Co4Sb12,0.00212784,-266.33,400.0,Solid state reaction
+In0.15Co4Sb12,0.00212784,-266.33,400.0,Solid state reaction
+In0.2Co4Sb12,0.00174818,-248.19,400.0,Solid state reaction
+In0.2Co4Sb12,0.00174818,-248.19,400.0,Solid state reaction
+In0.2Co4Sb12,0.00174818,-248.19,400.0,Solid state reaction
+In0.25Co4Sb12,0.00134137,-247.94,400.0,Solid state reaction
+In0.25Co4Sb12,0.00134137,-247.94,400.0,Solid state reaction
+In0.25Co4Sb12,0.00134137,-247.94,400.0,Solid state reaction
+In0.3Co4Sb12,-247.31,-0.00635,400.0,Solid state reaction
+In0.3Co4Sb12,-247.31,-0.00742,400.0,Solid state reaction
+In0.3Co4Sb12,-247.31,-0.00835,400.0,Solid state reaction
+In0.2Co4Sb12,0.0011300000000000001,-192.21,400.0,Solid state reaction
+In0.2Co4Sb12,0.0011300000000000001,-192.21,400.0,Solid state reaction
+In0.2Co4Sb12,0.0011300000000000001,-192.21,400.0,Solid state reaction
+Na0.02PbTe,0.00057,105.0,400.0,melted
+Na0.02PbTe,0.00057,105.0,400.0,melted
+Na0.02PbTe,0.00057,105.0,400.0,melted
+Na0.02PbTe0.85Se0.15,0.00062,98.33,400.0,melted
+Na0.02PbTe0.85Se0.15,0.00062,98.33,400.0,melted
+Na0.02PbTe0.85Se0.15,0.00062,98.33,400.0,melted
+Na0.02PbTe0.85Se0.15,0.00062,98.33,400.0,melted
+Na0.02PbTe0.75Se0.25,0.0006900000000000001,89.76,400.0,melted
+Na0.02PbTe0.75Se0.25,0.0006900000000000001,89.76,400.0,melted
+Na0.02PbTe0.75Se0.25,0.0006900000000000001,89.76,400.0,melted
+Na0.02PbTe0.75Se0.25,0.0006900000000000001,89.76,400.0,melted
+Tl0.01Pb0.99Te,0.00355,197.87,400.0,melted
+Tl0.01Pb0.99Te,0.00355,197.87,400.0,melted
+Tl0.01Pb0.99Te,0.00355,197.87,400.0,melted
+Tl0.02Pb0.98Te,0.0029100000000000003,195.21,400.0,melted
+Tl0.02Pb0.98Te,0.0029100000000000003,195.21,400.0,melted
+Tl0.02Pb0.98Te,0.0029100000000000003,195.21,400.0,melted
+Si0.9Ge0.1,0.0020800000000000003,192.0,400.0,
+Si0.9Ge0.1,0.0020800000000000003,192.0,400.0,
+Si0.9Ge0.1,0.0020800000000000003,192.0,400.0,
+Si0.9Ge0.1,0.0020800000000000003,192.0,400.0,
+Si0.8Ge0.2,0.0017100000000000001,161.0,400.0,
+Si0.8Ge0.2,0.0017100000000000001,161.0,400.0,
+Si0.8Ge0.2,0.0017100000000000001,161.0,400.0,
+Si0.8Ge0.2,0.0017100000000000001,161.0,400.0,
+Si0.79936Ge0.19984B0.0008,0.0015184,151.36,400.0,Vacuum hot pressed
+Si0.79936Ge0.19984B0.0008,0.0015184,151.36,400.0,Vacuum hot pressed
+Si0.79936Ge0.19984B0.0008,0.0015184,151.36,400.0,Vacuum hot pressed
+Si0.79936Ge0.19984B0.0008,0.0015184,151.36,400.0,Vacuum hot pressed
+Si0.7956Ge0.1989P0.0055,0.00133537,150.045,400.0,Vacuum hot pressed
+Si0.7956Ge0.1989P0.0055,0.00133537,150.045,400.0,Vacuum hot pressed
+Si0.7956Ge0.1989P0.0055,0.00133537,150.045,400.0,Vacuum hot pressed
+Si0.7956Ge0.1989P0.0055,0.00133537,150.045,400.0,Vacuum hot pressed
+TiNiSn,0.0051,-245.0,400.0,Magnetic levitation induction furnace
+TiNiSn,0.0051,-245.0,400.0,Magnetic levitation induction furnace
+TiNiSn,0.0051,-245.0,400.0,Magnetic levitation induction furnace
+TiNiSn,0.0051,-245.0,400.0,Magnetic levitation induction furnace
+Bi2Sr2Co2O8,0.00238,119.75,400.0,Solid state reaction + extra
+Bi2Sr2Co2O8,0.00238,119.75,400.0,Solid state reaction + extra
+Bi2Sr2Co2O8,0.00238,119.75,400.0,Solid state reaction + extra
+Bi2Sr2Co2O8,0.00238,119.75,400.0,Solid state reaction + extra
+K2Bi8Se13,0.03246,-196.16,400.0,Solid state reaction + extra
+K2Bi8Se13,0.004159,-219.62,400.0,Flux (Bi self-flux)
+Ca2Co2O5,0.001467,142.36,400.0,melted
+Ca2Co2O5,0.001467,142.36,400.0,melted
+Ca2Co2O5,0.001467,142.36,400.0,melted
+Ca2Co2O5,0.001467,142.36,400.0,melted
+ZnO,181.543206,-500.55,400.0,Solid state reaction
+ZnO,181.543206,-500.55,400.0,Solid state reaction
+Al0.02Zn0.98O,105.6963524,-289.98,400.0,Solid state reaction
+Al0.02Zn0.98O,105.6963524,-289.98,400.0,Solid state reaction
+Al0.02Zn0.98O,105.6963524,-289.98,400.0,Solid state reaction
+Ni0.02Zn0.98O,145.04741719999998,-206.81,400.0,Solid state reaction
+Ni0.02Zn0.98O,145.04741719999998,-206.81,400.0,Solid state reaction
+Ni0.02Zn0.98O,145.04741719999998,-206.81,400.0,Solid state reaction
+Zn0.9604Al0.0196Ni0.02O,40.25408877,-362.53,400.0,Solid state reaction
+Zn0.9604Al0.0196Ni0.02O,40.25408877,-362.53,400.0,Solid state reaction
+Zn0.9604Al0.0196Ni0.02O,40.25408877,-362.53,400.0,Solid state reaction
+WO2.9,0.00119,-31.41,400.0,Spark Plasma Sintering
+WO2.9,0.00119,-31.41,400.0,Spark Plasma Sintering
+WO2.9,0.00119,-31.41,400.0,Spark Plasma Sintering
+WO2.9,0.00119,-31.41,400.0,Spark Plasma Sintering
+WO2.722,0.0001,-25.21,400.0,Spark Plasma Sintering
+WO2.722,0.0001,-25.21,400.0,Spark Plasma Sintering
+WO2.722,0.0001,-25.21,400.0,Spark Plasma Sintering
+WO2.722,0.0001,-25.21,400.0,Spark Plasma Sintering
+TlCr5Se8,0.016,240.0,400.0,Solid state reaction
+TlCr5Se8,0.016,240.0,400.0,Solid state reaction
+TlCr5Se8,0.016,240.0,400.0,Solid state reaction
+LiMn2O4,85.3104,-147.0,400.0,Solid state reaction (oxalates)
+LiMn2O4,85.3104,-147.0,400.0,Solid state reaction (oxalates)
+LiMn2O4,85.3104,-147.0,400.0,Solid state reaction (oxalates)
+LiMn2O4,85.3104,-147.0,400.0,Solid state reaction (oxalates)
+CuFe0.9Cr0.1O2,0.0699656,299.003,400.0,Solid state reaction
+CuFe0.9Cr0.1O2,0.0699656,299.003,400.0,Solid state reaction
+CuFe0.9Cr0.1O2,0.0699656,299.003,400.0,Solid state reaction
+CuFe0.9Cr0.1O2,0.0699656,299.003,400.0,Solid state reaction
+CuRh0.9Mg0.1O2,0.0019370000000000001,115.116,400.0,Solid state reaction
+CuRh0.9Mg0.1O2,0.0019370000000000001,115.116,400.0,Solid state reaction
+CuRh0.9Mg0.1O2,0.0019370000000000001,115.116,400.0,Solid state reaction
+CuRh0.9Mg0.1O2,0.0019370000000000001,115.116,400.0,Solid state reaction
+CuCr0.98Mg0.02O2,0.119099,321.42900000000003,400.0,Solid state reaction
+CuCr0.98Mg0.02O2,0.119099,321.42900000000003,400.0,Solid state reaction
+CuCr0.98Mg0.02O2,0.119099,321.42900000000003,400.0,Solid state reaction
+CuCr0.98Mg0.02O2,0.119099,321.42900000000003,400.0,Solid state reaction
+WO3,809.8083993,107.57799999999999,400.0,Solid state reaction
+WO3,809.8083993,107.57799999999999,400.0,Solid state reaction
+WO3,809.8083993,107.57799999999999,400.0,Solid state reaction
+WO3,809.8083993,107.57799999999999,400.0,Solid state reaction
+W0.99O2.97Co0.02O0.03,707.6990581,97.0383,400.0,Solid state reaction
+W0.99O2.97Co0.02O0.03,707.6990581,97.0383,400.0,Solid state reaction
+W0.99O2.97Co0.02O0.03,707.6990581,97.0383,400.0,Solid state reaction
+W0.99O2.97Co0.02O0.03,707.6990581,97.0383,400.0,Solid state reaction
+W0.95O2.95Co0.1O0.15,99.41840235,106.01,400.0,Solid state reaction
+W0.95O2.95Co0.1O0.15,99.41840235,106.01,400.0,Solid state reaction
+W0.95O2.95Co0.1O0.15,99.41840235,106.01,400.0,Solid state reaction
+W0.95O2.95Co0.1O0.15,99.41840235,106.01,400.0,Solid state reaction
+W0.9O2.7Co0.2O0.3,175.70801540000002,105.575,400.0,Solid state reaction
+W0.9O2.7Co0.2O0.3,175.70801540000002,105.575,400.0,Solid state reaction
+W0.9O2.7Co0.2O0.3,175.70801540000002,105.575,400.0,Solid state reaction
+W0.9O2.7Co0.2O0.3,175.70801540000002,105.575,400.0,Solid state reaction
+CaMnO3,0.24169000000000002,-587.185,400.0,Solid state reaction
+CaMnO3,0.24169000000000002,-587.185,400.0,Solid state reaction
+CaMnO3,0.24169000000000002,-587.185,400.0,Solid state reaction
+CaMnO3,0.24169000000000002,-587.185,400.0,Solid state reaction
+CaYb0.05Mn0.95O3,0.0106095,-124.72,400.0,Solid state reaction
+CaYb0.05Mn0.95O3,0.0106095,-124.72,400.0,Solid state reaction
+CaYb0.05Mn0.95O3,0.0106095,-124.72,400.0,Solid state reaction
+CaYb0.05Mn0.95O3,0.0106095,-124.72,400.0,Solid state reaction
+CaYb0.1Mn0.9O3,0.0043831,-60.083999999999996,400.0,Solid state reaction
+CaYb0.1Mn0.9O3,0.0043831,-60.083999999999996,400.0,Solid state reaction
+CaYb0.1Mn0.9O3,0.0043831,-60.083999999999996,400.0,Solid state reaction
+CaYb0.1Mn0.9O3,0.0043831,-60.083999999999996,400.0,Solid state reaction
+CaYb0.15Mn0.85O3,0.00359065,-49.1597,400.0,Solid state reaction
+CaYb0.15Mn0.85O3,0.00359065,-49.1597,400.0,Solid state reaction
+CaYb0.15Mn0.85O3,0.00359065,-49.1597,400.0,Solid state reaction
+CaYb0.15Mn0.85O3,0.00359065,-49.1597,400.0,Solid state reaction
+CaYb0.4Mn0.6O3,0.012081200000000002,-20.028,400.0,Solid state reaction
+CaYb0.4Mn0.6O3,0.012081200000000002,-20.028,400.0,Solid state reaction
+CaYb0.4Mn0.6O3,0.012081200000000002,-20.028,400.0,Solid state reaction
+CaYb0.4Mn0.6O3,0.012081200000000002,-20.028,400.0,Solid state reaction
+In2O3,0.014948699999999999,-172.722,400.0,solid state reaction
+In2O3,0.014948699999999999,-172.722,400.0,solid state reaction
+In2O3,0.014948699999999999,-172.722,400.0,solid state reaction
+In2O3,0.014948699999999999,-172.722,400.0,solid state reaction
+In1.998Ge0.002O3,0.0023498,-105.83200000000001,400.0,solid state reaction
+In1.998Ge0.002O3,0.0023498,-105.83200000000001,400.0,solid state reaction
+In1.998Ge0.002O3,0.0023498,-105.83200000000001,400.0,solid state reaction
+In1.998Ge0.002O3,0.0023498,-105.83200000000001,400.0,solid state reaction
+In1.994Ge0.006O3,0.000942337,-62.4767,400.0,solid state reaction
+In1.994Ge0.006O3,0.000942337,-62.4767,400.0,solid state reaction
+In1.994Ge0.006O3,0.000942337,-62.4767,400.0,solid state reaction
+In1.994Ge0.006O3,0.000942337,-62.4767,400.0,solid state reaction
+In1.985Ge0.015O3,0.0008178969999999999,-56.5928,400.0,solid state reaction
+In1.985Ge0.015O3,0.0008178969999999999,-56.5928,400.0,solid state reaction
+In1.985Ge0.015O3,0.0008178969999999999,-56.5928,400.0,solid state reaction
+In1.985Ge0.015O3,0.0008178969999999999,-56.5928,400.0,solid state reaction
+In1.94Ge0.06O3,0.000995442,-60.6186,400.0,solid state reaction
+In1.94Ge0.06O3,0.000995442,-60.6186,400.0,solid state reaction
+In1.94Ge0.06O3,0.000995442,-60.6186,400.0,solid state reaction
+In1.94Ge0.06O3,0.000995442,-60.6186,400.0,solid state reaction
+In1.9Ge0.1O3,0.00143465,-65.5729,400.0,solid state reaction
+In1.9Ge0.1O3,0.00143465,-65.5729,400.0,solid state reaction
+In1.9Ge0.1O3,0.00143465,-65.5729,400.0,solid state reaction
+In1.9Ge0.1O3,0.00143465,-65.5729,400.0,solid state reaction
+In1.8Ge0.2O3,0.0027953,-64.0245,400.0,solid state reaction
+In1.8Ge0.2O3,0.0027953,-64.0245,400.0,solid state reaction
+In1.8Ge0.2O3,0.0027953,-64.0245,400.0,solid state reaction
+In1.8Ge0.2O3,0.0027953,-64.0245,400.0,solid state reaction
