@@ -69,15 +69,15 @@ class DataSet:
         component_list = ['Resist. (400K)', 'Seebeck (400K)', 'Formula'] + components
 
         # make a new DataFrame from the list
-        #
         new_df = self.data[component_list]
         new_df['T'] = 400
         new_df = new_df[np.isfinite(new_df['Resist. (400K)'])] # drop all the NaN rows
+        print(new_df)
         component_list = ['Resist', 'Seebeck', 'Formula'] + components + ['T (K)']
         new_df.columns = component_list
 
         # now make a df from the current self.data
-        old_component_list = ['T (K)', 'Resist. (400K)', 'Seebeck (400K)', 'Formula'] + components
+        old_component_list = ['T (K)', 'Resist. (Ohm.cm)', 'Seebeck (uV/K)', 'Formula'] + components
         old_df = self.data[old_component_list]
         old_component_list = ['T (K)', 'Resist', 'Seebeck', 'Formula'] + components
         old_df.columns = old_component_list # change column names
@@ -86,6 +86,10 @@ class DataSet:
 
     def export_to(self, name):
         self.df.to_csv(name + '.csv', index = False)
+
+
+
+
 
     @property
     def df(self):
@@ -97,15 +101,16 @@ class DataSet:
 
 
 # create a new DataSet object
-ds = DataSet()
-ds.getData('../data/TE_survey_csv.csv')
-ds.clean()
-ds.drop(['Authors', 'DOI', 'Comments', 'Comments.1', 'Author of Unit Cell', 'ICSD of structure','Unit Cell DOI'])
-
-# use extrapolate_400K to extrapolate more row data
-new_ds = DataSet()
-new_ds.data = ds.extrapolate_400K(['preparative route'])
-print(new_ds.df)
-new_ds.getInfo()
-# test write to csv, you can find the new_ds.csv under data directory.
-new_ds.export_to('../data/new_ds')
+# ds = DataSet()
+# ds.getData('../data/TE_survey_csv_repaired.csv')
+# ds.clean()
+# ds.getInfo()
+# ds.drop(['Authors', 'DOI', 'Comments', 'Comments.1', 'Author of Unit Cell','Unit Cell DOI'])
+#
+# # use extrapolate_400K to extrapolate more row data
+# new_ds = DataSet()
+# new_ds.data = ds.extrapolate_400K(['preparative route'])
+# print(new_ds.df)
+# new_ds.getInfo()
+# # test write to csv, you can find the new_ds.csv under data directory.
+# new_ds.export_to('../data/new_ds')

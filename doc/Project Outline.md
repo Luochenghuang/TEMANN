@@ -1,12 +1,14 @@
 # Progress
 ## Nate & Luke
-- [ ] get_api_data()
+- [X] get_api_data()
+- [x] Test
 
 ## Ellen
 - [ ] interpret_atom()
 
 ## Huang
-- [ ] DataSet
+- [X] DataSet
+- [ ] Test
 
 
 
