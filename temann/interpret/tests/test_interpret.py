@@ -1,6 +1,6 @@
 import re
 
-import temann
+from ..interpret import *
 
 
 def test_get_empirical_formula():
