@@ -22,6 +22,12 @@ Markdown format, describes what package does, team name, any cool logos (optiona
 # TEMANN
 * This a repo for our project.
 
+# Installation
+```
+cd TEMANN
+python setup.py install
+```
+
 # Meeting Time
 * Mondays and Wednesdays morning at 9:30 am.
 
