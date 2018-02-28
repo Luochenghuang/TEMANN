@@ -101,15 +101,16 @@ class DataSet:
 
 
 # create a new DataSet object
-ds = DataSet()
-ds.getData('../data/TE_survey_csv_repaired.csv')
-ds.clean()
-ds.drop(['Authors', 'DOI', 'Comments', 'Comments.1', 'Author of Unit Cell','Unit Cell DOI'])
-
-# use extrapolate_400K to extrapolate more row data
-new_ds = DataSet()
-new_ds.data = ds.extrapolate_400K(['preparative route'])
-print(new_ds.df)
-new_ds.getInfo()
-# test write to csv, you can find the new_ds.csv under data directory.
-new_ds.export_to('../data/new_ds')
+# ds = DataSet()
+# ds.getData('../data/TE_survey_csv_repaired.csv')
+# ds.clean()
+# ds.getInfo()
+# ds.drop(['Authors', 'DOI', 'Comments', 'Comments.1', 'Author of Unit Cell','Unit Cell DOI'])
+#
+# # use extrapolate_400K to extrapolate more row data
+# new_ds = DataSet()
+# new_ds.data = ds.extrapolate_400K(['preparative route'])
+# print(new_ds.df)
+# new_ds.getInfo()
+# # test write to csv, you can find the new_ds.csv under data directory.
+# new_ds.export_to('../data/new_ds')
