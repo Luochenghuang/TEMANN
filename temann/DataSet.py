@@ -72,7 +72,6 @@ class DataSet:
         new_df = self.data[component_list]
         new_df['T'] = 400
         new_df = new_df[np.isfinite(new_df['Resist. (400K)'])] # drop all the NaN rows
-        print(new_df)
         component_list = ['Resist', 'Seebeck', 'Formula'] + components + ['T (K)']
         new_df.columns = component_list
 
