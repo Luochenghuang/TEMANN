@@ -2,6 +2,7 @@ import numpy as np
 import pandas as pd
 from pandas import DataFrame as df
 import textwrap
+
 # to prevent SettingWithCopyWarning;
 pd.options.mode.chained_assignment = None  # default='warn'
 
@@ -81,14 +82,27 @@ class DataSet:
         old_component_list = ['T (K)', 'Resist', 'Seebeck', 'Formula'] + components
         old_df.columns = old_component_list # change column names
 
-        return pd.concat([old_df,new_df], ignore_index = True)
+        final_df = pd.concat([old_df,new_df], ignore_index = True)
+
+        # delete duplicates
+        final_df.drop_duplicates(keep=False)
+
+        return final_df
 
     def export_to(self, name):
         self.df.to_csv(name + '.csv', index = False)
 
 
-
-
+    def split(self, percentage):
+        '''
+        this function splits the DataSet into two dataframes: test set and training set
+        :param percentage: the percentage data for testing
+        :return: tupled (test_set, training set)
+        '''
+        msk = np.random.rand(len(self.df))
+        train = self.df[msk]
+        test = self.df[~msk]
+        return (test, train)
 
     @property
     def df(self):
@@ -104,6 +118,8 @@ class DataSet:
 # ds.getData('../data/TE_survey_csv_repaired.csv')
 # ds.clean()
 # ds.getInfo()
+#
+
 # ds.drop(['Authors', 'DOI', 'Comments', 'Comments.1', 'Author of Unit Cell','Unit Cell DOI'])
 #
 # # use extrapolate_400K to extrapolate more row data
