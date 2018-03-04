@@ -1,0 +1,8 @@
+*.pyc
+*~
+*.DS_Store
+.cache/*
+build/*
+*/__pycache__/*
+temann.egg-info/*
+dist/*
