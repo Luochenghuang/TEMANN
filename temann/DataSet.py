@@ -6,6 +6,7 @@ import textwrap
 # to prevent SettingWithCopyWarning;
 pd.options.mode.chained_assignment = None  # default='warn'
 
+
 class DataSet:
     '''
     DataSet stores pandas data.
@@ -32,7 +33,8 @@ class DataSet:
         '''
 
         # shape
-        print('{} rows and {} columns.'.format(self.data.shape[0],self.data.shape[1]))
+        print('{} rows and {} columns.'.format(self.data.shape[0],
+              self.data.shape[1]))
         # components
         strs = ', '.join(list(self.data.columns.values))
         print('Components are: ')
@@ -61,28 +63,34 @@ class DataSet:
     def extrapolate_400K(self, components):
         '''
         input a list! For instance: ['preparative route']
-        For every row that has 400K properties, create a new row with properties and add to the data
+        For every row that has 400K properties, create a new row with
+        properties and add to the data
         :input: list of components of interest
         :return: static method
         '''
 
         # components including TE properties at 400K
-        component_list = ['Resist. (400K)', 'Seebeck (400K)', 'Formula'] + components
+        component_list = ['Resist. (400K)', 'Seebeck (400K)', 'Formula']\
+            + components
 
         # make a new DataFrame from the list
         new_df = self.data[component_list]
         new_df['T'] = 400
-        new_df = new_df[np.isfinite(new_df['Resist. (400K)'])] # drop all the NaN rows
-        component_list = ['Resist', 'Seebeck', 'Formula'] + components + ['T (K)']
+        # drop all the NaN rows
+        new_df = new_df[np.isfinite(new_df['Resist. (400K)'])]
+        component_list = ['Resist', 'Seebeck', 'Formula']\
+            + components + ['T (K)']
         new_df.columns = component_list
 
         # now make a df from the current self.data
-        old_component_list = ['T (K)', 'Resist. (Ohm.cm)', 'Seebeck (uV/K)', 'Formula'] + components
+        old_component_list = ['T (K)', 'Resist. (Ohm.cm)', 'Seebeck (uV/K)',
+                              'Formula'] + components
         old_df = self.data[old_component_list]
-        old_component_list = ['T (K)', 'Resist', 'Seebeck', 'Formula'] + components
-        old_df.columns = old_component_list # change column names
+        old_component_list = ['T (K)', 'Resist', 'Seebeck', 'Formula']\
+            + components
+        old_df.columns = old_component_list  # change column names
 
-        final_df = pd.concat([old_df,new_df], ignore_index = True)
+        final_df = pd.concat([old_df, new_df], ignore_index=True)
 
         # delete duplicates
         final_df.drop_duplicates(keep=False)
@@ -90,12 +98,12 @@ class DataSet:
         return final_df
 
     def export_to(self, name):
-        self.df.to_csv(name + '.csv', index = False)
-
+        self.df.to_csv(name + '.csv', index=False)
 
     def split(self, percentage):
         '''
-        this function splits the DataSet into two dataframes: test set and training set
+        this function splits the DataSet into two dataframes:
+        test set and training set
         :param percentage: the percentage data for testing
         :return: tupled (test_set, training set)
         '''
@@ -120,8 +128,9 @@ class DataSet:
 # ds.getInfo()
 #
 
-# ds.drop(['Authors', 'DOI', 'Comments', 'Comments.1', 'Author of Unit Cell','Unit Cell DOI'])
-#
+# ds.drop(['Authors', 'DOI', 'Comments', 'Comments.1',
+#          'Author of Unit Cell','Unit Cell DOI'])
+
 # # use extrapolate_400K to extrapolate more row data
 # new_ds = DataSet()
 # new_ds.data = ds.extrapolate_400K(['preparative route'])
