@@ -32,4 +32,3 @@ def test_get_atomic_info():
     return
 
 
-test_get_atomic_info()
