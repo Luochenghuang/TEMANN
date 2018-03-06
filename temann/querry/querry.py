@@ -12,8 +12,20 @@ def get_atomic_info(element):
     '''
 
     e = mg.Element(element)
-    properties = [e.atomic_mass, e.weight]
+    # list of attribute keywords
+    keywords = ["mendeleev_no", "electrical_resistivity",
+                    "velocity_of_sound", "reflectivity",
+                    "refractive_index", "poissons_ratio", "molar_volume",
+                    "electronic_structure", "thermal_conductivity",
+                    "boiling_point", "melting_point",
+                    "critical_temperature", "superconduction_temperature",
+                    "liquid_range", "bulk_modulus", "youngs_modulus",
+                    "brinell_hardness", "rigidity_modulus",
+                    "mineral_hardness", "vickers_hardness",
+                    "density_of_solid", "atomic_radius_calculated",
+                    "van_der_waals_radius", "atomic_orbitals",
+                    "coefficient_of_linear_thermal_expansion"]
+
+    properties = [getattr(e, x) for x in keywords]
 
     return properties
-
-print(get_atomic_info('Ca'))
