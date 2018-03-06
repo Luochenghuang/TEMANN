@@ -12,8 +12,7 @@ def get_atomic_info(element):
     '''
 
     e = mg.Element(element)
-    properties = [e.atomic_mass, e.weight]
+    properties = [e.atomic_mass]
 
     return properties
 
-print(get_atomic_info('Ca'))
