@@ -25,9 +25,9 @@ def test_get_empirical_formula():
     assert set([0.98, 0.02, 1, 3]).issubset(elements1.values()), \
         "Incorrect list of coefficients in formula"
         
-    assert type(elements1['Ca']) is float, "Doping percent not a float"
-    assert type(elements1['Mn']) is int, "Doping percent not a float"
-    assert type(elements1['O']) is int, "Doping percent not a float"
+    assert type(elements1['Ca']) is float, "Proportion value not a float"
+    assert type(elements1['Mn']) is int, "Proportion value not an int"
+    assert type(elements1['O']) is int, "Proportion value not an int"
     
        
     # Check output of valid run with no doping percentages
