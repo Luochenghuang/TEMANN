@@ -18,7 +18,7 @@ class DataSet:
         pass
 
     # read_csv
-    def getData(self, path):
+    def get_data(self, path):
         '''
         reads data from path
         :param path: path (or url)
@@ -26,7 +26,7 @@ class DataSet:
         '''
         self.data = pd.read_csv(path)
 
-    def getInfo(self):
+    def get_info(self):
         '''
         gets shape and columns
         :return:
@@ -105,12 +105,14 @@ class DataSet:
         this function splits the DataSet into two dataframes:
         test set and training set
         :param percentage: the percentage data for testing
-        :return: tupled (test_set, training set)
+        :return: tuple (test_set, training set)
         '''
         msk = np.random.rand(len(self.df))
         train = self.df[msk]
         test = self.df[~msk]
         return (test, train)
+
+
 
     @property
     def df(self):
@@ -123,9 +125,9 @@ class DataSet:
 
 # create a new DataSet object
 # ds = DataSet()
-# ds.getData('../data/TE_survey_csv_repaired.csv')
+# ds.get_data('../data/TE_survey_csv_repaired.csv')
 # ds.clean()
-# ds.getInfo()
+# ds.get_info()
 #
 
 # ds.drop(['Authors', 'DOI', 'Comments', 'Comments.1',
