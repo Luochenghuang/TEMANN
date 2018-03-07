@@ -1,6 +1,3 @@
-import os
-os.getcwd()
-
 import pandas as pd
 import numpy as np
 import pymatgen as mg
@@ -16,12 +13,6 @@ def get_atomic_info(element):
     '''
 
     e = mg.Element(element)
-<<<<<<< HEAD
-    properties = [e.atomic_mass]
-
-    return properties
-
-=======
     # list of attribute keywords
     keywords = ["mendeleev_no", "electrical_resistivity",
                 "velocity_of_sound", "reflectivity",
@@ -49,23 +40,22 @@ def get_short_atomic_info(element):
     e = mg.Element(element)
     # list of attribute keywords
     keywords = ["mendeleev_no", "electrical_resistivity",
-                "velocity_of_sound", "reflectivity",
-                # "refractive_index", "poissons_ratio", "molar_volume",
-                # "electronic_structure",
+                "velocity_of_sound", # "reflectivity",
+                #"refractive_index", "poissons_ratio", "molar_volume",
+                #"electronic_structure",
                 "thermal_conductivity",
                 "boiling_point", "melting_point",
-                # "critical_temperature",
-                "superconduction_temperature",
-                # "liquid_range",
+                #"critical_temperature",
+                # "superconduction_temperature",
+                #"liquid_range",
                 "bulk_modulus", "youngs_modulus",
                 "brinell_hardness", "rigidity_modulus",
-                "mineral_hardness", "vickers_hardness",
+                "mineral_hardness", # "vickers_hardness",
                 "density_of_solid", "atomic_radius_calculated",
-                "van_der_waals_radius", "atomic_orbitals",
+                "van_der_waals_radius", # "atomic_orbitals",
                 "coefficient_of_linear_thermal_expansion"]
 
     properties = [getattr(e, x) for x in keywords]
-
     return properties
 
 
@@ -77,4 +67,14 @@ def compound_to_descriptors(compound):
         list.extend([value] + get_atomic_info(key))
 
     return list
->>>>>>> 63203cfef1f402149e918b27ed47b2d032e17955
+
+
+def compound_short_descriptors(compound):
+    """This converts the dictionary of compounds to a list of desciptors (raveled)
+    This is a shorter version!"""
+    dict = get_empirical_formula(compound)
+    list = []
+    for key, value in dict.items():
+        list.extend([value] + get_short_atomic_info(key))
+
+    return list
