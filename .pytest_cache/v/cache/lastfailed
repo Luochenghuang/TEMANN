@@ -1,0 +1,4 @@
+{
+  "temann/querry/test_querry.py::test_get_atomic_info": true,
+  "temann/test_run.py": true
+}

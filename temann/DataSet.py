@@ -8,9 +8,9 @@ pd.options.mode.chained_assignment = None  # default='warn'
 
 
 class DataSet:
-    '''
+    """
     DataSet stores pandas data.
-    '''
+    """
 
     # initiate
     def __init__(self):
@@ -19,18 +19,19 @@ class DataSet:
 
     # read_csv
     def get_data(self, path):
-        '''
+        """
         reads data from path
-        :param path: path (or url)
+        :param path
+        :path (or url)
         :return:
-        '''
+        """
         self.data = pd.read_csv(path)
 
     def get_info(self):
-        '''
-        gets shape and columns
-        :return:
-        '''
+       """
+       gets shape and columns
+       :return:
+       """
 
         # shape
         print('{} rows and {} columns.'.format(self.data.shape[0],
@@ -41,10 +42,10 @@ class DataSet:
         print(textwrap.fill(strs, 70))
 
     def clean(self):
-        '''
+        """
         static method that get rid of unnamed columns
         :return:
-        '''
+        """
         # get rid of 'Unnamed' columns and empty rows
         for col in self.data.columns:
             if 'Unnamed' in col:
@@ -53,21 +54,21 @@ class DataSet:
         self.data = self.data.dropna(axis=0, how='all')
 
     def drop(self, components):
-        '''
+        """
         drop a list of components
         :param components: list[component1, component2...]
         :return:
-        '''
+        """
         self.data = self.data.drop(components, axis=1)
 
     def extrapolate_400K(self, components):
-        '''
+        """
         input a list! For instance: ['preparative route']
         For every row that has 400K properties, create a new row with
         properties and add to the data
         :input: list of components of interest
         :return: static method
-        '''
+        """
 
         # components including TE properties at 400K
         component_list = ['Resist. (400K)', 'Seebeck (400K)', 'Formula']\
@@ -101,12 +102,12 @@ class DataSet:
         self.df.to_csv(name + '.csv', index=False)
 
     def split(self, percentage):
-        '''
+        """
         this function splits the DataSet into two dataframes:
         test set and training set
         :param percentage: the percentage data for testing
         :return: tuple (test_set, training set)
-        '''
+        """
         msk = np.random.rand(len(self.df))
         train = self.df[msk]
         test = self.df[~msk]
@@ -116,10 +117,10 @@ class DataSet:
 
     @property
     def df(self):
-        '''
+        """
         returns the internal DataFrame
         :return: DataFrame
-        '''
+        """
         return self.data
 
 

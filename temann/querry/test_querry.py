@@ -32,10 +32,11 @@ def test_get_atomic_info():
     return True
 
 def test_get_short_atomic_info():
-    """"""
-    # Test non-string inputs
+
+    # Test non-string inputs and string that's not an element
     a_integer = 2
     a_float = 2.5
+    falseelement = 'ab'
     try:
         get_short_atomic_info(a_integer)
     except Exception:
@@ -44,11 +45,14 @@ def test_get_short_atomic_info():
         raise Exception("Input must be a string and the name of an element")
     try:
         get_short_atomic_info(a_float)
-    except(Exception):
+    except Exception:
         pass
     else:
         raise Exception("Input must be a string and the name of an element")
-
+    try:
+        get_short_atomic_info(falseelement)
+    except Exception:
+        pass
+    else:
+        raise Exception("Input must be element on the periodic table")
     return True
-
-
