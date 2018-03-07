@@ -74,5 +74,5 @@ MAJOR = _version_major
 MINOR = _version_minor
 MICRO = _version_micro
 VERSION = __version__
-PACKAGE_DATA = {'temann': [pjoin('data', '*')]}
+PACKAGE_DATA = {'temann': [pjoin('data', '_data', '*')]}
 REQUIRES = ["numpy", "pandas"]
