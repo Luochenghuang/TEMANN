@@ -28,10 +28,10 @@ class DataSet:
         self.data = pd.read_csv(path)
 
     def get_info(self):
-       """
-       gets shape and columns
-       :return:
-       """
+        """
+        gets shape and columns
+        :return:
+        """
 
         # shape
         print('{} rows and {} columns.'.format(self.data.shape[0],

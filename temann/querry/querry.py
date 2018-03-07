@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 import pymatgen as mg
-from interpret import get_empirical_formula
+from ..interpret import get_empirical_formula
 from pymatgen import MPRester
 
 a = MPRester('9Mh5d6mP4sgSBzeE')
