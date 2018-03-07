@@ -36,7 +36,7 @@ def get_atomic_info(element):
 
 def get_short_atomic_info(element):
     '''
-    inputes an element (Str), returns the properties
+    inputs an element (Str), returns the properties
     :return: list
     '''
 
@@ -44,13 +44,13 @@ def get_short_atomic_info(element):
     # list of attribute keywords
     keywords = ["mendeleev_no", "electrical_resistivity",
                 "velocity_of_sound", "reflectivity",
-                #"refractive_index", "poissons_ratio", "molar_volume",
-                #"electronic_structure",
+                # "refractive_index", "poissons_ratio", "molar_volume",
+                # "electronic_structure",
                 "thermal_conductivity",
                 "boiling_point", "melting_point",
-                #"critical_temperature",
+                # "critical_temperature",
                 "superconduction_temperature",
-                #"liquid_range",
+                # "liquid_range",
                 "bulk_modulus", "youngs_modulus",
                 "brinell_hardness", "rigidity_modulus",
                 "mineral_hardness", "vickers_hardness",
