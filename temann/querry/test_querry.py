@@ -14,7 +14,7 @@ def test_get_atomic_info():
     # Try passing a number
     try:
         get_empirical_formula(1234)
-    except(Exception):
+    except Exception:
         pass
     else:
         raise Exception("Bad input allowed",
@@ -29,6 +29,26 @@ def test_get_atomic_info():
     assert len(output_2) == 25, \
         "Wrong output length"
 
-    return
+    return True
+
+def test_get_short_atomic_info():
+    """"""
+    # Test non-string inputs
+    a_integer = 2
+    a_float = 2.5
+    try:
+        get_short_atomic_info(a_integer)
+    except Exception:
+        pass
+    else:
+        raise Exception("Input must be a string and the name of an element")
+    try:
+        get_short_atomic_info(a_float)
+    except(Exception):
+        pass
+    else:
+        raise Exception("Input must be a string and the name of an element")
+
+    return True
 
 
