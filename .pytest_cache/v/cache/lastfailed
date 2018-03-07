@@ -1,4 +1,7 @@
 {
+  "temann/querry/test_querry.py": true,
   "temann/querry/test_querry.py::test_get_atomic_info": true,
+  "temann/querry/tests/test_querry.py::test_get_atomic_info": true,
+  "temann/spacegroup/tests/test_expand_spacegroup.py::test_expand_spacegroup": true,
   "temann/test_run.py": true
 }
