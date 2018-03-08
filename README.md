@@ -32,8 +32,7 @@ python setup.py install
 * Mondays and Wednesdays morning at 9:30 am.
 
 # Workflow
-
-https://github.com/Luochenghuang/TEMANN/blob/master/doc/TEMANN.pdf
+![alt text](https://raw.githubusercontent.com/Luochenghuang/TEMANN/master/doc/TEMANN.jpg "This is our flowchart")
 
 
 
