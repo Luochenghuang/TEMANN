@@ -1,6 +1,3 @@
-# Add this line to the beginning of relative.py file
-#import sys
-#sys.path.append('..')
 
 from ..querry import *
 from ..interpret import get_empirical_formula
