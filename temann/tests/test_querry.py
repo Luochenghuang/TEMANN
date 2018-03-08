@@ -56,3 +56,19 @@ def test_get_short_atomic_info():
     else:
         raise Exception("Input must be element on the periodic table")
     return True
+
+def test_compound_to_descriptors():
+
+    # make sure output is list
+    test1 = compound_to_descriptors("Mn0.5B0.3C1.2")
+    assert isinstance(test1, list),\
+        "Output is not a list"
+
+    # ensure descriptors for each element is obtained
+
+    return True
+
+def test_compound_short_descriptors():
+
+
+    return True

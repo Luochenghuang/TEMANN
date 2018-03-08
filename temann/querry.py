@@ -60,7 +60,7 @@ def get_short_atomic_info(element):
 
 
 def compound_to_descriptors(compound):
-    """This converts the dictionary of compounds to a list of desciptors (raveled)"""
+    """This converts the dictionary of compounds to a list of descriptors (raveled)"""
     dict = get_empirical_formula(compound)
     list = []
     for key, value in dict.items():
