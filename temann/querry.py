@@ -7,10 +7,10 @@ from pymatgen import MPRester
 a = MPRester('9Mh5d6mP4sgSBzeE')
 
 def get_atomic_info(element):
-    '''
+    """
     inputes an element (Str), returns the properties
     :return: list
-    '''
+    """
 
     e = mg.Element(element)
     # list of attribute keywords
@@ -32,10 +32,10 @@ def get_atomic_info(element):
     return properties
 
 def get_short_atomic_info(element):
-    '''
+    """
     inputs an element (Str), returns the properties
     :return: list
-    '''
+    """
 
     e = mg.Element(element)
     # list of attribute keywords
