@@ -8,7 +8,7 @@ a = MPRester('9Mh5d6mP4sgSBzeE')
 
 def get_atomic_info(element):
     """
-    inputes an element (Str), returns the properties
+    inputs an element (Str), returns a number of properties
     :return: list
     """
 
@@ -33,7 +33,7 @@ def get_atomic_info(element):
 
 def get_short_atomic_info(element):
     """
-    inputs an element (Str), returns the properties
+    inputs an element (Str), returns a shorter number of  properties than get_atomic_info
     :return: list
     """
 
@@ -70,8 +70,9 @@ def compound_to_descriptors(compound):
 
 
 def compound_short_descriptors(compound):
-    """This converts the dictionary of compounds to a list of desciptors (raveled)
+    """This converts the dictionary of compounds to a list of descriptors (raveled)
     This is a shorter version!"""
+
     dict = get_empirical_formula(compound)
     list = []
     for key, value in dict.items():
