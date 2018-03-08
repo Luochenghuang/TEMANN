@@ -12,6 +12,9 @@ def get_atomic_info(element):
     :return: list
     """
 
+    assert element[0].isupper(), \
+        "First letter must be capitalized, follow the periodic table"
+
     e = mg.Element(element)
     # list of attribute keywords
     keywords = ["mendeleev_no", "electrical_resistivity",
@@ -37,6 +40,9 @@ def get_short_atomic_info(element):
     :return: list
     """
 
+    assert element[0].isupper(), \
+        "First letter must be capitalized, follow the periodic table"
+
     e = mg.Element(element)
     # list of attribute keywords
     keywords = ["mendeleev_no", "electrical_resistivity",
@@ -60,7 +66,7 @@ def get_short_atomic_info(element):
 
 
 def compound_to_descriptors(compound):
-    """This converts the dictionary of compounds to a list of descriptors (raveled)"""
+    """This converts the dictionary of compounds to a list of all descriptors available (raveled)"""
     dict = get_empirical_formula(compound)
     list = []
     for key, value in dict.items():
@@ -70,7 +76,7 @@ def compound_to_descriptors(compound):
 
 
 def compound_short_descriptors(compound):
-    """This converts the dictionary of compounds to a list of descriptors (raveled)
+    """This converts the dictionary of compounds to a list of descriptors that are relevant for our ANN(raveled)
     This is a shorter version!"""
 
     dict = get_empirical_formula(compound)
