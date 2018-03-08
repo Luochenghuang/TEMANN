@@ -3,7 +3,7 @@
 #sys.path.append('..')
 
 from ..querry import *
-from ...interpret import get_empirical_formula
+from ..interpret import get_empirical_formula
 
 def test_get_atomic_info():
 
@@ -14,15 +14,12 @@ def test_get_atomic_info():
     # Try passing a number
     try:
         get_atomic_info(1234)
-        #get_empirical_formula(1234)
     except Exception:
         pass
     else:
         raise Exception("Bad input allowed",
                         "Error not raised when numerical value is passed")
 
-    #output_1 = get_empirical_formula(test_form1)
-    #output_2 = get_empirical_formula(test_form2)
     output_1 = get_atomic_info(test_form1)
     output_2 = get_atomic_info(test_form2)
 
