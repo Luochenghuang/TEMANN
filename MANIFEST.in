@@ -1,1 +1,2 @@
 include data/_data/TEMDB.csv
+include *.csv
