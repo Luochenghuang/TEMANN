@@ -1,4 +1,4 @@
-from ..expand_spacegroup import expand_spacegroup as sg
+from .. import expand_spacegroup as sg
 #import ..expand_spacegroup as sg
 import numpy as np
 

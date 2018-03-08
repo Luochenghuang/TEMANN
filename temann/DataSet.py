@@ -113,8 +113,6 @@ class DataSet:
         test = self.df[~msk]
         return (test, train)
 
-
-
     @property
     def df(self):
         """
