@@ -8,6 +8,7 @@ def test_get_atomic_info():
     test_form1 = "Ca"
     test_form2 = "La"
     test_form3 = "ga"
+    not_element = "Az"
     # Try passing a number
     try:
         get_atomic_info(1234)
@@ -32,6 +33,12 @@ def test_get_atomic_info():
         pass
     else:
         raise Exception("Did not catch case of non-capitalized element")
+    try:
+        get_short_atomic_info(not_element)
+    except Exception:
+        pass
+    else:
+        raise Exception("Did not catch case of non-element input")
     return True
 
 
@@ -41,7 +48,7 @@ def test_get_short_atomic_info():
     test1 = "H"
     a_integer = 2
     a_float = 2.5
-    not_element = "ab"
+    not_element = "Az"
     not_capitalize = "ga"
     # Ensure output is correct length
     results = get_short_atomic_info(test1)

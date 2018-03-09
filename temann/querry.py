@@ -79,9 +79,12 @@ def compound_short_descriptors(compound):
     """This converts the dictionary of compounds to a list of descriptors that are relevant for our ANN(raveled)
     This is a shorter version!"""
 
+    # get_empirical_formula returns a dictionary with elements and corresponding stoichiometry
     dict = get_empirical_formula(compound)
     list = []
+    # populate list with stoichiometry
     for key, value in dict.items():
         list.extend([value] + get_short_atomic_info(key))
 
     return list
+
