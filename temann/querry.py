@@ -69,9 +69,11 @@ def compound_to_descriptors(compound):
     """This converts the dictionary of compounds to a list of all descriptors available (raveled)"""
     dict = get_empirical_formula(compound)
     list = []
+    # populate list with stoichiometry
     for key, value in dict.items():
         list.extend([value] + get_atomic_info(key))
-
+    # Ensure output length is right size, use dummy variable "H" to get length
+    assert len(list) == len(get_atomic_info("H"))*len(dict)+len(dict), "Output is wrong length"
     return list
 
 
@@ -85,6 +87,7 @@ def compound_short_descriptors(compound):
     # populate list with stoichiometry
     for key, value in dict.items():
         list.extend([value] + get_short_atomic_info(key))
-
+    # Ensure output length is right size, use dummy variable, "H" to get length
+    assert len(list) == len(get_short_atomic_info("H"))*len(dict)+len(dict), "Output is wrong length"
     return list
 

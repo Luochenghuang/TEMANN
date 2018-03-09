@@ -90,12 +90,22 @@ def test_compound_to_descriptors():
     test1 = compound_to_descriptors("Mn0.5B0.3C1.2")
     assert isinstance(test1, list),\
         "Output is not a list"
-
+    # output should be 25 descriptors * number of elements + number of elements
+    assert len(test1) == 78,\
+        "Wrong output length"
     # ensure descriptors for each element is obtained
 
     return True
 
 def test_compound_short_descriptors():
 
+    # make sure output is list
+    test1 = compound_short_descriptors("Mn0.5B0.3C1.2")
+    assert isinstance(test1, list),\
+        "Output is not a list"
+    # output should be 15 descriptors * number of elements + number of elements
+    assert len(test1) == 48,\
+        "Wrong output length"
+    # ensure descriptors for each element is obtained
 
     return True
