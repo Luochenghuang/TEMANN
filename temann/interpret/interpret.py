@@ -6,7 +6,14 @@ def get_empirical_formula(formula):
     Converts chemical formula to empirical formula and respective
     coefficients for doping and proportions.
 
+    Input:
+    formula (string)
+
+    Output:
+    elements (dictionary)
+
     Example:
+    >>> import temann
     >>> emp_form = temann.get_empirical_formula("Ca0.98La0.02MnO3")
     >>> emp_form
     {'Ca': 0.98, 'La': 0.02, 'Mn': 1, 'O': 3}

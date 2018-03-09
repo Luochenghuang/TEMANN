@@ -12,6 +12,9 @@ def get_atomic_info(element):
     :return: list
     """
 
+    assert element[0].isupper(), \
+        "First letter must be capitalized, follow the periodic table"
+
     e = mg.Element(element)
     # list of attribute keywords
     keywords = ["mendeleev_no", "electrical_resistivity",
@@ -37,6 +40,9 @@ def get_short_atomic_info(element):
     :return: list
     """
 
+    assert element[0].isupper(), \
+        "First letter must be capitalized, follow the periodic table"
+
     e = mg.Element(element)
     # list of attribute keywords
     keywords = ["mendeleev_no", "electrical_resistivity",
@@ -60,22 +66,28 @@ def get_short_atomic_info(element):
 
 
 def compound_to_descriptors(compound):
-    """This converts the dictionary of compounds to a list of descriptors (raveled)"""
+    """This converts the dictionary of compounds to a list of all descriptors available (raveled)"""
     dict = get_empirical_formula(compound)
     list = []
+    # populate list with stoichiometry
     for key, value in dict.items():
         list.extend([value] + get_atomic_info(key))
-
+    # Ensure output length is right size, use dummy variable "H" to get length
+    assert len(list) == len(get_atomic_info("H"))*len(dict)+len(dict), "Output is wrong length"
     return list
 
 
 def compound_short_descriptors(compound):
-    """This converts the dictionary of compounds to a list of descriptors (raveled)
+    """This converts the dictionary of compounds to a list of descriptors that are relevant for our ANN(raveled)
     This is a shorter version!"""
 
+    # get_empirical_formula returns a dictionary with elements and corresponding stoichiometry
     dict = get_empirical_formula(compound)
     list = []
+    # populate list with stoichiometry
     for key, value in dict.items():
         list.extend([value] + get_short_atomic_info(key))
-
+    # Ensure output length is right size, use dummy variable, "H" to get length
+    assert len(list) == len(get_short_atomic_info("H"))*len(dict)+len(dict), "Output is wrong length"
     return list
+
