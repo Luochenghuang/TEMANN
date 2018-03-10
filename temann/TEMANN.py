@@ -62,10 +62,27 @@ class TEMANN:
 #         array = array.T
         return ndf
     
-    def _transform_spacegroup():
+    def _transform_spacegroup(self, spacegroup):
+        """
+        Input:
+        spacegroup, (int)
+
+        Output:
+        encoded categorical spacegroup features
+
+        uses encode_categorical()
+        """
         return spacegroup_features
     
     def _join_features(self, compound_features, spacegroup_features, T):
+        """
+        Input:
+        compound and spacegroup feature vectors
+
+        Output:
+        joined
+        """
+
         return joined_features
     
     def _scale_features(self, features):
