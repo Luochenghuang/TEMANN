@@ -4,6 +4,7 @@ import numpy as np
 import spglib
 import ase.spacegroup
 from ase.spacegroup import Spacegroup
+from temann.MapToInt import *
 
 # number of spacegroups
 num = 230
@@ -44,7 +45,10 @@ for i in range(len(df)):
     # notation = notation[2:]
     # df.iloc[i, 5] = notation
 
-# function to input spacegroup and output spacegroup data
+# ANN takes numerical values only, map crystal systems and lattice to unique values using MapToInt
+encode_columns(df, 'crystal system')
+encode_columns(df, 'lattice type')
+
 def expand_spacegroup(sg):
     """Input a spacegroup number and this function returns various symmetry related descriptors for the material"""
     sg_info = df.loc[sg-1, :]

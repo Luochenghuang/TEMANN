@@ -1,6 +1,5 @@
 from ..interpret import *
 
-
 def test_get_empirical_formula():
     
     # Test formula inputs
@@ -28,7 +27,6 @@ def test_get_empirical_formula():
     assert type(elements1['Ca']) is float, "Proportion value not a float"
     assert type(elements1['Mn']) is int, "Proportion value not an int"
     assert type(elements1['O']) is int, "Proportion value not an int"
-    
        
     # Check output of valid run with no doping percentages
     elements2 = get_empirical_formula(test_form2)
