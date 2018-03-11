@@ -1,8 +1,14 @@
-# imports here
+from keras.models import model_from_json
+import numpy as np
+import pandas as pd
+from sklearn.externals import joblib
+from sklearn.preprocessing import StandardScaler, LabelEncoder
 
-def encode_categorical(feature):
-    
-    return encoded_feature
+from temann import DataSet
+from temann.data import TEMDB
+from temann.querry import *
+from temann.spacegroup import *
+from temann.util import *
 
 
 class TEMANN:
@@ -10,7 +16,7 @@ class TEMANN:
     def __init__(self):
         self.scaler = None
         self.model = None
-        self.encoder = None
+        self.encoder = {}
         return
     
     def load_model(self, json_file, weights_file):
@@ -41,26 +47,25 @@ class TEMANN:
         """
         self.scaler = joblib.load(file_path(scaler_file))
         return
-    
-    def load_encoder(self, encoder_file):
-        self.encoder = joblib.load(file_path(encoder_file))
+
+    def load_encoder(self, encoder_file, encoder_id):
+        self.encoder[encoder_id] = joblib.load(file_path(encoder_file))
         return
+
+    def _encode_categorical(self, feature, encoder_id):
+        return int(self.encoder[encoder_id].transform([feature]))
     
     def _transform_compound(self, compound):
-        """Converts one sample to raw data for predicting thru ANN"""
-        array = np.zeros(80) # create an empty array with zeros
-        descriptors = np.array(compound_short_descriptors(compound)) # load descriptors 
-        for index, x in np.ndenumerate(descriptors):
-            array[index] = x
-        ndf = pd.DataFrame(data=array)
-        # clean up the data (get rid of strings and NaNs.)
-        ndf = ndf.append([T])
-        ndf.apply(pd.to_numeric)
-        ndf = ndf.fillna(0)
-
-#         array = self.scaler.transform(ndf)
-#         array = array.T
-        return ndf
+        """
+        Converts one sample to raw data for predicting thru ANN.
+        """
+        cmpd_features = np.array(compound_short_descriptors(compound),
+                                 dtype=np.float)
+        cmpd_features = np.pad(cmpd_features, (0, 80-cmpd_features.shape[0]),
+                               mode='constant')
+        cmpd_features = np.nan_to_num(cmpd_features)
+        
+        return cmpd_features
     
     def _transform_spacegroup(self, spacegroup):
         """
@@ -68,13 +73,14 @@ class TEMANN:
         spacegroup, (int)
 
         Output:
-        encoded categorical spacegroup features
-
-        uses encode_categorical()
+        encoded categorical spacegroup features (np.array)
         """
-        return spacegroup_features
+        sg_features = list(expand_spacegroup(spacegroup))
+        for i in range(1, 3):
+            sg_features[i] = self._encode_categorical(sg_features[i], i-1)
+        return np.array(sg_features)
     
-    def _join_features(self, compound_features, spacegroup_features, T):
+    def _join_features(self, cmpd_features, sg_features, T):
         """
         Input:
         compound and spacegroup feature vectors
@@ -82,14 +88,20 @@ class TEMANN:
         Output:
         joined
         """
-
-        return joined_features
+        return np.concatenate((cmpd_features, [T], sg_features))
     
     def _scale_features(self, features):
-        return self.scaler.transform(scaled_features)
+        return self.scaler.transform(features.reshape(1, -1))
     
-    def _transform_input():
-        return features
-    
+    def _transform_input(self, compound, spacegroup, T):
+        cmpd_features = self._transform_compound(compound)
+        sg_features = self._transform_spacegroup(spacegroup)
+        joined_features = self._join_features(cmpd_features, sg_features, T)
+        scaled_features = self._scale_features(joined_features)
+        #scaled_features.reshape((1, -1))
+        return scaled_features
+
     def predict(self, compound, spacegroup, T):
-        return self.model.predict(self._transform_input(compound, spacegroup, T))
+        prediction = self.model.predict(self._transform_input(compound,
+                                                        spacegroup, T))
+        return float(prediction)
