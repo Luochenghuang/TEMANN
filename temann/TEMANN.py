@@ -2,7 +2,7 @@ from keras.models import model_from_json
 import numpy as np
 import pandas as pd
 from sklearn.externals import joblib
-from sklearn.preprocessing import StandardScaler, LabelEncoder
+from sklearn.preprocessing import LabelEncoder, StandardScaler
 
 from temann import DataSet
 from temann.querry import *
@@ -16,6 +16,7 @@ class TEMANN:
         self.scaler = None
         self.model = None
         self.encoder = {}
+        # self.load_model()
         
         return
 
@@ -23,10 +24,10 @@ class TEMANN:
         self._load_scaler('scaler.save')
         self._load_encoder('encoder0.save', 0)
         self._load_encoder('encoder1.save', 1)
-        self._load_model('model.json', 'model.h5')
+        self._load_neural_network('model.json', 'model.h5')
         return
     
-    def _load_model(self, json_file, weights_file):
+    def _load_neural_network(self, json_file, weights_file):
         """
         Loads and compiles the trained neural network from 
         the serialized json file and a weights file.
@@ -66,7 +67,24 @@ class TEMANN:
         self.encoder[encoder_id] = encoder_dict
         return
 
-    def _expand_channels(self, i, original, to_be_inserted):
+    def _replace_with_list_values(self, i, original, to_be_inserted):
+        """
+        Inserts values of a list into another list at index `i`
+
+        Takes a list and inserts the values of the list into
+        another list at a specified index `i` after deleting what
+        was originally at index `i`.
+
+        Args:
+            i (int): Index location in list for replacement
+            original (list): List containing value
+                that will be replaced with values from another list.
+            to_be_inserted (list of float): Elements in list will replace
+                element in `original` at index `i`.
+        Returns:
+            list: `original` list after `to_be_inserted` values replaced
+                item at index `i`.
+        """
         del original[i]
         to_be_inserted.reverse()
         for value in to_be_inserted:
@@ -84,12 +102,8 @@ class TEMANN:
         sg_features = list(expand_spacegroup(spacegroup))
         for i in np.arange(2, 0, -1):
             extra_channels = self.encoder[i-1][sg_features[i]]
-            sg_features = self._expand_channels(i, sg_features, extra_channels)
-#            del sg_features[i]
-#            extra_channels.reverse()
-#            for value in extra_channels:
-#                sg_features.insert(i,value)
-            
+            sg_features = self._replace_with_list_values(i, sg_features,
+                                                         extra_channels)
         return np.array(sg_features)
     
     def _transform_compound(self, compound):
