@@ -20,6 +20,18 @@ class TEMANN:
         self._load_model()
         return
 
+    def predict(self, compound, spacegroup, T):
+        prediction = self.model.predict(self._transform_input(compound,
+                                                        spacegroup, T))
+        return float(prediction)
+    
+    def _transform_input(self, compound, spacegroup, T):
+        cmpd_features = self._transform_compound(compound)
+        sg_features = self._transform_spacegroup(spacegroup)
+        joined_features = self._join_features(cmpd_features, sg_features, T)
+        scaled_features = self._scale_features(joined_features)
+        return scaled_features
+
     def _load_model(self):
         self._load_scaler('scaler.save')
         self._load_encoder('encoder0.save', 0)
@@ -132,15 +144,3 @@ class TEMANN:
     
     def _scale_features(self, features):
         return self.scaler.transform(features.reshape(1, -1))
-    
-    def _transform_input(self, compound, spacegroup, T):
-        cmpd_features = self._transform_compound(compound)
-        sg_features = self._transform_spacegroup(spacegroup)
-        joined_features = self._join_features(cmpd_features, sg_features, T)
-        scaled_features = self._scale_features(joined_features)
-        return scaled_features
-
-    def predict(self, compound, spacegroup, T):
-        prediction = self.model.predict(self._transform_input(compound,
-                                                        spacegroup, T))
-        return float(prediction)
