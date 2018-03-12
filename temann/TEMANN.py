@@ -16,11 +16,11 @@ class TEMANN:
         self.scaler = None
         self.model = None
         self.encoder = {}
-        self.load_model()
+        self._load_model()
         
         return
 
-    def load_model(self):
+    def _load_model(self):
         self._load_scaler('scaler.save')
         self._load_encoder('encoder0.save', 0)
         self._load_encoder('encoder1.save', 1)
