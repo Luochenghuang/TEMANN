@@ -16,8 +16,8 @@ class TEMANN:
         self.scaler = None
         self.model = None
         self.encoder = {}
+
         self._load_model()
-        
         return
 
     def _load_model(self):
@@ -61,9 +61,9 @@ class TEMANN:
         """
         loaded_encoder = joblib.load(file_path(encoder_file))
         encoder_dict = {}
-        for cl in loaded_encoder.classes_:
-            encoder_dict[cl] = [float(x) for x in
-                   cl == loaded_encoder.classes_]
+        encoder_classes = np.array(loaded_encoder.classes_)
+        for cl in encoder_classes:
+            encoder_dict[cl] = [float(x) for x in cl == encoder_classes]
         self.encoder[encoder_id] = encoder_dict
         return
 
@@ -89,6 +89,7 @@ class TEMANN:
         to_be_inserted.reverse()
         for value in to_be_inserted:
             original.insert(i, value)
+        to_be_inserted.reverse()
         return original
     
     def _transform_spacegroup(self, spacegroup):
@@ -104,6 +105,7 @@ class TEMANN:
             extra_channels = self.encoder[i-1][sg_features[i]]
             sg_features = self._replace_with_list_values(i, sg_features,
                                                          extra_channels)
+            print(extra_channels)
         return np.array(sg_features)
     
     def _transform_compound(self, compound):
