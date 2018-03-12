@@ -16,7 +16,7 @@ class TEMANN:
         self.scaler = None
         self.model = None
         self.encoder = {}
-        # self.load_model()
+        self.load_model()
         
         return
 
