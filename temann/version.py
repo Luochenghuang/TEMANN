@@ -76,4 +76,4 @@ MICRO = _version_micro
 VERSION = __version__
 PACKAGE_DATA = {'temann': [pjoin('data', '_data', '*')],
                 '': ['*.csv']}
-REQUIRES = ["numpy", "pandas", "ase", "pymatgen", "python-ternary"]
+REQUIRES = ["numpy", "pandas", "ase", "pymatgen"]
