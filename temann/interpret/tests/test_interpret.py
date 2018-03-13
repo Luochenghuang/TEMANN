@@ -1,6 +1,5 @@
 from ..interpret import *
 
-
 def test_get_empirical_formula():
 
     # Test formula inputs
