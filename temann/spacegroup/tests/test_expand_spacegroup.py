@@ -1,5 +1,5 @@
 from .. import expand_spacegroup as sg
-#import ..expand_spacegroup as sg
+# import ..expand_spacegroup as sg
 import numpy as np
 
 
@@ -18,7 +18,7 @@ def test_expand_spacegroup():
         raise Exception('Did not catch case of float input')
     try:
         sg.expand_spacegroup(a_string)
-    except(Exception):
+    except Exception:
         pass
     else:
         raise Exception('Did not catch case of string input')
