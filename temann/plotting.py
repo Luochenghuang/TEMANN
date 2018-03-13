@@ -1,7 +1,8 @@
-from .interpret import get_empirical_formula
-from .prediction import predict_seebeck
 import ternary
 from ternary.helpers import simplex_iterator
+
+from .interpret import get_empirical_formula
+from .prediction import predict_seebeck
 
 __all__ = ['plot_ternary']
 
@@ -49,8 +50,7 @@ def plot_ternary(elements, sg, T=400, scale=10, fontsize=14, dpi=200,
                           fontsize=fontsize, ha='center')
 
     data = generate_heatmap_data(e1, e2, e3, sg, T, scale)
-    tax.heatmap(data, style="h", cbarlabel='Seebeck Coefficient (uV/K)',
-                cb_kwargs={'cbarlabelsize': fontsize})
+    tax.heatmap(data, style="h", cbarlabel='Seebeck Coefficient (uV/K)')
     tax.boundary()
     tax.ticks(axis='lbr', linewidth=1, multiple=1)
 
