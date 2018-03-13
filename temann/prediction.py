@@ -265,5 +265,6 @@ class TEMANN:
         return np.concatenate((cmpd_features, [T], sg_features))
 
     def _scale_features(self, features):
-        return self.scaler.transform(features.reshape(1, -1))
 	assert isinstance (features, np.ndarray), "Input is not a numpy array!"
+        return self.scaler.transform(features.reshape(1, -1))
+	
