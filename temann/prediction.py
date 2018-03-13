@@ -14,13 +14,66 @@ __all__ = ['predict_seebeck', 'TEMANN']
 
 
 def predict_seebeck(compound, spacegroup, T):
+    """
+    Uses a trained neural network to predict Seebeck coefficient.
+
+    Instantiates a TEMANN object and passes the arguments into
+    TEMANN.predict() method to predict a Seebeck coefficient for the
+    material of interest.
+
+    Args:
+        compound (str): Chemical formula of material of interest.
+        spacegroup (int or float): Space group number of material of
+            interest.
+        T (int or float): Temperature of interest.
+
+    Returns:
+        float: Predicted Seebeck coefficient.
+
+    Raises:
+        TypeError: If `compound` is not a string.
+        TypeError: If `spacegroup` is not an int or float.
+        TypeError: If `T` is not an int or float.
+        Exception: If `compound` contains more than 5
+            unique elements.
+    """
+
+    if not isinstance(compound, str):
+        raise TypeError("'compound` must be a string")
+    else:
+        pass
+
+    if not isinstance(spacegroup, (int, float)):
+        raise TypeError("'spacegroup' must be an int or float")
+    else:
+        pass
+
+    if not isinstance(T, (int, float)):
+        raise TypeError("'T' must be an int or float")
+    else:
+        pass
     nn = TEMANN()
     return nn.predict(compound, spacegroup, T)
 
 
 class TEMANN:
+    """
+    Loads in the saved model and predicts Seebeck coefficients.
+
+    Attributes:
+        scaler (sklearn.preprocessing.data.StandardScaler): Scaler used
+            for the training set.
+        encoder (dict of dict): Dictionary containing 2 dictionaries.
+            Each sub-dictionary is used to split the single channel
+            categorical value into multiple channels of binary values.
+        model (keras.models.Sequential): Contains the trained
+            artificial neural network.
+    """
 
     def __init__(self):
+        """
+        Loads all attributes with the _load_model() method.
+        """
         self.scaler = None
         self.model = None
         self.encoder = {}
@@ -29,11 +82,47 @@ class TEMANN:
         return
 
     def predict(self, compound, spacegroup, T):
+        """
+        Uses a trained neural network to predict Seebeck coefficient.
+
+        Args:
+            compound (str): Chemical formula of material of interest.
+            spacegroup (int or float): Space group number of material of
+                interest.
+            T (int or float): Temperature of interest.
+
+        Returns:
+            float: Predicted Seebeck coefficient.
+
+        Raises:
+            TypeError: If `compound` is not a string.
+            TypeError: If `spacegroup` is not an int or float.
+            TypeError: If `T` is not an int or float.
+            Exception: If `compound` contains more than 5
+                unique elements.
+        """
+
         prediction = self.model.predict(self._transform_input(compound,
                                                               spacegroup, T))
         return float(prediction)
 
     def _transform_input(self, compound, spacegroup, T):
+        """
+        Transform user input into the correct form for the model.
+
+        Transforms `compound` and `spacegroup` into separate
+        numpy.arrays of features, joins them, and scales it using
+        the same scaler that was used on the training set.
+
+        Args:
+            compound (str): Chemical formula of material of interest.
+            spacegroup (int or float): Space group number of material of
+                interest.
+            T (int or float): Temperature of interest.
+
+        Returns:
+            float: Scaled numpy.array of all compiled features.
+        """
         cmpd_features = self._transform_compound(compound)
         sg_features = self._transform_spacegroup(spacegroup)
         joined_features = self._join_features(cmpd_features, sg_features, T)
@@ -41,6 +130,14 @@ class TEMANN:
         return scaled_features
 
     def _load_model(self):
+        """
+        Loads all objects required for model prediction.
+
+        Loads the same scaler originally used on the training data.
+        Loads in the two encoders for categorical data in the
+        expanded spacegroup features. Lastly loads in the trained
+        neural network.
+        """
         self._load_scaler('scaler.save')
         self._load_encoder('encoder0.save', 0)
         self._load_encoder('encoder1.save', 1)
@@ -72,12 +169,25 @@ class TEMANN:
     def _load_scaler(self, scaler_file):
         """
         Loads the scaler used when training the model.
+
+        Args:
+            scaler_file (str): Name of scaler file.
         """
         self.scaler = joblib.load(file_path(scaler_file))
         return
 
     def _load_encoder(self, encoder_file, encoder_id):
         """
+        Generates the two encoders used in space group information.
+
+        Loads the encoder used for spacegroup information and creates
+        two dictionaries. Each subdictionary contains an array of
+        binary channels associated with the categorical data.
+
+        Args:
+            encoder_file (str): Name of the encoder file.
+            encoder_id (int): ID used to identify which encoder is
+                being addressed.
         """
         loaded_encoder = joblib.load(file_path(encoder_file))
         encoder_dict = {}
@@ -114,11 +224,16 @@ class TEMANN:
 
     def _transform_spacegroup(self, spacegroup):
         """
-        Input:
-        spacegroup, (int)
+        Transfroms the space group number to additional features.
 
-        Output:
-        encoded categorical spacegroup features (np.array)
+        Creates a numpy.ndarray of space group features with any
+        categorical data being expanded to multiple binary channels.
+
+        Args
+            spacegroup (int): Space group number
+
+        Returns:
+            numpy.ndarray: Numerical array of space group features
         """
         sg_features = list(expand_spacegroup(spacegroup))
         for i in np.arange(2, 0, -1):
