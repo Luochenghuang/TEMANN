@@ -9,6 +9,11 @@ __all__ = ['plot_ternary']
 
 def three_elements_to_formula(e1, e2, e3, n1, n2, n3):
     """input 3 strs and 3 coefficients output the compound formula"""
+    elem = [e1, e2, e3]
+    stoich = [n1, n2, n3]
+    assert all(isinstance(item, str) for item in elem)
+    assert ~ all(isinstance(item, str) for item in stoich)
+
     return e1 + str(n1) + e2 + str(n2) + e3 + str(n3)
 
 
