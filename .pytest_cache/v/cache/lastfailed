@@ -1,6 +1,17 @@
 {
+  "temann/interpret/tests/test_interpret.py::test_get_empirical_formula": true,
   "temann/querry/test_querry.py": true,
   "temann/querry/test_querry.py::test_get_atomic_info": true,
   "temann/querry/tests/test_querry.py::test_get_atomic_info": true,
-  "temann/test_run.py": true
+  "temann/test_run.py": true,
+  "temann/tests/test_DataSet.py::test_clean_1": true,
+  "temann/tests/test_DataSet.py::test_clean_2": true,
+  "temann/tests/test_DataSet.py::test_extrapolate_400K_1": true,
+  "temann/tests/test_DataSet.py::test_get_info": true,
+  "temann/tests/test_plotting.py": true,
+  "temann/tests/test_prediction.py::test_predict_seebeck": true,
+  "temann/tests/test_querry.py::test_compound_short_descriptors": true,
+  "temann/tests/test_querry.py::test_compound_to_descriptors": true,
+  "temann/tests/test_querry.py::test_get_atomic_info": true,
+  "temann/tests/test_querry.py::test_get_short_atomic_info": true
 }
