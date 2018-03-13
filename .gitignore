@@ -7,3 +7,4 @@ build/*
 temann.egg-info/*
 dist/*
 */.ipynb_checkpoints/
+.pytest_cache/
