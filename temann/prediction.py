@@ -4,14 +4,22 @@ import pandas as pd
 from sklearn.externals import joblib
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 
-from temann import DataSet
-from temann.querry import *
-from temann.spacegroup import *
-from temann.util import *
+from .DataSet import DataSet
+from .querry import *
+from .spacegroup import *
+from .util import *
+
+
+__all__ = ['predict_seebeck', 'TEMANN']
+
+
+def predict_seebeck(compound, spacegroup, T):
+    nn = TEMANN()
+    return nn.predict(compound, spacegroup, T)
 
 
 class TEMANN:
-    
+
     def __init__(self):
         self.scaler = None
         self.model = None
@@ -22,9 +30,9 @@ class TEMANN:
 
     def predict(self, compound, spacegroup, T):
         prediction = self.model.predict(self._transform_input(compound,
-                                                        spacegroup, T))
+                                                              spacegroup, T))
         return float(prediction)
-    
+
     def _transform_input(self, compound, spacegroup, T):
         cmpd_features = self._transform_compound(compound)
         sg_features = self._transform_spacegroup(spacegroup)
@@ -38,10 +46,10 @@ class TEMANN:
         self._load_encoder('encoder1.save', 1)
         self._load_neural_network('model.json', 'model.h5')
         return
-    
+
     def _load_neural_network(self, json_file, weights_file):
         """
-        Loads and compiles the trained neural network from 
+        Loads and compiles the trained neural network from
         the serialized json file and a weights file.
 
         Input:
@@ -60,7 +68,7 @@ class TEMANN:
         loaded_model.compile(loss='mean_squared_error', optimizer='Adadelta')
         self.model = loaded_model
         return
-    
+
     def _load_scaler(self, scaler_file):
         """
         Loads the scaler used when training the model.
@@ -103,7 +111,7 @@ class TEMANN:
             original.insert(i, value)
         to_be_inserted.reverse()
         return original
-    
+
     def _transform_spacegroup(self, spacegroup):
         """
         Input:
@@ -117,9 +125,8 @@ class TEMANN:
             extra_channels = self.encoder[i-1][sg_features[i]]
             sg_features = self._replace_with_list_values(i, sg_features,
                                                          extra_channels)
-            print(extra_channels)
         return np.array(sg_features)
-    
+
     def _transform_compound(self, compound):
         """
         Converts one sample to raw data for predicting thru ANN.
@@ -129,9 +136,9 @@ class TEMANN:
         cmpd_features = np.pad(cmpd_features, (0, 80-cmpd_features.shape[0]),
                                mode='constant')
         cmpd_features = np.nan_to_num(cmpd_features)
-        
+
         return cmpd_features
-    
+
     def _join_features(self, cmpd_features, sg_features, T):
         """
         Input:
@@ -141,6 +148,6 @@ class TEMANN:
         joined
         """
         return np.concatenate((cmpd_features, [T], sg_features))
-    
+
     def _scale_features(self, features):
         return self.scaler.transform(features.reshape(1, -1))
