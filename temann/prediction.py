@@ -266,3 +266,4 @@ class TEMANN:
 
     def _scale_features(self, features):
         return self.scaler.transform(features.reshape(1, -1))
+	assert isinstance (features, np.ndarray), "Input is not a numpy array!"
