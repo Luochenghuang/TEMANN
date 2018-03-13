@@ -1,4 +1,15 @@
+<<<<<<< HEAD
 from .. expand_spacegroup import expand_spacegroup
+=======
+<<<<<<< HEAD
+#from .. import expand_spacegroup as sg
+from ..expand_spacegroup import expand_spacegroup
+#import ..expand_spacegroup as sg
+=======
+from .. import expand_spacegroup as sg
+# import ..expand_spacegroup as sg
+>>>>>>> 94e4b3d2605e9554630e6ca2ff61781ba7d69f2d
+>>>>>>> b16d0d3e36729ea4d2c6dcffa20eddadf37c2c8d
 import numpy as np
 
 
@@ -16,8 +27,17 @@ def test_expand_spacegroup():
     else:
         raise Exception('Did not catch case of float input')
     try:
+<<<<<<< HEAD
         expand_spacegroup(a_string)
+=======
+<<<<<<< HEAD
+        expand_spacegroup(a_string)
+    except(Exception):
+=======
+        sg.expand_spacegroup(a_string)
+>>>>>>> b16d0d3e36729ea4d2c6dcffa20eddadf37c2c8d
     except Exception:
+>>>>>>> 94e4b3d2605e9554630e6ca2ff61781ba7d69f2d
         pass
     else:
         raise Exception('Did not catch case of string input')
