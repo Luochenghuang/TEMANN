@@ -114,6 +114,8 @@ class TEMANN:
         Output:
         loaded_model, (keras.model)
         """
+        assert isinstance (json_file, str), "json_file not entered as a string."
+        assert isinstance (weights_file, str), "weights file not entered as a string."
 
         json_model = open(file_path(json_file), 'r')
         loaded_model_json = json_model.read()
@@ -131,6 +133,7 @@ class TEMANN:
         Args:
             scaler_file (str): Name of scaler file.
         """
+        assert isinstance (scaler_file, str), "scaler_file not entered as string."
         self.scaler = joblib.load(file_path(scaler_file))
         return
 
@@ -147,6 +150,8 @@ class TEMANN:
             encoder_id (int): ID used to identify which encoder is
                 being addressed.
         """
+        assert isinstance (encoder_file, str), "encoder_file not entered as string."
+        assert isinstance (encoder_id, int), "encoder_id not entered as integer."
         loaded_encoder = joblib.load(file_path(encoder_file))
         encoder_dict = {}
         encoder_classes = np.array(loaded_encoder.classes_)

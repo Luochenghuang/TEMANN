@@ -75,3 +75,42 @@ def test_replace_with_list_values_2():
     else:
         pass
     return
+def test_load_encoder_1():
+    nn = TEMANN()
+    encoder_file = 'encoder0.save'
+    encoder_id = 0
+    try:
+        nn._load_encoder(encoder_file, encoder_id)
+    except(Exception):
+        raise Exception ("Bad input allowed",
+                        "Error not raised when encoder_file input in not\
+                         a string, or encoder_id is not an int")
+    else:
+        pass
+    return
+
+def test_load_scaler_1():
+    nn = TEMANN()
+    scaler_file = 'scaler.save'
+    try:
+        nn._load_scaler(scaler_file)
+    except(Exception):
+        raise Exception ("Bad input allowed",
+                        "Error not raised when scaler_file is not a string.")
+    else:
+        pass
+    return
+
+def test_load_neural_network_1():
+    nn = TEMANN()
+    json_file = 'model.json'
+    weights_file = 'model.h5'
+    try:
+        nn._load_neural_network(json_file, weights_file)
+    except(Exception):
+        raise Exception ("Bad input allowed",
+                        "Error not raised when scaler_file is not a string.")
+    else:
+        pass
+    return
+
