@@ -26,20 +26,16 @@ def generate_heatmap_data(e1, e2, e3, sg, T, scale):
     return heat_dict
 
 
-def plot_ternary(elements, sg, T=400, scale=10, fontsize=14, dpi=200,
-                 inches=(10, 8), savefigure=False):
+def plot_heatmap(data, e1, e2, e3, scale, fontsize, dpi, size, savefigure):
     # Boundary and Gridlines
     figure, tax = ternary.figure(scale=scale)
-    figure.set_size_inches(inches)
+    figure.set_size_inches(size)
     figure.set_dpi(dpi)
 
     # Draw Boundary and Gridlines
     tax.boundary(linewidth=1.0)
     tax.gridlines(color="black", multiple=6)
     tax.gridlines(color="blue", multiple=2, linewidth=0.5)
-
-    # Parse the elements into individual variables
-    e1, e2, e3 = list(get_empirical_formula(elements).keys())
 
     # Set Axis labels and Title
     tax.set_title("{}{}{} Ternary Seebeck Prediction".format(e1, e2, e3),
@@ -54,7 +50,6 @@ def plot_ternary(elements, sg, T=400, scale=10, fontsize=14, dpi=200,
     tax.bottom_axis_label("{} Content (out of {})".format(e1, scale),
                           fontsize=fontsize, ha='center')
 
-    data = generate_heatmap_data(e1, e2, e3, sg, T, scale)
     tax.heatmap(data, style="h", cbarlabel='Seebeck Coefficient (uV/K)')
     tax.boundary()
     tax.ticks(axis='lbr', linewidth=1, multiple=1)
@@ -68,3 +63,14 @@ def plot_ternary(elements, sg, T=400, scale=10, fontsize=14, dpi=200,
         pass
 
     tax.show()
+
+
+def plot_ternary(elements, sg, T=400, scale=10, fontsize=14, dpi=100,
+                 size=(10, 8), savefigure=False):
+
+    # Parse the elements into individual variables
+    e1, e2, e3 = list(get_empirical_formula(elements).keys())
+
+    data = generate_heatmap_data(e1, e2, e3, sg, T, scale)
+    plot_heatmap(data, e1, e2, e3, scale, fontsize, dpi, size, savefigure)
+    return
