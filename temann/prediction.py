@@ -13,49 +13,6 @@ from .util import *
 __all__ = ['predict_seebeck', 'TEMANN']
 
 
-def predict_seebeck(compound, spacegroup, T):
-    """
-    Uses a trained neural network to predict Seebeck coefficient.
-
-    Instantiates a TEMANN object and passes the arguments into
-    TEMANN.predict() method to predict a Seebeck coefficient for the
-    material of interest.
-
-    Args:
-        compound (str): Chemical formula of material of interest.
-        spacegroup (int or float): Space group number of material of
-            interest.
-        T (int or float): Temperature of interest.
-
-    Returns:
-        float: Predicted Seebeck coefficient.
-
-    Raises:
-        TypeError: If `compound` is not a string.
-        TypeError: If `spacegroup` is not an int or float.
-        TypeError: If `T` is not an int or float.
-        Exception: If `compound` contains more than 5
-            unique elements.
-    """
-
-    if not isinstance(compound, str):
-        raise TypeError("'compound` must be a string")
-    else:
-        pass
-
-    if not isinstance(spacegroup, (int, float)):
-        raise TypeError("'spacegroup' must be an int or float")
-    else:
-        pass
-
-    if not isinstance(T, (int, float)):
-        raise TypeError("'T' must be an int or float")
-    else:
-        pass
-    nn = TEMANN()
-    return nn.predict(compound, spacegroup, T)
-
-
 class TEMANN:
     """
     Loads in the saved model and predicts Seebeck coefficients.
@@ -267,3 +224,49 @@ class TEMANN:
     def _scale_features(self, features):
         assert isinstance (features, np.ndarray), "Input is not a numpy array!"
         return self.scaler.transform(features.reshape(1, -1))
+
+
+nn = TEMANN()
+
+
+def predict_seebeck(compound, spacegroup, T):
+    """
+    Uses a trained neural network to predict Seebeck coefficient.
+
+    Instantiates a TEMANN object and passes the arguments into
+    TEMANN.predict() method to predict a Seebeck coefficient for the
+    material of interest.
+
+    Args:
+        compound (str): Chemical formula of material of interest.
+        spacegroup (int or float): Space group number of material of
+            interest.
+        T (int or float): Temperature of interest.
+
+    Returns:
+        float: Predicted Seebeck coefficient.
+
+    Raises:
+        TypeError: If `compound` is not a string.
+        TypeError: If `spacegroup` is not an int or float.
+        TypeError: If `T` is not an int or float.
+        Exception: If `compound` contains more than 5
+            unique elements.
+    """
+
+    if not isinstance(compound, str):
+        raise TypeError("'compound` must be a string")
+    else:
+        pass
+
+    if not isinstance(spacegroup, (int, float)):
+        raise TypeError("'spacegroup' must be an int or float")
+    else:
+        pass
+
+    if not isinstance(T, (int, float)):
+        raise TypeError("'T' must be an int or float")
+    else:
+        pass
+    return nn.predict(compound, spacegroup, T)
+
