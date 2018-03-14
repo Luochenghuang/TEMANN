@@ -16,8 +16,12 @@
 
 # Use Cases
 
-1. Input novel materials to generate predicted Seebeck coefficent.
-2. Input three elements and generate a ternary heatmap of the Seebeck coefficients.
+1. Pipeline for easy datacleaning to accomidate growing dataset for improved ANN training.
+	* Supported by the DataSet component.
+2. Input novel materials to generate predicted Seebeck coefficent.
+	* Supported by the prediction, interpret, query, spacegroup, and util components. 
+3. Input three elements and generate a ternary heatmap of the Seebeck coefficients.
+	* Support by the plotting, interpret, and prediction components.
 
 # Example
 ```
@@ -38,5 +42,5 @@ python setup.py install
 # Workflow
 ![alt text](https://raw.githubusercontent.com/Luochenghuang/TEMANN/master/doc/TEMANN.jpg "This is our flowchart")
 
-
-
+# Poster
+![](https://raw.githubusercontent.com/Luochenghuang/TEMANN/master/doc/temannposter.jpg)
