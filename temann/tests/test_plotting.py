@@ -69,7 +69,7 @@ def test_generate_heatmap_data():
     return True
 
 def test_plot_ternary():
-    
+
     noncap_elements = 'Gaasc'
     toomany_elements = 'GasAsCB'
     sg = 49
