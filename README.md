@@ -26,7 +26,7 @@
 -435.9079284667969
 >>> temann.plot_ternary('CaMnO')
 ```
-![](https://raw.githubusercontent.com/Luochenghuang/TEMANN/20392ef9989d831eb845dfba6e5978da0d44867e/examples/ternary_example.png)
+![](https://raw.githubusercontent.com/Luochenghuang/TEMANN/master/examples/ternary_example.png)
 
 # Installation
 ```
