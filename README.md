@@ -42,5 +42,6 @@ python setup.py install
 # Workflow
 ![alt text](https://raw.githubusercontent.com/Luochenghuang/TEMANN/master/doc/TEMANN.jpg "This is our flowchart")
 
-
+#Poster
+![](https://github.com/Luochenghuang/TEMANN/blob/master/doc/temannposter.pdf)
 
