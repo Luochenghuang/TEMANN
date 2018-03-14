@@ -5,6 +5,7 @@ from sklearn.externals import joblib
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 
 from .DataSet import DataSet
+from .interpret import *
 from .querry import *
 from .spacegroup import *
 from .util import *
@@ -168,12 +169,18 @@ class TEMANN:
                 that will be replaced with values from another list.
             to_be_inserted (list of float): Elements in list will replace
                 element in `original` at index `i`.
+
         Returns:
             list: `original` list after `to_be_inserted` values replaced
                 item at index `i`.
+
+        Raises:
+            AssertionError: If `original` is not a list.
+            AssertionError: If `to_be_inserted` is not a list.
         """
         assert isinstance (original, list), "original is not a list!"
         assert isinstance (to_be_inserted, list), "to_be_interserted is not a list!"
+
         del original[i]
         to_be_inserted.reverse()
         for value in to_be_inserted:
@@ -188,13 +195,17 @@ class TEMANN:
         Creates a numpy.ndarray of space group features with any
         categorical data being expanded to multiple binary channels.
 
-        Args
+        Args:
             spacegroup (int): Space group number
 
         Returns:
             numpy.ndarray: Numerical array of space group features
+
+        Raises:
+            AssertionError: If `spacegroup` is not an int.
         """
         assert isinstance (spacegroup, int), "Input is not an integer!"
+
         sg_features = list(expand_spacegroup(spacegroup))
         for i in np.arange(2, 0, -1):
             extra_channels = self.encoder[i-1][sg_features[i]]
@@ -204,7 +215,19 @@ class TEMANN:
 
     def _transform_compound(self, compound):
         """
+        Transforms chemical formula to an array up to 80 features.
+
         Converts one sample to raw data for predicting thru ANN.
+
+        Args:
+            compound (str): Chemical formula.
+
+        Returns:
+            numpy.ndarray: Descriptors for all elements in the chemical
+                formula.
+
+        Raises:
+            AssertionError: If `compound` is not a str.
         """
         assert isinstance (compound, str), "Input is not a string!"
         cmpd_features = np.array(compound_short_descriptors(compound),
@@ -217,16 +240,38 @@ class TEMANN:
 
     def _join_features(self, cmpd_features, sg_features, T):
         """
-        Input:
-        compound and spacegroup feature vectors
+        Joins together the features of the compound, space group, and T.
 
-        Output:
-        joined
+        Args:
+            cmpd_features (numpy.ndarray): Features describing the
+                compound.
+            sg_features (numpy.ndarray): Features describing the
+                space group.
+            T (int or float): Temperature of interest.
+
+        Returns:
+            numpy.ndarray: A single numpy array with all three feature
+                vectors concatenated together.
         """
         return np.concatenate((cmpd_features, [T], sg_features))
 
     def _scale_features(self, features):
+        """
+        Scales the input feature vector with the proper scaler.
+
+        Args:
+            features (numpy.ndarray): All descriptors for the user's
+                input.
+
+        Returns:
+            numpy.ndarray: Reshaped and scaled feature vector that
+                is ready to be fed into the trained neural netowrk.
+
+        Raises:
+            AssertionError: If `features` is not a numpy.ndarray.
+        """
         assert isinstance (features, np.ndarray), "Input is not a numpy array!"
+
         return self.scaler.transform(features.reshape(1, -1))
 
 
@@ -272,5 +317,10 @@ def predict_seebeck(compound, spacegroup, T):
         raise TypeError("'T' must be an int or float")
     else:
         pass
+
+    if len(list(get_empirical_formula(compound).keys())) > 5:
+        raise Exception('Too many unique elements',
+                        'Compound must contain 5 or fewer elements!')
+
     return nn.predict(compound, spacegroup, T)
 
