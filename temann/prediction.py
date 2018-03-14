@@ -172,6 +172,9 @@ class TEMANN:
             list: `original` list after `to_be_inserted` values replaced
                 item at index `i`.
         """
+        assert isinstance (original, list), "original is not a list!"
+        assert isinstance (to_be_inserted, list),/
+                          "to_be_interserted is not a list!"
         del original[i]
         to_be_inserted.reverse()
         for value in to_be_inserted:
@@ -192,6 +195,7 @@ class TEMANN:
         Returns:
             numpy.ndarray: Numerical array of space group features
         """
+        assert isinstance (spacegroup, int), "Input is not an integer!"
         sg_features = list(expand_spacegroup(spacegroup))
         for i in np.arange(2, 0, -1):
             extra_channels = self.encoder[i-1][sg_features[i]]
@@ -203,6 +207,7 @@ class TEMANN:
         """
         Converts one sample to raw data for predicting thru ANN.
         """
+        assert isinstance (compound, str), "Input is not a string!"
         cmpd_features = np.array(compound_short_descriptors(compound),
                                  dtype=np.float)
         cmpd_features = np.pad(cmpd_features, (0, 80-cmpd_features.shape[0]),
