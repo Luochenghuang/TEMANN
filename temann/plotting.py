@@ -19,6 +19,8 @@ def three_elements_to_formula(e1, e2, e3, n1, n2, n3):
 
 
 def generate_heatmap_data(e1, e2, e3, sg, T, scale):
+    """input 3 elements, compound spacegroup, temperature and scale to output a heatmap of the
+     predict_seebeck in the ternary diagram form """
     heat_dict = {}
     # Make sure sg, T, scale inputs are valid
     assert type(sg) == int, 'Space group input must be integer'
@@ -36,7 +38,8 @@ def generate_heatmap_data(e1, e2, e3, sg, T, scale):
 
 def plot_ternary(elements, sg, T=400, scale=10, fontsize=14, dpi=200,
                  inches=(10, 8), savefigure=False):
-
+    """input a string of 3 elements and the compound spacegroup and a plot will output of a ternary
+    diagram with predicted seebeck coefficients which is the data from generate_heatmap_data()"""
     assert not isinstance(formula, list), \
         'Cannot pass a list. Input must be a string'
     assert isinstance(formula, str), 'Must pass a string.'

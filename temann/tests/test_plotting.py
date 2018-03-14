@@ -89,5 +89,3 @@ def test_plot_ternary():
         raise Exception('Did not catch case of too many capital letters')
 
     return True
-
-
