@@ -3,6 +3,7 @@ from ..plotting import three_elements_to_formula
 from ..plotting import generate_heatmap_data
 from ..plotting import plot_ternary
 
+
 def test_three_elements_to_formula():
     el1 = 'Ca'
     el2 = 'Mn'
@@ -67,6 +68,7 @@ def test_generate_heatmap_data():
         raise Exception('Did not catch case of invalid scale')
 
     return True
+
 
 def test_plot_ternary():
 

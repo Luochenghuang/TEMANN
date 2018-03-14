@@ -114,8 +114,10 @@ class TEMANN:
         Output:
         loaded_model, (keras.model)
         """
-        assert isinstance (json_file, str), "json_file not entered as a string."
-        assert isinstance (weights_file, str), "weights file not entered as a string."
+        assert isinstance(json_file, str),\
+            "json_file not entered as a string."
+        assert isinstance(weights_file, str),\
+            "weights file not entered as a string."
 
         json_model = open(file_path(json_file), 'r')
         loaded_model_json = json_model.read()
@@ -133,7 +135,8 @@ class TEMANN:
         Args:
             scaler_file (str): Name of scaler file.
         """
-        assert isinstance (scaler_file, str), "scaler_file not entered as string."
+        assert isinstance(scaler_file, str),\
+            "scaler_file not entered as string."
         self.scaler = joblib.load(file_path(scaler_file))
         return
 
@@ -150,8 +153,10 @@ class TEMANN:
             encoder_id (int): ID used to identify which encoder is
                 being addressed.
         """
-        assert isinstance (encoder_file, str), "encoder_file not entered as string."
-        assert isinstance (encoder_id, int), "encoder_id not entered as integer."
+        assert isinstance(encoder_file, str),\
+            "encoder_file not entered as string."
+        assert isinstance(encoder_id, int),\
+            "encoder_id not entered as integer."
         loaded_encoder = joblib.load(file_path(encoder_file))
         encoder_dict = {}
         encoder_classes = np.array(loaded_encoder.classes_)
@@ -183,8 +188,9 @@ class TEMANN:
             AssertionError: If `original` is not a list.
             AssertionError: If `to_be_inserted` is not a list.
         """
-        assert isinstance (original, list), "original is not a list!"
-        assert isinstance (to_be_inserted, list), "to_be_interserted is not a list!"
+        assert isinstance(original, list), "original is not a list!"
+        assert isinstance(to_be_inserted, list),\
+            "to_be_interserted is not a list!"
 
         del original[i]
         to_be_inserted.reverse()
@@ -209,7 +215,7 @@ class TEMANN:
         Raises:
             AssertionError: If `spacegroup` is not an int.
         """
-        assert isinstance (spacegroup, int), "Input is not an integer!"
+        assert isinstance(spacegroup, int), "Input is not an integer!"
 
         sg_features = list(expand_spacegroup(spacegroup))
         for i in np.arange(2, 0, -1):
@@ -234,7 +240,7 @@ class TEMANN:
         Raises:
             AssertionError: If `compound` is not a str.
         """
-        assert isinstance (compound, str), "Input is not a string!"
+        assert isinstance(compound, str), "Input is not a string!"
         cmpd_features = np.array(compound_short_descriptors(compound),
                                  dtype=np.float)
         cmpd_features = np.pad(cmpd_features, (0, 80-cmpd_features.shape[0]),
@@ -275,7 +281,7 @@ class TEMANN:
         Raises:
             AssertionError: If `features` is not a numpy.ndarray.
         """
-        assert isinstance (features, np.ndarray), "Input is not a numpy array!"
+        assert isinstance(features, np.ndarray), "Input is not a numpy array!"
 
         return self.scaler.transform(features.reshape(1, -1))
 
@@ -328,4 +334,3 @@ def predict_seebeck(compound, spacegroup, T):
                         'Compound must contain 5 or fewer elements!')
 
     return nn.predict(compound, spacegroup, T)
-

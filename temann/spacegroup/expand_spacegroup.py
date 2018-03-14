@@ -1,4 +1,5 @@
-# build database of spacegroups, draw key information from spacegroup information
+# build database of spacegroups
+# draw key information from spacegroup information
 import pandas as pd
 import numpy as np
 import spglib
@@ -11,8 +12,8 @@ num = 230
 sg = list(range(1, num+1))
 # build empy dataframe
 df = pd.DataFrame(data=np.zeros((len(sg), 5)),
-                  columns=['spacegroup', 'crystal system', 'lattice type', 'centrosymmetric',
-                           'symmetry operations'])
+                  columns=['spacegroup', 'crystal system', 'lattice type',
+                           'centrosymmetric', 'symmetry operations'])
 
 # make column of spacegroup numbers
 df['spacegroup'] = sg
@@ -40,14 +41,12 @@ for i in range(len(df)):
     num2 = strings[idx-1]
     symmetry = int(num1+num2)
     df.iloc[i, 4] = symmetry
-    # DO NOT ADD REST OF HERMANN-MAUGUIN INFORMATION AT THIS TIME, NO GOOD WAY TO USE IT
-    # notation = str(Spacegroup(i+1).symbol)
-    # notation = notation[2:]
-    # df.iloc[i, 5] = notation
+    # DO NOT ADD REST OF HERMANN-MAUGUIN INFORMATION AT THIS TIME
+    # NO GOOD WAY TO USE IT
 
 
 def expand_spacegroup(sg):
-    """Input a spacegroup number and this function returns various symmetry related descriptors for the material"""
+    """Input a spacegroup number and this function returns various
+    symmetry related descriptors for the material"""
     sg_info = df.loc[sg-1, :]
     return sg_info
-
