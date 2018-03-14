@@ -1,6 +1,7 @@
+import numpy as np
 import pandas as pd
 
-from ..map_to_int import encode_columns
+from ..utils import encode_columns
 
 
 def test_encode_columns_1():

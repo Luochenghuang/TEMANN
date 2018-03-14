@@ -1,4 +1,13 @@
+from os.path import abspath, dirname, join
+
 import pandas as pd
+
+
+def file_path(filename):
+    """
+    Returns the absolute path of a file in the stored data set.
+    """
+    return abspath(join(dirname(__file__), "data",  "_data", filename))
 
 
 def encode_columns(df, target_column):

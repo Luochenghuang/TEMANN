@@ -1,4 +1,4 @@
-from ..expand_spacegroup import expand_spacegroup
+from ..spacegroup import expand_spacegroup
 import numpy as np
 
 def test_expand_spacegroup():

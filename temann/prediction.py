@@ -4,11 +4,9 @@ import pandas as pd
 from sklearn.externals import joblib
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 
-from .DataSet import DataSet
-from .interpret import *
-from .querry import *
+from .query import *
 from .spacegroup import *
-from .util import *
+from .utils import *
 
 
 __all__ = ['predict_seebeck', 'TEMANN']
@@ -308,10 +306,10 @@ def predict_seebeck(compound, spacegroup, T):
 
     Raises:
         TypeError: If `compound` is not a string.
-        TypeError: If `spacegroup` is not an int or float.
+        TypeError: If `spacegroup` is not an int.
         TypeError: If `T` is not an int or float.
-        Exception: If `compound` contains more than 5
-            unique elements.
+        Exception: If `compound` contains more than 5 unique elements.
+        AssertionError: If `spacegroup` is not in the range of 1-230.
     """
 
     if not isinstance(compound, str):
@@ -319,8 +317,8 @@ def predict_seebeck(compound, spacegroup, T):
     else:
         pass
 
-    if not isinstance(spacegroup, (int, float)):
-        raise TypeError("'spacegroup' must be an int or float")
+    if not isinstance(spacegroup, int):
+        raise TypeError("'spacegroup' must be an int")
     else:
         pass
 
@@ -332,5 +330,10 @@ def predict_seebeck(compound, spacegroup, T):
     if len(list(get_empirical_formula(compound).keys())) > 5:
         raise Exception('Too many unique elements',
                         'Compound must contain 5 or fewer elements!')
+    else:
+        pass
+
+    assert spacegroup > 0 and spacegroup < 231,\
+        "Space group number must be between 1-230."
 
     return nn.predict(compound, spacegroup, T)

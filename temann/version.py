@@ -30,19 +30,18 @@ description = "temann: package for predicting Seebeck coefficients"
 # Long description will go up on the pypi page
 long_description = """
 
-Shablona
-========
-Shablona is a template project for small scientific Python projects.
+TEMANN
+======
+TEMANN is a python module that allows users to predict Seebeck
+coefficients for novel materials. Inside TEMANN there is an artificial
+neural network that was trained on a data set of thermoelectric
+materials. In addition to material descriptors, TEMANN also interfaces
+with the Materials Project via the pymatgen python package.
 
-It contains software implementations of an analysis of some simple data, but
-more importantly, it contains infrastructure for testing, documentation,
-continuous integration and deployment, which can be easily adapted
-to use in other projects.
-
-To get started using these components in your own software, please go to the
-repository README_.
-
-.. _README: https://github.com/uwescience/shablona/blob/master/README.md
+All a user needs to do is provide the chemical formula of the material
+of interest, it's space group number, and the temperature (K) of
+interest. The output will be a predicted Seebeck coefficient for that
+material in the units of uV/K.
 
 License
 =======
@@ -52,8 +51,8 @@ for usage, and a DISCLAIMER OF ALL WARRANTIES.
 
 All trademarks referenced herein are property of their respective holders.
 
-Copyright (c) 2018--, Ariel Rokem, The University of Washington
-eScience Institute.
+Copyright (c) 2018--, Luke Gibson, Luocheng Huang, Nathan Laurie, &
+Ellen Murphy, The University of Washington.
 """
 
 NAME = "temann"

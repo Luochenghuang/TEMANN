@@ -1,7 +1,7 @@
 import ternary
 from ternary.helpers import simplex_iterator
 
-from .interpret import get_empirical_formula
+from .query import get_empirical_formula
 from .prediction import predict_seebeck
 
 __all__ = ['plot_ternary']
@@ -119,9 +119,9 @@ def plot_ternary(elements, sg, T=400, scale=10, fontsize=14, dpi=100,
         size (tuple of int): Size of the figure in inches.
         savefigure (bool): Tells program if user wants figure saved.
     """
-    assert not isinstance(formula, list), \
+    assert not isinstance(elements, list), \
         'Cannot pass a list. Input must be a string'
-    assert isinstance(formula, str), 'Must pass a string.'
+    assert isinstance(elements, str), 'Must pass a string.'
     assert len(elements) < 7,\
         'Must pass 3 elements, at most a length of 6 letters'
     assert sum(1 for x in elements if x.isupper()) == 3, \

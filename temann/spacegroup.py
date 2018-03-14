@@ -5,7 +5,6 @@ import numpy as np
 import spglib
 import ase.spacegroup
 from ase.spacegroup import Spacegroup
-from temann.map_to_int import *
 
 # number of spacegroups
 num = 230
