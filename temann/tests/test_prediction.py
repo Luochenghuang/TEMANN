@@ -1,3 +1,8 @@
+import numpy as np
+
+from ..prediction import *
+
+
 def test_predict_seebeck():
 
     assert False
