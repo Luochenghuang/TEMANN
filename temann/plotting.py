@@ -1,3 +1,6 @@
+import matplotlib
+matplotlib.use('TkAgg')
+
 import ternary
 from ternary.helpers import simplex_iterator
 
