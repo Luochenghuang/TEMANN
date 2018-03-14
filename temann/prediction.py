@@ -173,8 +173,7 @@ class TEMANN:
                 item at index `i`.
         """
         assert isinstance (original, list), "original is not a list!"
-        assert isinstance (to_be_inserted, list),/
-                          "to_be_interserted is not a list!"
+        assert isinstance (to_be_inserted, list), "to_be_interserted is not a list!"
         del original[i]
         to_be_inserted.reverse()
         for value in to_be_inserted:
