@@ -44,4 +44,3 @@ python setup.py install
 
 # Poster
 ![](https://raw.githubusercontent.com/Luochenghuang/TEMANN/master/doc/temannposter.pdf)
-
