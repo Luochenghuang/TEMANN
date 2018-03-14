@@ -26,7 +26,7 @@ CLASSIFIERS = ["Development Status :: 3 - Alpha",
                "Topic :: Scientific/Engineering"]
 
 # Description should be a one-liner:
-description = "temann: package for predicting thermoelectric material properties"
+description = "temann: package for predicting Seebeck coefficients"
 # Long description will go up on the pypi page
 long_description = """
 

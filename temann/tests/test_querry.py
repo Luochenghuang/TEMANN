@@ -1,6 +1,6 @@
-
 from ..querry import *
 from ..interpret import get_empirical_formula
+
 
 def test_get_atomic_info():
 
@@ -22,7 +22,7 @@ def test_get_atomic_info():
     output_2 = get_atomic_info(test_form2)
 
     assert len(output_1) == 25, \
-        "Wrong output length "+ str(len(output_1))
+        "Wrong output length " + str(len(output_1))
 
     assert len(output_2) == 25, \
         "Wrong output length"
@@ -84,18 +84,21 @@ def test_get_short_atomic_info():
         raise Exception("Did not catch case of non-capitalized element")
     return True
 
+
 def test_compound_to_descriptors():
 
     # make sure output is list
     test1 = compound_to_descriptors("Mn0.5B0.3C1.2")
     assert isinstance(test1, list),\
         "Output is not a list"
-    # output should be 25 descriptors * number of elements + number of elements
+    # output should be 25 descriptors * number of
+    #     elements + number of elements
     assert len(test1) == 78,\
         "Wrong output length"
     # ensure descriptors for each element is obtained
 
     return True
+
 
 def test_compound_short_descriptors():
 
@@ -103,7 +106,8 @@ def test_compound_short_descriptors():
     test1 = compound_short_descriptors("Mn0.5B0.3C1.2")
     assert isinstance(test1, list),\
         "Output is not a list"
-    # output should be 15 descriptors * number of elements + number of elements
+    # output should be 15 descriptors * number of
+    #     elements + number of elements
     assert len(test1) == 48,\
         "Wrong output length"
     # ensure descriptors for each element is obtained
