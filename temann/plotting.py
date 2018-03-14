@@ -9,21 +9,43 @@ __all__ = ['plot_ternary']
 
 def three_elements_to_formula(e1, e2, e3, n1, n2, n3):
     """input 3 strs and 3 coefficients output the compound formula"""
+    # Make into lists and check data type
     elem = [e1, e2, e3]
     stoich = [n1, n2, n3]
-    assert all(isinstance(item, str) for item in elem)
-    assert ~ all(isinstance(item, str) for item in stoich)
+    assert all(isinstance(item, str) for item in elem), 'Element inputs must be strings'
+    assert all(not isinstance(item, str) for item in stoich), 'Stoichiometry inputs must be numerical'
 
     return e1 + str(n1) + e2 + str(n2) + e3 + str(n3)
 
 
 def generate_heatmap_data(e1, e2, e3, sg, T, scale):
+    """input 3 elements, compound spacegroup, temperature and scale to output a heatmap of the
+     predict_seebeck in the ternary diagram form """
     heat_dict = {}
+    # Make sure sg, T, scale inputs are valid
+    assert type(sg) == int, 'Space group input must be integer'
+    assert sg < 231, 'Not a valid space group'
+    assert T > 0, 'Choose a positive temperature in Kelvin'
+    assert type(scale) == int, 'scale input must integer'
+    assert scale > 0, 'scale must be positive value'
+
     for (i, j, k) in simplex_iterator(scale):
         compound = three_elements_to_formula(e1, e2, e3, i, j, k)
         heat = predict_seebeck(compound, sg, T)
         heat_dict[(i, j)] = heat
     return heat_dict
+
+
+def plot_ternary(elements, sg, T=400, scale=10, fontsize=14, dpi=200,
+                 inches=(10, 8), savefigure=False):
+    """input a string of 3 elements and the compound spacegroup and a plot will output of a ternary
+    diagram with predicted seebeck coefficients which is the data from generate_heatmap_data()"""
+    assert not isinstance(formula, list), \
+        'Cannot pass a list. Input must be a string'
+    assert isinstance(formula, str), 'Must pass a string.'
+    assert len(elements) < 7, 'Must pass 3 elements, at most a length of 6 letters'
+    assert sum(1 for x in elements if x.isupper()) == 3, \
+        'Must be 3 capital letters for input, 3 elements'
 
 
 def plot_heatmap(data, e1, e2, e3, scale, fontsize, dpi, size, savefigure):
