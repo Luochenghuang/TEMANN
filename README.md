@@ -43,4 +43,4 @@ python setup.py install
 ![alt text](https://raw.githubusercontent.com/Luochenghuang/TEMANN/master/doc/TEMANN.jpg "This is our flowchart")
 
 # Poster
-![](https://raw.githubusercontent.com/Luochenghuang/TEMANN/master/doc/temannposter.pdf)
+![](https://raw.githubusercontent.com/Luochenghuang/TEMANN/master/doc/temannposter.jpg)
