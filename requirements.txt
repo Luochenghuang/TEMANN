@@ -24,7 +24,7 @@ mpmath==1.0.0
 numpy==1.14.2
 palettable==3.1.0
 pandas==0.22.0
-protobuf==3.5.2
+protobuf==3.15.0
 PyDispatcher==2.0.5
 pymatgen==2018.3.13
 pyparsing==2.2.0
