@@ -42,7 +42,7 @@ sympy==1.1.1
 tabulate==0.8.2
 temann==0.1.dev0
 tensorboard==1.6.0
-tensorflow==1.7.0rc0
+tensorflow==2.6.4
 termcolor==1.1.0
 urllib3==1.22
 Werkzeug==0.14.1
